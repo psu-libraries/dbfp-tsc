@@ -1,0 +1,1685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="TSC">THE SPANISH CURATE</title>
+        <author>John Fletcher</author>
+        <author>Philip Massinger</author>
+        <respStmt>
+          <resp>Edited and encoded by:</resp>
+          <name xml:id="mim">Maria Isabel Maza</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Published by the Open Publishing Unit of The Pennsylvania State University Libraries.</publisher>
+        <availability>
+          <p>Attribution 4.0 International (CC BY 4.0)</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Digital Beaumont &amp; Fletcher (1647) Project</title>
+        <respStmt>
+          <resp>General Editor:</resp>
+          <name xml:id="cmlb">Claire M.L. Bourne</name>
+        </respStmt> 
+        <respStmt>
+          <resp>Project Manager:</resp>
+          <name xml:id="hf">Heather Froehlich</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text Encoding Consultant:</resp>
+          <name xml:id="jr">John Russell</name>
+        </respStmt>
+        <respStmt>
+          <resp>Open Publishing Program Coordinator</resp>
+          <name>Ally Laird</name>
+        </respStmt>
+        <respStmt>
+          <resp>Open Access Systems Developer</resp>
+          <name xml:id="ag">Andrew Gearhart</name>
+        </respStmt>
+        <respStmt>
+          <resp>Graduate Assistants:</resp>
+          <name>Taylor Hare</name>
+          <name>David LeBlanc</name>
+          <name>Danielle Ryle</name>
+          <name>Lauren Cenci</name>
+          <name>Maria Isabel Maza</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotator(s)</resp>
+          <name xml:id="formerOwner">Former Owner - Author of Handwritten Annotations</name>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Francis Beaumont</author>
+            <author>John Fletcher</author>
+            <title>Comedies and Tragedies Written by Francis Beavmont and Iohn Fletcher,
+              Gentlemen. Never printed before, And now published by the Authours
+              Originall Copies.</title>
+            <imprint>
+              <publisher>Humprey Robinson</publisher>
+              <publisher>the three Pidgeons</publisher>
+              <publisher>Humphrey Moseley</publisher>
+              <pubPlace>The Prince Armes in St. Pauls Church-yard</pubPlace>
+              <date>1647</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <msDesc>
+          <msIdentifier xml:id="psf">
+            <country>The United States</country>
+            <region>Pennsylvania</region>
+            <institution>Pennsylvania State University</institution>
+            <repository>Eberly Family Special Collections Library</repository>
+            <collection>Emblem Books</collection>
+            <msName>COMEDIES AND TRAGEDIES</msName> 
+            <msName> 
+              <rs>
+                3083972
+              </rs>
+            </msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>This document is a simplified "true-to-text" XML version of <title>The Spanish Curate</title> based on Pennsylvania State University's annotated copy of the 1647
+        Beaumont &amp; Fletcher first folio. Major textual elements and attributes have been captured based on how they appear in the folio. Whenever possible, editorial
+        interventions have been minimalized or avoided entirely. This document is meant to serve as a pedagogical tool by which students of Early Modern literature can learn
+        to construct edited XML versions of the play.</p>    
+      <projectDesc>
+        <p>
+          The Digital Beaumont &amp; Fletcher (1647) is a collaborative editorial project aimed at making many of the rarely edited—and, as a result, rarely taught—plays in the
+          “Beaumont &amp; Fletcher” canon accessible to student readers and freely available online for classroom use. This project was inspired by the distinctive copy of Comedies
+          and Tragedies Written by Francis Beavmont And Iohn Fletcher Gentlemen (1647) held by Penn State University's Eberly Family Special Collections Library. In addition to
+          preserving evidence of ownership dating to as early as 1703, Penn State's copy of this printed play collection also includes three plays with handwritten marginalia,
+          suggesting that the book might have been used to facilitate performance in the late seventeenth century. This project is also motivated by a desire to make the texts and
+          other features of this book more widely known and readable. As a first step, the whole volume has now been fully digitized, thanks to the department of Preservation,
+          Conservation, and Digitization at Penn State Libraries.
+        </p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Provides details of editorial principles and practices applied during the encoding of a text</p>
+        <correction>
+          <p>
+            This transcription copies almost exactly the text from Penn State's copy of the first folio. Moderniztions in certain letters were followed (I for J, VV for W, etc.) 
+            Obivous errors were corrected (upside down letters (n for a u, I for l, etc.). Manuscript notes are included in the transcription, placed as closely as possible to the
+            original placement on the page. For further details about editoral principles, please consult the project website. 
+          </p>
+        </correction>
+        <normalization source="OED">
+          <p>ALL words converted to Modern British spelling 
+            following Oxford English Dictionary.</p>
+        </normalization>
+        <punctuation>
+          <p>Punctuation was modernized to register full syntactical units.</p>
+        </punctuation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <handNotes>
+        <handNote>
+          <p>
+            This edition of The Spanish Curate contains the manuscript notes found in the Penn State Libraries' copy of the 1647 folio. These manuscript notes are particually attentive to
+            the performance of the play, and prepare actors for entrances and emphasize stage directions throughout the text. For more information on these manuscript notes, consult 
+            the editorial principles and the introduction to <title>The Spanish Curate</title>.
+          </p>
+        </handNote>
+      </handNotes>
+      <langUsage>
+        <p>chracters for marginal notes?</p>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div xml:id="act5">
+          <div xml:id="act5s1" type="scene" n="1">
+            <head>
+              <hi rend="italic">Actus Quintus. Scæna Prima.</hi><note type="mansNote" resp="#formerOwner" subtype="beReady">Jamy &amp; Srvant</note>
+            </head>
+            <stage type="entrance" place="center">Enter Violante and Servant.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+            <sp>
+              <speaker>Ser.</speaker>
+              <lg>
+                <l>Madam hees come.</l>
+              </lg>
+            </sp><stage type="business" place="right">Chaire and stooles out.</stage>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>Tis well how did he looke,</l>
+                <l>When he knew from whom you were sent? was he not <lb rend="turnover"/>startled</l>
+                <l>Or confident? or fearfull?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Ser.</speaker>
+              <lg>
+                <l>As appear'd</l>
+                <l>Like one that knew his fortune at the worst,</l>
+                <l>And car'd not what could follow.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>'Tis the better</l>
+                <l>Reach me a Chaire: So bring him in, be carefull</l>
+                <l>That none disturb us: I will try his temper,</l>
+                <l>And if I find him apt for my employments,</l>
+              </lg>
+            </sp>
+            <stage type="entrance" place="center">Enter Jamy, Servant.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>I'll worke him to my ends, if not I shall</l>
+                <l>Find other Engines.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Ser.</speaker>
+              <lg>
+                <l>Ther's my Ladie,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>Leave us</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>You sent for me?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>I did, and do's the favour,</l>
+                <l>Your present state considered, and my power,</l>
+                <l>Deserve no greater Ceremonie?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Ceremonie?</l>
+                <l>I use to pay that, where I doe owe dutie,</l>
+                <l>Not to my Brothers wife: I cannot fawne,</l>
+                <l>If you expect it from me, you are cozen'd,</l>
+                <l>And so farewell.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>He beares up still; I like it,</l>
+                <l>Pray you a word</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Yes: I will give you hearing</l>
+                <l>On equall termes, and sit by you as a friend,</l>
+                <l>But not stand as a Sutour: Now your pleasure?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>You are very bold.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>'Tis fitt: since you are proud</l>
+                <l>I was not made to feed that foolish humour,</l>
+                <l>With flattery and observance</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>Yet, with your favour,</l>
+                <l>A little forme ioyn'd with respect to her,</l>
+                <l>That can add to your wants, or free you from 'em</l>
+                <l>(Nay raise you to a fate, beyond your hopes) <stage type="business" place="right">A Table ready co-</stage></l>
+                <l>Might well become your wisedome, <stage type="business" place="right">vered with Cloath</stage></l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>It would rather <stage type="business" place="right">Napkins Salt</stage></l>
+                <l>Write me a Foole, should I but onely think <stage type="business" place="right">Treachers and</stage></l>
+                <l>That any good to me, could flow from you, <stage type="business" place="right">Bread.</stage></l>
+                <l>Whom for so many yeares: I have found and prov'd</l>
+                <l>My greatest Enemy: I am still the same</l>
+                <l>My wants have not transform'd me: I dare tell you,</l>
+                <l>To your new cerviz'd face, what I have spoken</l>
+                <l>Freely behind your back, what I thinke of you,</l>
+                <l>You are the proudest thing, and have the least,</l>
+                <l>Reason to be so, that I ever read of</l>
+                <l>In stature you are a Giantesse: and your Tailour</l>
+                <l>Takes measure of you, with a <persName>Iacobs</persName> staffe,</l>
+                <l>Or he can never reach you, this is by the way</l>
+                <l>For your large size: Now, in a word, or two</l>
+                <l>To treat of your Complexion were decorum:</l>
+                <l>You are so far from faire, I doubt your Mother</l>
+                <l>Was too familliar with the <persName>Moore</persName>, that serv'd her,</l>
+                <l>Your Limbes and Features, I passe breifely over,</l>
+                <l>As things not worth description; and come roundly</l>
+                <l>To your soule, if you have any: for 'tis doubtfull</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>I laugh at this, proceed</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>This Soule, I speake of</l>
+                <l>Or rather salt to keepe this heape of flesh,</l>
+                <l>From being a walking stench, like a <placeName>large Inne</placeName>,</l>
+                <l>Stands open for the entertainement of</l>
+                <l>A!l impious practices: but ther's no Corner</l>
+                <l>An honest thought can take up: and as it were not</l>
+                <l>Sufficent in your self to comprehend</l>
+                <l>All wicked plots, you have taught the Foole, my Brother</l>
+                <l>By your contagion, almost to put off</l>
+                <l>The nature of the man, and turn'd him <persName>Devill</persName></l>
+                <l>Because he should be like you, and I hope</l>
+                <l>Will march to hell together: I have spoken,</l>
+                <l>Like a tame Asse; and when most spur'd and gall'd</l>
+                <l>Were never Master of the Spleene or Spirit,</l>
+                <l>That could raise up the anger of a man,</l>
+                <l>And force it into action,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Jamie.</speaker>
+              <lg>
+                <l>This Soule, I speake of</l><note resp="#mim" type="lineNumber">60</note>
+                <l>Or rather salt to keepe this heape of flesh,</l>
+                <l>From being a walking stench, like a <placeName>large Inne</placeName>,</l>
+                <l>Stands open for the entertainement of</l>
+                <l>A!l impious practices: but ther's no Corner</l>
+                <l>An honest thought can take up: and as it were not</l><note resp="#mim" type="lineNumber">65</note>
+                <l>Sufficent in your self to comprehend</l>
+                <l>All wicked plots, you have taught the Foole, my Brother</l>
+                <l>By your contagion, almost to put off</l>
+                <l>The nature of the man, and turn'd him <persName>Devill</persName></l>
+                <l>Because he should be like you, and I hope</l><note resp="#mim" type="lineNumber">70</note>
+                <l>Will march to hell together: I have spoken,</l>
+                <l>And if the limming you, in your true Colours</l>
+                <l>Can make the Painter gracious, I stand readie</l>
+                <l>For my reward, or if my words distaste you</l>
+                <l>I weigh it not, for though your Groomes were ready</l>
+                <l>To cut my throat for't, be assur'd I cannot</l>
+                <l>Use other Language</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Violante.</speaker>
+              <lg>
+                <l>You thinke you have said now,</l>
+                <l>Like a brave fellow: in this Womans War</l>
+                <l>You ever have bin train'd: spoke big, but suffer'd</l>
+                <l>Like a tame Asse; and when most spur'd and gall'd</l>
+                <l>Were never Master of the Spleene or Spirit,</l>
+                <l>That could raise up the anger of man,</l>
+                <l>And force it into action,</l><note resp="#mim" type="lineNumber">75</note>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Yes vile Creature</l>
+                <l>Wer't thou a subject worthy of my Sword,</l>
+                <l>Or that thy death, this moment, could call <placeName>home</placeName>,</l>
+                <l>My banish'd hopes, thou now wer't dead: dead (woman)</l>
+                <l>But being as thou art it is sufficient</l>
+                <l>I scorne thee, and contemne thee</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>This shewes nobly:</l>
+                <fw type="catch">I</fw>
+                <pb n="TSC-022"
+                  facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4402/rec/4"/>
+                <fw type="pageNum">46</fw>
+                <l>I must confesse it: I am taken with it</l>
+                <l>For you had kneeld, and whind and shew'd a base</l>
+                <l>And low deiected mind, I had despis'd you</l>
+                <l>This Bravery (in your adverse fortune) conquers</l>
+                <l>And do's command me, and upon the sudaine</l>
+                <l>I feele a kind of pittie, growing in me,</l>
+                <l>For your misfortunes, pittie some sayes the Parent,</l>
+                <l>Of future love, and I repent my part,</l>
+                <l>So far in what you have suffered, that I could,</l>
+                <l>(But you are cold) doe something to repaire</l>
+                <l>What your base Brother (such <persName>Iami</persName> I thinke him)</l>
+                <l>Hath brought to ruine</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Ha?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>Be not amaz'd,</l>
+                <l>Our injuries are equall in his Bastard</l>
+                <l>You are familliar with what I grone for</l>
+                <l>And though the name of Husband holds a tye</l>
+                <l>Beyond a Brother, I, a poore weake Woman,</l>
+                <l>Am sensible, and tender of a wrong,</l>
+                <l>And to revenge it, would break through all letts,</l>
+                <l>That durst oppose me.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Is it possible?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>By this kisse: start not: thus much, as a stranger</l>
+                <l>You may take from me; But, if you were pleas'd,</l>
+                <l>I should select you, as a bosome Friend,</l>
+                <l>I would print 'em, thus, and, thus,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Keepe off.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>Come neare,</l>
+                <l>Neere into the Cabinet of my Counsailes:</l>
+                <l>Simplicity and patience dwells with Fooles,</l>
+                <l>And let them beare those burthens, which wise men</l>
+                <l>Boldly shake off; Be mine and ioyne with me,</l>
+                <l>And when that I have rais'd you to a fortune,</l>
+                <l>(Doe not deny your selfe the happie meanes)</l>
+                <l>You'l looke on me, with more iudicious eies</l>
+                <l>And sweare I am most faire,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>What would this Woman?</l>
+                <l>The purpose of these words? speake not in ridles</l>
+                <l>And when I understand, what you would counsell,</l>
+                <l>My answer shall be suddaine,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>Thus then <persName>Iami</persName>,</l>
+                <l>The objects of our fury, are they same,</l>
+                <l>For young <persName>Ascanio</persName>, whom you snake like hug'd</l>
+                <l>(Frozen with wants to death) in your warme bosome,</l>
+                <l>Lives to supplant you in your certaine hopes,</l>
+                <l>And kills in me all comfort.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Now 'tis plaine,</l>
+                <l>I apprehend you: and were he remov'd—</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>You, once againe, were the undoubted heire.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>'Tis not to be denyed; I was ice before,</l>
+                <l>But now ye have fir'd me,—</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>I'l add fuell to it,</l>
+                <l>And by a nearer cut, doe you but steere</l>
+                <l>As I direct you bring our Bark into</l>
+                <l>The <placeName>Port</placeName> of happines,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>How?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>By <persName>Henriques</persName> death:</l>
+                <l>But you'll say hee's your Brother; in great fortunes</l>
+                <l>(Which are epitomes of <placeName>States &amp; Kingdomes</placeName>) <stage type="business" place="right">Dishes cove-</stage></l>
+                <l>The politicke brooke no Rivalls. <stage type="business" place="right">red with pa-</stage></l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Excellent. <stage type="business" place="right">pers in each</stage></l>
+                <l>For sure I thinke out of a scrupulous feare, <stage type="business" place="right">ready.</stage></l>
+                <l>To feed in expectation, when I may</l>
+                <l>(Dispensing but a little with my conscience)</l>
+                <l>Come into full possession, would not argue</l>
+                <l>One that desir'd to thrive,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>Now you speake like</l>
+                <l>A man that knowes the <placeName>World</placeName>.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Jam.</speaker>
+              <lg>
+                <l>I needs must learne</l>
+                <l>That have so good a Tutresse: And what thinke you,</l>
+                <l>(<persName><roleName>Don</roleName> Henrique</persName> and <persName>Ascanio</persName> cut off)</l>
+                <l>That none may live, that shall desire to trace us</l>
+                <l>In our black pathes, if that <persName>Octavio</persName></l>
+                <l>His foster Father' and the sad <persName>Jacinta</persName>,</l>
+                <l>(Faith pittie her, and free her from her Sorrowes)</l>
+                <l>Should fall Companions with 'em? When we are red</l>
+                <l>With murther, let us often bath in blood,</l>
+                <l>The collour will be scarlet.</l>
+              </lg>  
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>And that's glorious,</l><note type="mansNote" resp="formerOwner" subtype="beReady">be ready</note>
+                <l>And will protect the fact</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Jam.</speaker>
+              <lg>
+                <l>Suppose this don:</l>
+                <l>(If undiscovered,) we may get for money,</l>
+                <l>(As that you know buyes any thing in <placeName>Rome</placeName>)</l>
+                <l>A dispensation</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>And be married?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Jam.</speaker>
+              <lg>
+                <l>True.</l>
+                <l>Or if it be knowne, trusse up our Gold and Jewells,</l>
+                <l>And fly to some <placeName>free State</placeName>, and there with scorne—</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>Laugh at the lawes of <placeName>Spaine</placeName>.</l>
+                <l>'Twere admirable.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>We shall beget rare Children. I am rap'd with</l>
+                <l>The meere imagination—</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>Shall it be don?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Shall? tis too tedious: furnish me with meanes</l>
+                <l>To hire the instruments, and to your self,</l>
+                <l>Say it is done already: I will shew you,</l>
+                <l>'Ere the Sun set, how much you have wrought upon me,</l>
+                <l>Your province is onely to use some meanes,</l>
+                <l>To send my Brother, to the Grove that's neighbour,</l>
+                <l>To the <placeName>west Port of th' Citie</placeName>; leave the rest,</l>
+                <l>To my owne practice; I have talk'd too long.</l>
+                <l>But now will doe: this kisse, with my Confession,</l>
+                <l>To worke a fell revenge: A mans a foole,</l>
+                <l>If not instructed in a <placeName>Womans Schoole</placeName>.</l>
+              </lg>
+            </sp>
+            <stage type="exit" place="right">Exeunt.</stage>
+          </div>
+          <div xml:id="act5s2" type="scene" n="2">
+            <head>
+              <hi rend="italic">Scæna Secunda.</hi><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+            </head>
+            <stage type="entrance" place="center">Enter Bartolus Algazier and a Paratour.</stage><note type="mansNote" resp="#formerOwner" subtype="beReady">Mill be ready</note>
+            <stage type="business" place="center">The Table set out and stooles.</stage>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>You are well enough disguiz'd, furnish the Table,</l>
+                <l>Make no shew, what ye are, till I discover</l>
+                <l>Not a soule knowes ye here: be quick and dilligent,</l>
+                <l>These youthes, I have invited to a Breakfast,</l>
+                <l>But what the Sawce will be, I am of opinion</l>
+                <l>I shall take off the edges of their Appetites,</l>
+                <l>And greaze their gums, for eating hartily;</l>
+                <l>This month of two they have plaid their prizes with me</l>
+                <l>And their severall flurts they have lighted dange-</l>
+                <l>But sure I shall be quit: I heare ߴem comming  (rously</l>
+                <l>Goe off, and wait the bringing in your service,</l>
+                <l>And doe it handsomely: you know where to have it</l>
+                <stage type="entrance" place="center">Enter Millanes, Arsenio, Lopez, Diego.</stage>
+                <l>Wellcome i'Faith,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Ars.</speaker>
+              <lg>
+                <l>That's well said, honest Lawyer,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Lop.</speaker>
+              <lg>
+                <l>Said like a Neighbour</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>Wellcome all: all over</l>
+                <l>And let's be merry:</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Mil.</speaker>
+              <lg>
+                <l>To that end we came Sir,</l>
+                <l>An hower of freedome's worth an age of juglings,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Die.</speaker>
+              <lg>
+                <l>I am come too Sir, to specifie my Stomach</l>
+                <l>A poore reteyner to your worships bountie,</l>
+              </lg>
+            </sp>
+            <fw type="catch" rend="italic">Bar.</fw>
+            <pb n="TSC-023"
+              facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4403/rec/4"/>
+            <fw type="pageNum">47</fw>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>And thou shalt have it fill'd, my merry <persName>Diego</persName>,</l>
+                <l>My liberall, and my bonney bounteous <persName>Diego</persName></l>
+                <l>Even filld till it groane againe</l><note type="mansNote" resp="#formerOwner" subtype="beReady">Ama: lean: be ready.</note>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Di.</speaker>
+              <lg>
+                <l>Let it have faire play,</l>
+                <l>And if it founder then—</l>
+                <l>I'll tell ye neighbours,</l>
+                <l>Though I were angry yesterday, with ye all,</l>
+                <l>And very angry for thought ye bobd me.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Lop.</speaker>
+              <lg>
+                <l>No, no, by no meanes.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>No, when I considered</l>
+                <l>It was a jest, and carried off so quaintly</l>
+                <l>It made me merry: very merry, Gentlemen,</l>
+                <l>I doe confes I could not sleepe to thinke on't</l>
+                <l>The mirth so tickled me, I could not slumber,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Lop.</speaker>
+              <lg>
+                <l>Good mirth do's worke so: honest mirth,</l>
+                <l>Now, should we have meant in earnest—</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>You say true Neighbour,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Lop.</speaker>
+              <lg>
+                <l>It might bred such a distant and sowrenesse,</l>
+                <l>Such fond imaginations in your Braines, Sir</l>
+                <l>For things trust home in earnest—</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>Very certaine</l>
+                <l>But I know ye all for merry waggs, and ere long</l>
+                <l>You shall know me too. in another fashion</l>
+                <l>Though y'are pamper'd ye shall beare part ߴoth burthen.</l>
+                <stage type="entrance" place="center">Enter Amaranta and Leandro.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                <l>Come Wife; Come bid 'em wellcome; Come my Jewell:</l>
+                <l>And Pupill, you shall come too; nere hand backward,</l>
+                <l>Come, come the womans pleas'd, her angers over,</l>
+                <l>Come, be not bashfull,</l><note type="mansNote" resp="#formerOwner" subtype="other">Algazers with dishes ready</note>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Am.</speaker>
+              <lg>
+                <l>What do's he prepare here?</l>
+                <l>Sure ther's no meate 'ith house at least none drest,</l>
+                <l>Do's he meane to mock 'em? or some new bred Crotchet</l>
+                <l>Come o're his braines; I doe not like his kindnes?</l>
+                <l>But silence best becomes me: if he meane foule play</l>
+                <l>Sure they are enough to right themselves and let 'em,</l>
+                <l>I'll sit by, so they beat him not to powder,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l rend="right">(Neighbour</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>Bring in the meate there, ha? Sit downe deare</l>
+                <l>A little meate needs little Complement,</l>
+                <l>Sit downe I say:</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Am.</speaker>
+              <lg>
+                <l>What doe you meane by this Sir?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>Convay away their weapons handsomely,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Am.</speaker>
+              <lg>
+                <l>You know ther's none ith' house to answer ye,</l>
+                <l>But the poore Girle; you know ther's no meat neither</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>Peace and be quiet; I shall make you smoak els</l>
+                <l>Ther's men aud Meate enough, set it downe formally</l>
+              </lg>
+            </sp>
+            <stage type="entrance" place="center">Enter Algazeirs with dishes.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+            <sp>
+              <speaker>Am.</speaker>
+              <lg>
+                <l>I feare some lew'd tricke, yet I dare not speake on't</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>I have no dainties for ye Gentlemen,</l>
+                <l>Nor lodes of meat, to make the roome smell of'em</l>
+                <l>Onely a dish to every man I have dedicated,</l>
+                <l>And if I have pleas'd his appetite,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Lop.</speaker>
+              <lg>
+                <l>O, a Capon,</l>
+                <l>A Bird of grace, and by thy will, I honour it</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Di.</speaker>
+              <lg>
+                <l>For me some fortie pound of lovely Beeffe,</l>
+                <l>Plac'd in a <placeName>mediterranean sea of Brewisse</placeName></l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>Fall to fall to that we may drinke and laugh after</l>
+                <l>Wait diligently knaves,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Mil.</speaker>
+              <lg>
+                <l>What rare bits this?</l>
+                <l>An execution, blesse me!</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>Nay take it to ye</l>
+                <l>Ther's no avoiding it 'tis somewhat tough Sir,</l>
+                <l>But a good stomach will endure it easely</l>
+                <l>The sum is, but a thousand duckets Sir,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Ars.</speaker>
+              <lg>
+                <l>A Capias from my Surgeon, and my Silke man,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>Your carefull makers but they have mard your diet</l>
+                <l>Stir not, your Swords are gon: ther's no avoiding me</l>
+                <l>And these are <persName>Algazeirs</persName>, doe you heare that passing bell?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Lop.</speaker>
+              <lg>
+                <l>A strong Citation, blesse me!</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>Out with your Beads, Curat</l>
+                <l>The devills in your dish: bell, booke, and Candell,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Diego.</speaker>
+              <lg>
+                <l>A warrant to appeare before the Judges?</l><note resp="#mim" type="lineNumber">90</note>
+                <l>I must needs rise, and turne to'th wall.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>Ye need not,</l>
+                <l>Your feare I hope will make ye find your Breeches,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>All.</speaker>
+              <lg>
+                <l>We are betraid</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>Invited, doe not wrong me,</l>
+                <l>Fall to, good Guests, you have dilligent men about ye,</l>
+                <l>Ye shall want nothing, that may persecute ye</l>
+                <l>These will not see ye start; Have I now found ye</l>
+                <l>Have I requited ye? You fool d the Lawyer,</l>
+                <l>And thought it meritorious, to abuse him,</l>
+                <l>A thick ram headed knave: you rid you spurd him,</l>
+                <l>And glorified your witts, the more ye wrongd him;</l>
+                <l>Within this hower, ye shall have all your Creditours,</l>
+                <l>A second dish of new debts, come upon ye</l>
+                <l>And new invitements to the whip (<persName><roleName>Don</roleName> Diego</persName>)</l>
+                <l>And Excommunications for the Learned Curat,</l>
+                <l>A Masque of all your furies shall dance to ye,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Ars.</speaker>
+              <lg>
+                <l>You dare not use us thus?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>You shall be bobd ( Gentlemen)</l>
+                <l>Stir, and as I have a life, ye goe to <placeName>prison</placeName></l>
+                <l>To <placeName>prison</placeName>, without pittie instantly</l>
+                <l>Before ye speake another word to <placeName>prison</placeName>.</l>
+                <l>I have a better Guard, without, that waytes;</l>
+                <l>Doe you see this man, <persName>Don Curat</persName>? 'tis a Paratour</l>
+                <l>That comes to tell ye a delightfull story.</l>
+                <l>Of an old whore, ye have and then to teach ye</l>
+                <l>What is the penaltie; Laugh at me now Sir,</l>
+                <l>What Legacie would ye bequeath me now,</l>
+                <l>(And pay it on the naile?) to fly my fury?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Lop.</speaker>
+              <lg>
+                <l>O gentle Sir,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>Do'st thou hope I will be gentle,</l>
+                <l>Thou foolish unconsiderate Curat?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Lop.</speaker>
+              <lg>
+                <l>Let me goe Sir,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>I'll see thee hang first,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Lop.</speaker>
+              <lg>
+                <l>And as I am a true Vicar,</l>
+                <l>Hark in your eare hark softly—</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>No, no bribery.</l>
+                <l>I'll have my swindge upon thee; Sirha? Rascall?</l>
+                <l>You lenten Chaps, you that lay sick, and mockt me,</l>
+                <l>Mockt me abhominably; abused me lewdly</l>
+                <l>I'll make thee sick at heart, before I leave thee,</l>
+                <l>And groane, and dye indeed, and be worth nothing</l>
+                <l>Not worth a blessing, nor a Bell to knell for thee,</l>
+                <l>A sheete to cover thee, but that thou stealest,</l>
+                <l>Stealest from the Merchant, and the Ring he was buried <lb rend="turnover"/>with</l>
+                <l>Stealest from his <placeName>Grave</placeName>, doe you smell me now?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Die.</speaker>
+              <lg>
+                <l>Have mercy on me!</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>No Psalme of mercy shall hold me from hanging <lb rend="turnunder"/>thee</l>
+                <l>How do ye like your Breakfast? 'tis but short, Gentlemen</l>
+                <l>But sweet and healthfull; Your punishment and your, Sir</l>
+                <l>For some neare reasons, that concerns my Credit,</l>
+                <l>I will take to my self.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Am.</speaker>
+              <lg>
+                <l>Doe Sir, and spare not</l>
+                <l>I have bin too good a wife, and too obedient,</l>
+                <l>But since ye dare provoke me to be foolish—</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Lea.</speaker>
+              <lg>
+                <l>She has, yes, and too worthie of your usage,</l>
+                <l>Before the world, I justifie her goodnes,</l>
+                <l>And turne that man, that dares but taint her vertues,</l>
+                <l>To my Swords point; that lying man, that base man,</l>
+                <l>Turne him, but face to face, that I may know him</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>What have I here?</l>
+              </lg>
+            </sp>
+            <fw type="catch" rend="italic">Lea.</fw>
+            <pb n="TSC-024"
+              facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4404/rec/4"/>
+            <fw type="pageNum">48</fw>
+            <sp>
+              <speaker>Lea.</speaker>
+              <lg>
+                <l>A Gentleman, a free man,</l>
+                <l>One that made triall of this Ladies constancie,</l>
+                <l>And found it strong as fate; Leave off your fooling,</l>
+                <l>For it you follow this course, you will be Chronicled</l>
+                <stage type="entrance" place="center">Enter Iamy and Assistant.</stage>
+                <l>For a devill, whilst a Saint she is mentioned,</l>
+                <l>Yo know my name indeed; I am now no Lawyer.</l>
+                <l>Some comfort now, I hope, or els would I wer hanged up</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Die.</speaker>
+              <lg>
+                <l>And yet the Judge, he makes me swet.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>What newes now?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>I will justifie upon my life, and Credit</l>
+                <l>What you have heard, for truth, and will make proofee of</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Assist.</speaker>
+              <lg>
+                <l>I will be ready at the appointed hower there,</l>
+                <l>And so I leave ye.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>Stay I beseech your worship,</l>
+                <l>And doe but heare me,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Good Sir, intend this busines,</l>
+                <l>And let this bawling Foole; No more words Lawyer,</l>
+                <l>And no more angers for I guesse your reasons,</l>
+                <l>This Gentleman, i'l justifie in all places,</l>
+                <l>And that faire Ladies worth; Let who dare crosse it,</l>
+                <l>The Plot was cast by me, to make thee jealous,</l>
+                <l>But not to wrong your wife, she is faire and vertous,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Die.</speaker>
+              <lg>
+                <l>Take us to mercy too, we beseech your honour,</l>
+                <l>[...] shall be justified the way of all flesh els,</l>
+                <l>[...]. No more talke nor no more dissention Lawyer,</l>
+                <l>[...]w your anger, 'tis a vaine and slight one,</l>
+                <l>[...]ou doe; i'll lay your whole life open</l>
+                <l>[...]hat all the <placeName>world</placeName> shall i'll bring witnes,</l>
+                <l>[...]p before a Judge the ulcerous villanies</l>
+                <l>[...]know I know ye, and I can bring witnes.</l>
+                <l>[...]. Nay good Sir, noble Sir.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>[...m]</speaker>
+              <lg>
+                <l>Be at peace then presently,</l>
+                <l>[...]diately take honest and faire truce</l>
+                <l>[...] your good Wife and shake hands with that Gen<lb rend="turnover"/>tleman;</l>
+                <l>[...]honour'd ye too much, and doe it cheerefully,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Lop.</speaker>
+              <lg>
+                <l>Take us along, for <placeName>heaven</placeName> sake too.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>I am Friends,</l><note type="mansNote" resp="#formerOwner" subtype="beReady">octa: Ja: ascanio be ready</note>
+                <l>[...]here is no remedie, I must put up all,</l>
+                <l>And like my neighbours rub it ou't by'th shoulders;</l>
+                <l>And perfect friends; <persName>Leandro</persName> now I thanke ye,</l>
+                <l>And ther's my hand, I have no more grudge to ye,</l>
+                <l>But I am too meane henceforward for your Companie,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Lea.</speaker>
+              <lg>
+                <l>I shall not trouble ye,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Ars.</speaker>
+              <lg>
+                <l>We will be friends too:</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Mil.</speaker>
+              <lg>
+                <l>Nay Lawyer, you shall not fright us farther,</l>
+                <l>For all your <persName>devills</persName> wee will bolt,</l>
+              </lg>  
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>I grant ye.</l>
+                <l>The Gentlemans your Baile, and thank him comming,</l>
+                <l>Did not he know me too well, you should smart for't;</l>
+                <l>Goe all in peace, but when ye Foole next, Gentlemen,</l>
+                <l>Come not to me to Breakfast.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Die.</speaker>
+              <lg>
+                <l>I'l be bak'd first.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>And pray ye remember, when ye are bold &amp; merry,</l>
+                <l>The Lawyers Bancket, and the Sawce he gave ye,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Come: goe along; I have employment for ye,</l>
+                <l>Employment for your lewd braynes too, to coole ye.</l>
+                <l>For all, for every one.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>All.</speaker>
+              <lg>
+                <l>We are all your Servants.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Die.</speaker>
+              <lg>
+                <l>All, all for any thing, from this day forward,</l>
+                <l>I'l hate all Breakefasts, and depend on dinners</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>I am glad you come off faire</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Lea.</speaker>
+              <lg>
+                <l>The faire has blest me.</l>
+              </lg>
+            </sp>
+            <stage type="exit" place="right">Exeunt.</stage>
+          </div>
+          <div xml:id="act5s3" type="scene" n="3">
+            <head>
+              <hi rend="italic">Scena Tertia.</hi>
+            </head>
+            <stage type="entrance" place="center">Enter Octavio, Iacinta, Ascanio.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+            <sp>
+              <speaker>Oct.</speaker>
+              <lg>
+                <l>This is the place, but why are appointed</l>
+                <l>By <persName><roleName>Don</roleName> Jami</persName> to stay here, is a depth</l><note type="mansNote" resp="#formerOwner" subtype="beReady">Henry &amp; Jami be ready</note>
+                <l>I cannot sound,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Asc.</speaker>
+              <lg>
+                <l>Beleev't he is too noble,</l>
+                <l>To purpose any thing but for our good</l>
+                <l>Had I assurance of a thousand Lives,</l>
+                <l>And with them perpetuitie of pleasures,</l>
+                <l>And should loose all, if he prov'd only false,</l>
+                <l>Yet I durst run the hazard,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iac.</speaker>
+              <lg>
+                <l>'Tis our comfort,</l>
+                <l>We cannot be more wretched then we are,</l>
+                <l>And death concludes all misery,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Oct.</speaker>
+              <lg>
+                <l>Undiscovered</l>
+                <stage type="entrance" place="center">Enter Henrique, Iami.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                <l>We must attend him</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Asc.</speaker>
+              <lg>
+                <l>Our stay is not long</l>
+                <l>With him <persName><roleName>Don</roleName> Henrique</persName>?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iac.</speaker>
+              <lg>
+                <l>Now I feare;</l>
+                <l>Be silent.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Hen.</speaker>
+              <lg>
+                <l>Why do'st thou follow me?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>To save your life,</l>
+                <l>A plot is laid for't, all my wrongs forgot,</l>
+                <l>I have a Brothers Love.</l><note type="mansNote" resp="#formerOwner" subtype="beReady">Le: Mill: ar: bar be ready</note>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Hen.</speaker>
+              <lg>
+                <l>But thy false self,</l>
+                <l>I feare no enemy.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>You have no Friend,</l>
+                <l>But what breathes in me: If you move a step</l>
+                <l>Beyond this ground you tread on: you are lost.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Hen.</speaker>
+              <lg>
+                <l>'Tis by thy practice then: I am sent hither</l>
+                <l>To meete her, that prefers my life, and safetie</l>
+                <l>Before her owne.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>That you should be abus'd'thus</l>
+                <l>With weake credulitie: She for whose sake,</l>
+                <l>You have forgot we had one noble Father,</l>
+                <l>Or that one Mother bare us, for whose love,</l>
+                <l>You breake a contract, to which <placeName>heaven</placeName> was witnes,</l>
+                <l>To satisfie whose pride, and willfull humour,</l>
+                <l>You have expos'd a sweet, and hopefull Son,</l>
+                <l>To all the miseries, that want can bring him,</l>
+                <l>And such a Son, though you are the most obdurate,</l>
+                <l>To give whom entertainement Savages</l>
+                <l>Would quit their Caves themselves, to keepe him from</l>
+                <l>Bleake cold, and hunger: This dissembling Woman,</l>
+                <l>This Idoll, whom you worship: all your love</l>
+                <l>And service trod under her feete, designes you</l>
+                <l>To fill a <placeName>grave</placeName> or dead to lye a pray,</l>
+                <l>For Wolves, and vultures.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Hen.</speaker>
+              <lg>
+                <l>'Tis false; I defie thee,</l>
+                <l>And stand upon my Guard</l><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+              </lg>
+            </sp>
+            <stage type="entrance" place="center">Enter Leandro Millanes, Arsenio, Bart. Lopez, Diego, Octavio Iacinta Ascanio and Servants.</stage>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Alas, 'tis weake:</l>
+                <l>Come on since you will teach me to be cruell,</l>
+                <l>By having no faith, in me, take your fortune,</l>
+                <l>Bring the rest forth, and bind them fast.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Oct.</speaker>
+              <lg>
+                <l>My Lord.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Asc.</speaker>
+              <lg>
+                <l>In what have we offended?</l>
+              </lg>
+            </sp>
+            <fw type="catch" rend="italic">Iam.</fw>
+            <pb n="TSC-025"
+              facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4405/rec/4"/>
+            <fw type="sig">H</fw>
+            <fw type="pageNum">49</fw>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>I am deafe,</l>
+                <l>And following my will, I doe not stand</l><note type="mansNote" subtype="beReady">Violante be ready</note>
+                <l>Accomptable to reason: See her Ring</l>
+                <l>(The first pledge of your love, and service to her)</l>
+                <l>Delivered as a Warrant for your death:</l>
+                <l>These Bags of gold you gave up to her trust,</l>
+                <l>(The use of which, you did deny your selfe)</l>
+                <l>Bestow'd on me, and with a prodigal! hand,</l>
+                <l>Whom she pick'd forth to be the Architect</l>
+                <l>Of her most bloudy building; and to See</l>
+                <l>These Instruments, to bring Materials</l>
+                <l>To raise it up, she bad me spare no cost,</l>
+                <l>And (as a surplusage) offer'd her selfe</l>
+                <l>To be at my devotion.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Henr.</speaker>
+              <lg>
+                <l>O accurs'd!</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>But be incredulous still; think this my plot;</l>
+                <l>Fashion excuses to your selfe, and sweare</l>
+                <l>That she is innocent, that she doats on ye;</l>
+                <l>Believe this, as a fearefull Dreame, and that</l>
+                <l>You lie not at my mercy, which in this</l>
+                <l>I will shew onely: She her selfe shall give</l>
+                <l>The dreadfull Sentence, to remove all scruple</l>
+                <l>Who 'tis that sends you to the <placeName>other world</placeName>.</l>
+                <stage type="entrance" place="center">Enter Violante.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note><note type="mansNote" resp="#formerOwner" subtype="beReady">assistant 7amp: officers be ready</note>
+                <l>Appeares my <persName>Violante</persName>? speake (my dearest)</l>
+                <l>Do's not the object please you?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>More then if</l>
+                <l>All Treasure that's above the <placeName>earth</placeName>, with that,</l>
+                <l>That lyes conceal'd in both the <placeName>Indian Mines</placeName>,</l>
+                <l>Were laid downe at my feet: O bold <persName>Iamy</persName></l>
+                <l>Thou onely canst deserve me.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam,</speaker>
+              <lg>
+                <l>I am forward,</l>
+                <l>And (as you easily may perceive,) I sleepe not</l>
+                <l>On your commands.</l>
+              </lg>
+            </sp>
+            <stage type="entrance" place="center">Enter Assistant and Officers.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>But yet they live: I look'd</l>
+                <l>To find them dead.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>That was defer'd, that you</l>
+                <l>Might triumph in their misery, and have the powre</l>
+                <l>To say they are not,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>'Twas well thought upon:</l>
+                <l>This kisse, and all the pleasures of my Bed</l>
+                <l>This night, shall thank thee.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Hen.</speaker>
+              <lg>
+                <l>Monster!</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>You Sir, that</l>
+                <l>Would have me mother Bastards, being unable</l>
+                <l>To honour me with one Child of mine owne,</l>
+                <l>That underneath my Roofe, kept your cast-Strumpet,</l>
+                <l>And out of my Revenues, would maintaine</l>
+                <l>Her riotous issue: Now you find what 'tis</l>
+                <l>To tempt a woman: with as little feeling</l>
+                <l>As I turne off a slave, that is unfit</l>
+                <l>To doe me service; of a horse, or dog</l>
+                <l>That have out-liv'd their use, I shake thee off,</l>
+                <l>To make thy peace with <placeName>heaven</placeName>.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Hen.</speaker>
+              <lg>
+                <l>I doe deserve this,</l>
+                <l>And never truly felt before, what sorrow</l>
+                <l>Attends on willfull dotage.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>For you, Misstris,</l>
+                <l>That had the pleasure of his youth before me,</l>
+                <l>And triumph'd in the fruit, that you had by him,</l>
+                <l>But that I thinke, to have the Bastard strangled</l>
+                <l>Before thy face, and thou with speed to follow</l>
+                <l>The way he leades thee, is sufficent torture,</l>
+                <l>I would cut off thy nose, put out thine eyes,</l>
+                <l>And set my foot on these bewitching lips,</l>
+                <l>That had the start of mine: but as thou art,</l>
+                <l>Goe to the <placeName>grave</placeName> unpittied.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Assist.</speaker>
+              <lg>
+                <l>Who would beleeve</l>
+                <l>Such rage could be in woman?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol,</speaker>
+              <lg>
+                <l>For this Fellow,</l>
+                <l>He is not worth my knowledge.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Let him live then,</l>
+                <l>Since you esteeme him innocent.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>No, <persName>Jamy</persName>,</l>
+                <l>He shall make up the messe: now strike together</l>
+                <l>And let them fall so.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Assist.</speaker>
+              <lg>
+                <l>Unheard of crueltie!</l>
+                <l>I can endure no longer: seize on her.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>Am I betrai'd?</l>
+                <l>Is this thy faith, <persName>Iamy</persName>?</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Could your desires</l>
+                <l>Challenge performance of a deed so horrid?</l>
+                <l>Or, though that you had sold your selfe to hell,</l>
+                <l>I should make up the bargaine? Live (deare Brother)</l>
+                <l>Live long, and happy: I forgive you freely;</l>
+                <l>To have done you this serviee, is to me</l>
+                <l>A faire Inheritance: And how e're harsh language</l>
+                <l>(Call'd on, by your rough usage) pass'd my lipps,</l>
+                <l>In my heart, I ever lov'd you: All my labours</l>
+                <l>Were but to shew, how much your love was cozen'd,</l>
+                <l>When it beheld it selfe in this false Glasse,</l>
+                <l>That did abuse you; and I am so far</l>
+                <l>From envying young <persName>Ascanio</persName> his good fortune,</l>
+                <l>That if your State were mine, I would adopt him.</l>
+                <l>These are the Murtherers, my noble Friends,</l>
+                <l>Which (to make triall of her bloudy purpose)</l>
+                <l>I won, to come disguis'd thus.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Hen.</speaker>
+              <lg>
+                <l>I am too full</l>
+                <l>Of griefe, and shame to speake: but what I'le doe,</l>
+                <l>Shall to the world proclaime my penitence;</l>
+                <l>And howsoever I have liv'd, I'le die</l>
+                <l>A much chang'd man.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Iam.</speaker>
+              <lg>
+                <l>Were it but possible</l>
+                <l>You could make satisfaction to this woman,</l>
+                <l>Our joyes were perfect.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Hen.</speaker>
+              <lg>
+                <l>That's my onely comfort,</l>
+                <l>That it is in my power: I ne're was married</l>
+                <l>To this bad woman, though I doted on her,</l>
+                <l>But daily did deferre it, still expecting</l>
+                <l>When griefe would kill <persName>Jacintha</persName>.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Assist.</speaker>
+              <lg>
+                <l>All is come out,</l>
+                <l>And finds a faire successe: take her <persName><roleName>Don</roleName> Henrique</persName>,</l>
+                <l>And once againe embrace your Son.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Hen.</speaker>
+              <lg>
+                <l>Most gladly.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Assist.</speaker>
+              <lg>
+                <l>Your Brother hath deserv'd well.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Hen.</speaker>
+              <lg>
+                <l>And shall share</l>
+                <l>The moitie of my State,</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Assist.</speaker>
+              <lg>
+                <l>I have heart, Advocate,</l>
+                <l>What an ill Instrument you have bin to him,</l>
+                <l>For this time strengthen him, with honest counsells,</l>
+                <l>As you'le deserve my pardon.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Bar.</speaker>
+              <lg>
+                <l>I'le change my Copy:</l>
+                <l>But I am punish'd, for I feare I have had</l>
+                <l>A smart blow, though unseene.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Assist.</speaker>
+              <lg>
+                <l> Curat, and Sexton,</l>
+                <l>I have heard of you too, let me heare no more,</l>
+                <l>And what's past, is forgotten; For this woman,</l>
+                <l>Though her intent were bloody, yet our Law</l>
+                <l>Calls it not death: yet that her punishment</l>
+                <fw type="catch" >May</fw>
+                <pb n="TSC-026"
+                  facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4406/rec/4"/>
+                <fw type="pageNum">50</fw>
+                <l>May deter others from such bad attempts,</l>
+                <l>The Dowry she brought with her shall be emploi'd</l>
+                <l>To build a <placeName>Nunnery</placeName>, where she shall spend</l>
+                <l>The remnant of her life.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Viol.</speaker>
+              <lg>
+                <l>Since I have miss'd my ends,</l>
+                <l>I scorne what can fall on me.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Assist.</speaker>
+              <lg>
+                <l>The strict discipline</l>
+                <l>Of the Church, will teach you better thoughts. and Sig<lb rend="turnunder"/>niors,-</l>
+                <l>You that are Batchelours, if you ever marry,</l>
+                <l>In <persName>Bartolus</persName>, you may behold the issue</l>
+                <l>Of Covetousnesse, and Jealousie; And of dotage,</l>
+                <l>and falshood in, <persName><roleName>Don</roleName> Henrique</persName>, keep a meane then;</l>
+                <l rend="italic">For be assur'd that weake man meets all ill,</l>
+                <l rend="italic">That gives himselfe up to a womans will.</l>
+              </lg>
+            </sp>
+            <stage type="exit" place="right">Exeunt.</stage>
+          </div>
+      </div>
+         <div xml:id="prologue" type="front" n="1" rend="italic"><!-- help with prologue formatting and who is speaking -->
+            <l><hi rend="roman">T</hi>O tell ye (Gentlemen,) we have a Play,</l>
+            <l>A new one too, and that 'tis launch'd to day,</l>
+            <l>The Name ye know, that's nothing to my Story;</l>
+            <l>To tell ye, 'tis familiar, uoid of Glory;</l>
+            <l>Of <placeName>State</placeName>, of Bitternesse: of wit you'll say,</l>
+            <l>For that is now held wit, that tends that way,</l>
+            <l>Which we avoid: To tell ye to 'tis merry,</l>
+            <l>And meant to make ye pleasant, and not weary:</l>
+            <l><hi rend="roman">T</hi>he <placeName>Streame</placeName> that guides ye, easie to attend:</l>
+            <l>To tell ye that 'tis good, is to no end,</l>
+            <l>If you believe not. Nay, to goe thus far,</l>
+            <l><hi rend="roman">T</hi>o sweare it, if you sweare against, is war</l>
+            <l><hi rend="roman">T</hi>o assure you anything, unlesse you see,</l>
+            <l>And so conceive, is vanity in me;</l>
+            <l>Therefore I leave it to it selfe, and pray</l>
+            <l>Like a good Barke, it may worke out to day,</l>
+            <l>And stem all doubts; 'twas built for such a proofe,</l>
+            <l>And we hope high ly: if she lye aloofe</l>
+            <l>For her owne vantage, to give wind at will,</l>
+            <l>Why let her worke, onely be you still,</l>
+            <l>And sweet opinion'd, and we are bound to say,</l>
+            <l>You are worthy Judges, and you crowne the Play.</l>
+         </div>
+         <div xml:id="epilogue" type="back" n="1">
+            <head>Epilogue.</head>
+            <sp>
+               <l>T<hi rend="italic">He Play is done, yet our suit never ends,</hi></l>
+               <l>Still when you part, you would stil part our friends,</l>
+               <l>Our noblest friends; if ought have falne amis,</l>
+               <l>O let it be sufficient, that it is,</l>
+               <l>And you have pardon'd it. In Buildings great</l>
+               <l>All the whole Body, cannot be so neat,</l>
+               <l>But something may be mended; Those are faire,</l>
+               <l>And worthy love, that may destroy, but spare.</l>
+            </sp>
+         </div>
+         <div xml:id="finis" type="back" n="1">
+            <head rend="italic">F I N I S.</head>
+         </div>
+      </body>
+  </text>
+</TEI>
