@@ -9,6 +9,10 @@
             <title xml:id="TSC">THE SPANISH CURATE</title>
             <author>John Fletcher</author>
             <author>Philip Massinger</author>
+	<respStmt>
+          <resp>Edited and encoded by:</resp>
+          <name xml:id="mim">Maria Isabel Maza</name>
+        </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Published by the Open Publishing Unit of The Pennsylvania State University Libraries.</publisher>
@@ -48,7 +52,7 @@
                <name>David LeBlanc</name>
                <name>Danielle Ryle</name>
                <name>Lauren Cenci</name>
-               <name xml:id="mim">Maria Isabel Maza</name>
+               <name>Maria Isabel Maza</name>
             </respStmt>
          </seriesStmt>
          <sourceDesc>
