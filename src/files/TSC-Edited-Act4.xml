@@ -1,0 +1,2303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="TSC">THE SPANISH CURATE</title>
+            <author>John Fletcher</author>
+            <author>Philip Massinger</author>
+            <respStmt>
+               <resp>Edited and encoded by:</resp>
+               <name xml:id="mim">Maria Isabel Maza</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Published by the Open Publishing Unit of The Pennsylvania State University Libraries.</publisher>
+            <availability>
+               <p>Attribution 4.0 International (CC BY 4.0)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Digital Beaumont &amp; Fletcher (1647) Project</title>
+            <respStmt>
+               <resp>General Editor:</resp>
+               <name xml:id="cmlb">Claire M.L. Bourne</name>
+            </respStmt> 
+            <respStmt>
+               <resp>Project Manager:</resp>
+               <name xml:id="hf">Heather Froehlich</name>
+            </respStmt>
+            <respStmt>
+               <resp>Text Encoding Consultant:</resp>
+               <name xml:id="jr">John Russell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Open Publishing Program Coordinator</resp>
+               <name>Ally Laird</name>
+            </respStmt>
+            <respStmt>
+               <resp>Open Access Systems Developer</resp>
+               <name xml:id="ag">Andrew Gearhart</name>
+            </respStmt>
+            <respStmt>
+               <resp>Annotator(s)</resp>
+               <name xml:id="formerOwner">Former Owner - Author of Manuscript Annotations</name>
+            </respStmt>
+            <respStmt>
+               <resp>Graduate Assistants:</resp>
+               <name>Taylor Hare</name>
+               <name>David LeBlanc</name>
+               <name>Danielle Ryle</name>
+               <name>Lauren Cenci</name>
+               <name>Maria Isabel Maza</name>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Francis Beaumont</author>
+                  <author>John Fletcher</author>
+                  <title>Comedies and Tragedies Written by Francis Beavmont and Iohn Fletcher,
+                     Gentlemen. Never printed before, And now published by the Authours
+                     Originall Copies.</title>
+                  <imprint>
+                     <publisher>Humprey Robinson</publisher>
+                     <publisher>the three Pidgeons</publisher>
+                     <publisher>Humphrey Moseley</publisher>
+                     <pubPlace>The Prince Armes in St. Pauls Church-yard</pubPlace>
+                     <date>1647</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier xml:id="psf">
+                  <country>The United States</country>
+                  <region>Pennsylvania</region>
+                  <institution>Pennsylvania State University</institution>
+                  <repository>Eberly Family Special Collections Library</repository>
+                  <collection>Emblem Books</collection>
+                  <msName>COMEDIES AND TRAGEDIES</msName> 
+                  <msName>  
+                     <rs>
+                        3083972 
+                     </rs>
+                  </msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This document is a simplified "true-to-text" XML version of <title>The Spanish Curate</title> based on Pennsylvania State University's annotated copy of the 1647
+            Beaumont &amp; Fletcher first folio. Major textual elements and attributes have been captured based on how they appear in the folio. Whenever possible, editorial
+            interventions have been minimalized or avoided entirely. This document is meant to serve as a pedagogical tool by which students of Early Modern literature can learn
+            to construct edited XML versions of the play.</p>        
+         <projectDesc>
+            <p>
+               The Digital Beaumont &amp; Fletcher (1647) is a collaborative editorial project aimed at making many of the rarely edited—and, as a result, rarely taught—plays in the
+               “Beaumont &amp; Fletcher” canon accessible to student readers and freely available online for classroom use. This project was inspired by the distinctive copy of Comedies
+               and Tragedies Written by Francis Beavmont And Iohn Fletcher Gentlemen (1647) held by Penn State University's Eberly Family Special Collections Library. In addition to
+               preserving evidence of ownership dating to as early as 1703, Penn State's copy of this printed play collection also includes three plays with handwritten marginalia,
+               suggesting that the book might have been used to facilitate performance in the late seventeenth century. This project is also motivated by a desire to make the texts and
+               other features of this book more widely known and readable. As a first step, the whole volume has now been fully digitized, thanks to the department of Preservation,
+               Conservation, and Digitization at Penn State Libraries.
+            </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Provides details of editorial principles and practices applied during the encoding of a text</p>
+            <normalization source="OED">
+               <p>ALL words converted to Modern British spelling 
+                  following Oxford English Dictionary.</p>
+            </normalization>
+            <punctuation>
+               <p>Punctuation was modernized to register full syntactical units.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote>
+               <p>
+                  This edition of The Spanish Curate contains the marginal notes found in the Penn State Libraries' copy of the 1647 folio. These manuscript notes are particually attentive to
+                  the performance of the play, and prepare actors for entrances and emphasize stage directions throughout the text. These manuscript notes have been added to the text without modernization
+                  spelling of puncuation.
+               </p>
+            </handNote>
+         </handNotes>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <head>The Persons represented in the Play. <note type="editorial">This cast list has been adapted from the 1679 folio edition of Beaumont and
+            Fletcher's <title>Fifty Comedies and Tragedies</title>. Spelling has been regularized based on how names appear in the dialogue. 
+            Descriptions have been updated.</note></head>
+         <castList>
+            <castItem>
+               <role xml:id="Ang">Angelo Milanes</role>
+               <roleDesc>a gentleman friend to Leandro</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Ars">Arsenio</role>
+               <roleDesc>a gentleman friend to Leandro</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Jam">Don Jamie</role>
+               <roleDesc>younger brother to Don Henrique</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Lea">Leandro</role>
+               <roleDesc>a gentleman who wantonly loves Bartolus' wife</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Asc">Ascanio</role>
+               <roleDesc>son to Don Henrique</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Hen">Don Henrique</role>
+               <roleDesc>an mean Lord, brother to Don Jamie</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Oct">Octavio</role>
+               <roleDesc>supposed husband to Jacinta</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Jac">Jacinta</role>
+               <roleDesc>formerly engaged to Don Henrique</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Vio">Violante</role>
+               <roleDesc>known wife to Don Henrique</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Lop">Lopez</role>
+               <roleDesc>the Spanish Curate</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Die">Diego</role>
+               <roleDesc>Lopez's Sexton</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Bar">Bartolus</role>
+               <roleDesc>a covetous lawyer, husband to Amaranta</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Ama">Amaranta</role>
+               <roleDesc>a wife to Bartolus</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Egl">Egla</role>
+               <roleDesc>a woman-Moor, servant to Amaranta</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="And">Andrea</role>
+               <roleDesc>a servant</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Par1">Parishioner 1</role>
+            </castItem>
+            <castItem>
+               <role xml:id="Par2">Parishioner 2</role>
+            </castItem>
+            <castItem>
+               <role xml:id="Par3">Parishioner 3</role>
+            </castItem>
+            <castItem>
+               <role xml:id="Par4">Parishioner 4</role>
+            </castItem>
+            <castItem>
+               <role xml:id="Sin">Singers</role>
+            </castItem>
+            <castItem>
+               <role xml:id="Assi">Assistant</role>
+               <roleDesc>A judge</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="Off">Officers</role>
+            </castItem>
+            <castItem>
+               <role xml:id="Wit">Witnesses</role>
+            </castItem>
+            <castItem>
+               <role xml:id="Ser">Servants</role>
+            </castItem>
+            <castItem>
+               <role xml:id="Alg">Algaziers</role>
+            </castItem>
+            <castItem>
+               <role xml:id="Par">Paritor</role>
+            </castItem>
+         </castList>
+      </front>
+      <body>
+         <div xml:id="act4">
+                    <div xml:id="act4s1" type="scene" n="1">
+                        <head>
+                            <hi rend="italic">Act Four. Scene One.</hi>
+                        </head>
+                        <stage type="entrance" place="center">Enter <persName>Henrique</persName>, <persName>Violante</persName>, and <persName>Ascanio</persName>.</stage>
+                        <sp who="#Hen">
+                            <speaker>Henrique.</speaker>
+                            <lg>
+                                <l>Hear but my reasons.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Vio">
+                            <speaker>Violante.</speaker>
+                            <lg>
+                                <l rend="right">Oh, my patience hear 'em.</l>
+                                <l>Can cunning falsehood colour an excuse?</l>
+                                <l>With any seeming shape of borrowed truth?</l>
+                                <l>Exenuate<note resp="#mim" type="gloss">
+                                    <term>Exenuate</term>: Make light of</note> this woeful<note resp="#mim" type="gloss">
+                                        <term>woeful</term>: sorrowful</note> wrong; not error.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Hen">
+                            <speaker>Henrique.</speaker>
+                            <lg>
+                                <l>You gave consent that to defeat my brother</l>
+                                <l>I should take any course.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Vio">
+                            <speaker>Violante.</speaker>
+                            <lg>
+                                <l rend="right">But not to make</l>
+                                <l>The cure more loathsome then the foul disease.</l>
+                                <l>Was't not enough you took me to your bed,</l>
+                                <l>Tired with loose dalliance<note resp="#mim" type="gloss">
+                                    <term>loose dalliance</term>: casual sexual relationship</note> and with empty veins<note resp="#mim" type="annotation"><term>empty veins</term>: Violante is claiming that Henrique, through his sexual relationship with Jacinta, came to her bed with empty viens, or, in other words, having used his sperm before they had sex.</note>,</l>
+                                <l>All those abilities spent before and wasted,</l>
+                                <l>That could confer the name of mother on me?</l>
+                                <l>But that, (to perfect my account of sorrow),</l>
+                                <l>For my long barrenness you must heighten it</l>
+                                <l>By showing to my face, that you were fruitful<note resp="#mim" type="annotation">
+                                    <term>fruitful</term>: Fuirtful in the sense of having had children.</note></l>
+                                <l>Hugged in the base embraces of another?</l>
+                                <l>If solitude that dwelt beneath <placeName>my roof</placeName></l>
+                                <l>And want of children was a torment to me,</l>
+                                <l>What end my vexation to behold</l>
+                                <l>A bastard to upbraid me with my wants?</l>
+                                <l>And hear the name of father paid to ye</l>
+                                <l>Yet, know myself no mother;</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Hen">
+                            <speaker>Henrique.</speaker>
+                            <lg>
+                                <l rend="right">What can I say?<note resp="#mim" type="editorial">I follow Turner's reassigning of this line 
+                                    to Henrique instead of leaving it at the end of Violane's speech above.</note></l>
+                                <l>Shall I confess my fault and ask your pardon?</l>
+                                <l>Will that content ye?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Vio">
+                            <speaker>Violante.</speaker>
+                            <lg>
+                                <l rend="right">If it could make void</l>
+                                <l>What is confirmed in <placeName>court</placeName>. No, no, <persName><roleName>Don</roleName> Henrique</persName>,</l>
+                                <l>You shall know that I find myself abused,</l>
+                                <l>And add to that I have a woman's anger.</l>
+                                <l>And, while I look upon this basilisk<note resp="#mim" type="annotation">
+                                    <term>basilisk</term>: Mythical large reptile who can kill with a single glance.</note></l>
+                                <l>Whose envious eyes hath blasted all my comforts,</l>
+                                <l>Rest confident I'll study my dark ends<note resp="#mim" type="gloss">
+                                    <term>dark ends</term>: sinister goals</note>,</l>
+                                <l>And not your pleasures.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Asc">
+                            <speaker>Ascanio.</speaker>
+                            <lg>
+                                <l rend="right"> Noble Lady, hear me:</l>
+                                <l>Not my father's son, but as your servant.</l>
+                                <l>Vouchsafe to hear me<note resp="#mim" type="annotation">
+                                    <term>Vouchsafe to hear me</term>: Do me the pleasure of listening to me</note>, for such in my duty,</l>
+                                <pb n="TSC-016"
+                                    facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4396/rec/4"/>
+                                <l>I ever will appear. And far be it from</l>
+                                <l>My poor ambition, ever to look on you,</l>
+                                <l>But with that reverence; which a slave stands bound</l>
+                                <l>To pay a worthy Mistress. I have heard</l>
+                                <l>That Dames of highest place nay, Queens themselves,</l>
+                                <l>Disdain not to be served by such as are</l>
+                                <l>Of meanest birth. And I shall be most happy</l>
+                                <l>To be employed when you please to command me</l>
+                                <l>Even in the coursest office<note resp="#mim" type="gloss">
+                                    <term>coursest office</term>: inferior duty</note>, as your page.</l>
+                                <l>I can wait on your trencher<note resp="#mim" type="gloss">
+                                    <term>trencher</term>: tray</note>, fill your wine,</l>
+                                <l>Carry your pantofles<note resp="#mim" type="gloss">
+                                    <term>pantofles</term>: slippers</note>, and be sometimes blessed</l>
+                                <l>In all humility to touch your feet<note resp="#mim" type="annotation">
+                                    <term>In all...your feet</term>: Ascanio is making himself as lowly as possible by stating it would be an honor if he were able to touch the basest part of Violante, her feet.</note>.</l>
+                                <l>Or, if that you esteem that too much grace,</l>
+                                <l>I can run by your coach, observe your looks</l>
+                                <l>And hope to gain a fortune by my service,</l>
+                                <l>With your good favour, which now, as a son,</l>
+                                <l>I dare not challenge.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Vio">
+                            <speaker>Violante.</speaker>
+                            <lg>
+                                <l rend="center">As a son?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Asc">
+                            <speaker>Ascanio.</speaker>
+                            <lg>
+                                <l rend="right">Forgive me.</l>
+                                <l>I will forget the name, let it be death</l>
+                                <l>For me to call you mother.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Vio">
+                            <speaker>Violante.</speaker>
+                            <lg>
+                                <l rend="right">Still upbraided<note resp="#mim" type="gloss">
+                                    <term>upbraided</term>: insulted</note>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Hen">
+                            <speaker>Henrique.</speaker>
+                            <lg>
+                                <l>No way left to appease you?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Vio">
+                            <speaker>Violante.</speaker>
+                            <lg>
+                                <l rend="right">None. Now hear me:</l>
+                                <l>Hear what I vow before the face of <placeName>heaven</placeName>.</l>
+                                <l>And, if I break it, all plagues in this life</l>
+                                <l>And those that after death are feared, fall on me</l>
+                                <l>While that this bastard stays under <placeName>my roof</placeName>,</l>
+                                <l>Look for no peace at <placeName>home</placeName>, for I renounce</l>
+                                <l>All offices of a wife<note resp="#mim" type="annotation">
+                                    <term>All offices...a wife</term>: All duties of a wife</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Hen">
+                            <speaker>Henrique.</speaker>
+                            <lg>
+                                <l rend="right">What am I fallen to?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Vio">
+                            <speaker>Violante.</speaker>
+                            <lg>
+                                <l>I will not eat, nor sleep, with you. And, those hours</l> 
+                                <l>Which I should spend in prayers for your health,</l>
+                                <l>Shall be employed in curses.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Hen">
+                            <speaker>Henrique.</speaker>
+                            <lg>
+                                <l rend="right">Terrible.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Vio">
+                            <speaker>Violante.</speaker>
+                            <lg>
+                                <l>All the day long, I'll be as tedious to you</l>
+                                <l>As lingring fevers. And I'll watch the nights</l>
+                                <l>To ring aloud your shame and breake your sleeps.</l>
+                                <l>Or, if you do but slumber, I'll appear</l>
+                                <l>In the shape of all my wrongs and, like a fury<note resp="#mim" type="annotation">
+                                    <term>fury</term>: An avenging god in the Green tradition. Generally used to refer to an avenging/tormenting spirit.</note>,</l>
+                                <l>Fright you to madness. And if all this fail</l>
+                                <l>To work out my revenge, I have friends and kinsmen,</l>
+                                <l>That will not sit down tame with the disgrace</l>
+                                <l>That's offered to our noble family</l>
+                                <l>In what I suffer.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Hen">
+                            <speaker>Henrique.</speaker>
+                            <lg>
+                                <l rend="right">How am I divided</l>
+                                <l>Between the duties I owe as a husband</l>
+                                <l>And piety<note resp="#mim" type="annotation">
+                                    <term>piety</term>: compassion</note> of a parent</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Asc">
+                            <speaker>Ascanio.</speaker>
+                            <lg>
+                                <l rend="right">I am taught, sir,</l>
+                                <l>By the instinct of nature that obedience</l>
+                                <l>Which bids me to prefer your peace of mind.</l>
+                                <l>Before those pleasures that are dearest to me</l>
+                                <l>Be wholly hers, (my Lord). I quit all parts</l>
+                                <l>That I may challenge. May you grow old together</l> 
+                                <l>And no distaste e're find you and, before</l>
+                                <l>The characters of age are printed on you,</l>
+                                <l>May you see many images of yourselves<note resp="#mim" type="annotation">
+                                    <term>before...yourselves</term>: before you visibily age may you have children</note>.</l>
+                                <l>Though I, like some false glass<note resp="#mim" type="annotation">
+                                    <term>false glass</term>: Ascanio is referring himself to false in continuing the metaphor of images in this speech. He cannot be a true glass because he is not Violante's child, and therefore is a illegitimate child.</note> that's never looked in</l>
+                                <l>Am cast aside, and broken from this hour;</l> 
+                                <l>(Unles invited, which I dare not hope for)</l>
+                                <l>I never will set my forbidden feet</l>
+                                <l>Over your threshold. Only give me leave</l>
+                                <l>Though cast-off<note resp="#mim" type="annotation">
+                                    <term>cast-off</term>: sent-off</note> to the <placeName>world</placeName>, to mention you</l>
+                                <l>In my devotions; 'tis all I sue for.</l> 
+                                <l>And so, I take my last leave.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Hen">
+                            <speaker>Henrique.</speaker>
+                            <lg>
+                                <l rend="right">Though I am</l>
+                                <l>Devoted to a wife; nay, almost sold,</l>
+                                <l>I slave to serve her pleasures. Yet, I cannot</l>
+                                <l>So part with all humanity, but I must</l> 
+                                <l>Show something of a father: thou shalt not go</l>
+                                <l>Unfurnishd and unfriended<note resp="#mim" type="gloss">
+                                    <term>Unfurnished and unfriended</term>: unprovided for in both means and family</note>, too. take that 
+                                    <stage resp="#mim" type="business" place="right"> [Gives <persName>Ascanio</persName> money.]</stage></l>
+                                <l>To guard thee from necessities; may thy goodness</l>
+                                <l>Deserve to be the heir of greater fortunes,</l>
+                                <l>Than thou wer't borne to. Scorn me not, <persName>Violante</persName>.</l> 
+                                <l>This banishment is a kind of civil death.</l>
+                                <l>And now, as it were at his funeral<note type="mansNote" resp="#formerOwner" subtype="beReady">Le: Mil: ar:</note></l>
+                                <l>And so farewell for ever: one word more,</l>
+                                <l>To shed a tear or two, one word more:</l>
+                                <l>Though I must never see thee, (my <persName>Ascanio</persName>),</l>
+                                <l>When this is spent, (for so the judge decreed),</l> 
+                                <l>Send to me for supply. <stage resp="#mim" type="exit">[Exit <persName>Ascanio</persName>].</stage> Are you pleased now?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Vio">
+                            <speaker>Violante.</speaker>
+                            <lg>
+                                <l>Yes, I have cause to see you howl and blubber<note resp="#mim" type="annotation">
+                                    <term>blubber</term>: weep</note></l>
+                                <l>At the parting of my torment and your shame.</l>
+                                <l>'Tis well, proceed: supply his wants; do, do.</l>
+                                <l>Let the great dowry I brought serve to maintain</l> 
+                                <l>Your bastard's riots: send my clothes and jewels,</l>
+                                <l>To your old acquaintance, your dear dame, his mother.</l>
+                                <l>Now you begin to melt I know 'twill follow.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Hen">
+                            <speaker>Henrique.</speaker>
+                            <lg>
+                                <l>Is all I do misconstrued?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Vio">
+                            <speaker>Violante.</speaker>
+                            <lg>
+                                <l rend="right">I will take</l> 
+                                <l>A course to right myself; a speeding one.</l>
+                                <l>By the blessed saints, I will. If I prove cruel</l>
+                                <l>To shame to see thy foolish pitty, taught me</l>
+                                <l>To loose my natural softness.<stage resp="#mim" type="business">[<persName>Henrique</persName> moves towards <persName>Violante</persName>.]</stage> Keep off from me;</l>
+                                <l>Thy flatteries are infectious and I'll flee thee</l>
+                                <l>As I would do a leper<note resp="#mim" type="annotation">
+                                    <term>leper</term>: A person suffering from leprosy. Leprosy often caused very visible effects, such as scaliness and scabbiness of the skin. In untreated cases, leprosy can effect sensory and motor function. Because leprosy is such a visible disease, it is commonly used to express repulsion at someone, as Violane does here with Henrique.</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Hen">
+                            <speaker>Henrique.</speaker>
+                            <lg>
+                                <l rend="right">Let not fury</l>
+                                <l>Transport you so: you know I am your creature.</l>
+                                <l>All love, but to yourself, with him, hath left me.</l>
+                                <l>I'll join with you in anything.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Vio">
+                            <speaker>Violante.</speaker>
+                            <lg>
+                                <l rend="right">In vain.</l>
+                                <l>I'll take mine own ways, and will have no partners.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Hen">
+                            <speaker>Henrique.</speaker>
+                            <lg>
+                                <l>I will not cross you.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Vio">
+                            <speaker>Violante.</speaker>
+                            <stage resp="#mim" type="delivery">[aside]</stage>
+                            <lg>
+                                <l rend="right">Do not. They shall find</l>
+                                <l>That to a woman of her hopes beguiled</l>
+                                <l>A viper trod on or an aspic's mild<note resp="#mim" type="annotation">
+                                    <term>They shall...aspic's mild</term>: A woman that has been disappointed is like a venomous serpent or snake.</note>.</l>
+                            </lg>
+                        </sp>
+                        <stage type="exit" place="right">Exeunt.</stage>
+                    </div><div xml:id="act4s2" type="scene" n="2">
+                        <head>
+                            <hi rend="italic">Scene Two.</hi>
+                        </head>
+                        <stage type="entrance" place="center">Enter <persName>Lopez</persName>, <persName>Milanes</persName>, and <persName>Arsenio</persName>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>Sits the game there? I have you by mine order.</l>
+                                <l>I love <persName>Leandro</persName> for't.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l rend="right">But you must show it</l>
+                                <l>In lending him your help, to gain him mea</l>
+                                <l>And opportunity.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">He shall want nothing.</l>
+                                <l>I know my advocate to a hair<note resp="#mim" type="gloss">
+                                    <term>to a hair</term>: very well</note>, and what</l>
+                                <l>Will fetch him from his prayers, if he use any.</l>
+                                <l>I am honeyed<note resp="#mim" type="gloss">
+                                    <term>honeyed</term>: delighted</note> with the project: I would have him horned<note resp="#mim" type="gloss">
+                                        <term>horned</term>: made a cuckhold</note></l>
+                                <l>For a most precious beast<note resp="#mim" type="annotation">
+                                    <term>precious beast</term>: referring to Amaranta</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l rend="right">But you lose time—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>I am gone. Instruct you, <persName>Diego</persName>, and you will find him</l>
+                                <l>A sharp and subtle knave. Give him but hints</l>
+                                <l>And he will amplify: see all things ready.</l>
+                                <l>I'll fetch him with a vengeance.</l>
+                            </lg>
+                        </sp>
+                        <stage type="exit" place="right">Exit [<persName>Lopez</persName>].</stage>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l rend="right">If ye fail now,</l>
+                                <l>We'll give him over, too.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l rend="right">Tush, he is fleshed<note resp="#mim" type="annotation">
+                                    <term>fleshed</term>: prepared for battle</note></l>
+                                <l>And knows what vain to strike for his own credit.</l>
+                            </lg>
+                        </sp>
+                        <pb n="TSC-017"
+                            facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4397/rec/4"/>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l>All things are ready.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l>Then we shall have a merry scene, ne're fear it.</l>
+                            </lg>
+                        </sp>
+                        <stage type="exit" place="right">Exeunt.</stage>
+                    </div>
+                    <div xml:id="act4s3" type="scene" n="3">
+                        <head>
+                            <hi rend="italic">Scene Three.</hi>
+                        </head>
+                        <stage type="entrance" place="center">Enter <persName>Amaranta</persName> (with a note) and [<persName>Egla</persName>].</stage>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l>Is thy master gone out?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Egl">
+                            <speaker>Egla.</speaker>
+                            <lg>
+                                <l rend="right">Even now, the Curate fetched him</l>
+                                <l>About a serious businesss, it seemed,</l>
+                                <l>For he snatched up his cloak and brushed his hat straight,</l>
+                                <l>Set his band handsomely<note resp="#mim" type="gloss">
+                                    <term>set his band handsomely</term>: fixed his neck-band</note>, and out he galloped.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l>'Tis well, 'tis very well he went out, (<persName>Egla</persName>).</l>
+                                <l>As luckily, as one would say, go husband.</l>
+                                <l>He was called by providence. 
+                                    <stage resp="#mim" type="business">[<persName>Amaranta</persName> gives the note to <persName>Egla</persName>.]</stage> 
+                                    Fling this short paper</l>
+                                <l>Into <persName>Leandro's</persName> <placeName>cell</placeName> and waken him.</l>
+                                <l>He is monstrous vexed and musty at my chess-play,<note resp="#mim" type="annotation">
+                                    <term>monstrous vexed and musty at my chess-play</term>: Amaranta claims Landro is angry at her chess play because he is old fashioned.</note></l>
+                                <l>But this shall supply him. When he has read it,</l>
+                                <l>Take your own recreation for two hours</l>
+                                <l>And hinder nothing.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Egl">
+                            <speaker>Egla.</speaker>
+                            <lg>
+                                <l rend="right">If I do, I'll hang for't.</l>
+                            </lg>
+                        </sp>
+                        <stage type="exit" place="right">Exeunt.</stage>
+                    </div>
+                    <div xml:id="act4s4" type="scene" n="4">
+                        <head>
+                            <hi rend="italic">Scene Four.</hi>
+                        </head>
+                        <stage type="entrance" place="center">Enter <persName>Octavio</persName> and <persName>Jacinta</persName>.</stage>
+                        <sp who="#Oct">
+                            <speaker>Octavio.</speaker>
+                            <lg>
+                                <l>If that you loved <persName>Ascanio</persName> for himself,</l>
+                                <l>And not your private ends<note resp="#mim" type="gloss">
+                                    <term>private ends</term>: selfish reasons</note>, you rather should</l>
+                                <l>Bless the fair opportunity that restores him</l>
+                                <l>To his birthright, and the honours he was born to,</l>
+                                <l>Than grieve at his good fortune.<note type="mansNote" resp="#formerOwner" subtype="beReady">Jam: &amp; asca: be ready</note></l>
+                            </lg>
+                        </sp>
+                        <sp who="#Jac">
+                            <speaker>Jacinta.</speaker>
+                            <lg>
+                                <l rend="right">Grieve, <persName>Octavio</persName>?</l>
+                                <l>I would resign my essence<note resp="#mim" type="annotation">
+                                    <term>essence</term>: reason for being</note>, that he were</l>
+                                <l>As happy as my love could fashion him,</l>
+                                <l>Though every blessing that should fall on him,</l>
+                                <l>Might prove a curse to me. My sorrow springs</l>
+                                <l>Out of my fear and doubt he is not safe.</l>
+                                <l>I am acquainted with <persName><roleName>Don</roleName> Henrique</persName>'s nature,</l>
+                                <l>And I have heard too much the fiery temper</l>
+                                <l>Of Madam <persName>Violante</persName>. Can you think</l>
+                                <l>That she, that almost is at war with heaven</l>
+                                <l>For being barren, will with equal eyes</l>
+                                <l>Behold a son of mine?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Oct">
+                            <speaker>Octavio.</speaker>
+                            <lg>
+                                <l rend="right">His father's care,</l>
+                                <l>That for the want of issue took him home,</l>
+                                <l>(Though with the forfeiture of his own fame)</l>
+                                <l>Will look unto his safety.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Jac">
+                            <speaker>Jacinta.</speaker>
+                            <lg>
+                                <l rend="right">Step-mothers</l>
+                                <l>Have many eyes, to find a way to mischief,</l>
+                                <l>Though blind to goodnesse.</l>
+                            </lg>
+                        </sp>
+                        <stage type="entrance" place="center">Enter Jamie and Ascanio.</stage>
+                        <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <sp who="#Oct">  
+                            <speaker>Octavio.</speaker>
+                            <lg>
+                                <l>Here comes <persName><roleName>Don</roleName> Jamie</persName>,</l>
+                                <l>And with him our <persName>Ascanio</persName>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Jam">
+                            <speaker>Jamie.</speaker>
+                            <lg>
+                                <l rend="right">Good youth leave me;</l>
+                                <l>I know thou art forbid my company,</l>
+                                <l>And only to be seen with me will call on</l>
+                                <l>Thy father's anger.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l rend="right"> Sir, if that to serve you</l>
+                                <l>Could lose me anything (as indeed it cannot),</l>
+                                <l>I still would follow you. Alas, I was born</l>
+                                <l>To do you hurt but not to help myself.</l>
+                                <l>I was, for some particular end, took home,</l>
+                                <l>But am cast-off again.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Jam">
+                            <speaker>Jamie.</speaker>
+                            <lg>
+                                <l rend="right">Is't possible?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Asc">
+                            <speaker>Ascanio.</speaker>
+                            <lg>
+                                <l>The Lady, whom my father calls his wife</l>
+                                <l>Abhors my sight, is sick of me, and forced him</l>
+                                <l>To turn me out of doors.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Jac">
+                            <speaker>Jacinta.</speaker>
+                            <lg>
+                                <l rend="right">By my best hopes</l>
+                                <l>I thank her cruelty, for it comes near</l>
+                                <l>A saving charity.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Asc">
+                            <speaker>Ascanio.</speaker>
+                            <lg>
+                                <l rend="right">I am only happy</l>
+                                <l>That yet I can relieve you, 'pray you share</l>
+                                <l>My father's wondrous kind and promises</l>
+                                <l>That I should be supplied. But sure the Lady</l>
+                                <l>Is a malicious woman, and I feare</l>
+                                <l>Means me no good.</l>
+                            </lg>
+                        </sp>
+                        <stage type="entrance" place="center">Enter [<persName>Violante</persName>'s] <persName>Servant</persName>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <sp who="#Jam">
+                            <speaker>Jamie.</speaker>
+                            <lg>
+                                <l rend="right">I am turned a stone with wonder,</l>
+                                <l>And know not what to think.<note type="mansNote" resp="#formerOwner" subtype="beReady">Lopez bartolus be ready</note></l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ser">
+                            <speaker>Servant.</speaker>
+                            <stage who="#mim" type="delivery">[aside to <persName>Jamie</persName>]</stage>
+                            <lg>
+                                <l rend="right">From my Lady,</l>
+                                <l>Your private ear and this— <stage resp="#mim" type="business">[Gives purse to <persName>Jamie</persName>.]</stage></l>
+                            </lg>
+                        </sp>
+                        <sp who="#Jam">
+                            <speaker>Jamie.</speaker>
+                            <lg>
+                                <l rend="right">New miracles?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ser">
+                            <speaker>Servant.</speaker>
+                            <stage resp="#mim" type="delivery">[aside to <persName>Jamie</persName>]</stage>
+                            <lg>
+                                <l>She sayes, if you dare make yourself a fortune,</l>
+                                <l>She will propose the means. My Lord, <persName><roleName>Don</roleName> Henrique</persName>,</l>
+                                <l>Is now from home and she alone expects you,</l>
+                                <l>If you dare trust her so. If not, despair of</l>
+                                <l>A second offer <note resp="#mim" type="gloss">
+                                    <term>In not...second offer</term>: If not, do not expect a second offer</note>.</l>
+                            </lg>
+                        </sp>
+                        <stage type="exit" place="right">Exit [<persName>Servant</persName>].</stage>
+                        <sp who="#Jam">
+                            <speaker>Jamie.</speaker>
+                            <stage resp="#mim" type="delivery">[aside]</stage>
+                            <lg>
+                                <l rend="right">Though there were an ambush</l>
+                                <l>Laid for my life, I'll on and sound this secret.</l>
+                                <l>Retire thee, (my <persName>Ascanio</persName>), with thy mother:</l>
+                                <l>But stir not forth, some great design's on foot<note resp="#mim" type="annotation">
+                                    <term>great design's on foot</term>: something is happening</note>.</l>
+                                <l>Fall what can fall, if e're the sun be set,</l>
+                                <l>I see you not give me dead.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Asc">
+                            <speaker>Ascanio.</speaker>
+                            <lg>
+                                <l rend="right">We will expect you:</l>
+                                <l>And those blessed <persName>angels</persName>, that love goodness, guard you.</l>
+                            </lg>
+                        </sp>
+                        <stage type="exit" place="right">Exeunt.</stage>
+                    </div>
+                    <div xml:id="act4s5" type="scene" n="5">
+                        <head>
+                            <hi rend="italic">Scene Five.</hi>
+                        </head>
+                        <stage type="entrance" place="center">Enter <persName>Lopez</persName> and <persName>Bartolus</persName>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <stage type="mixed" place="center">[<persName>Diego</persName>, offstage, should be in a bed with a bottle of wine and a cup on hand].</stage>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>Is't possible he should be rich?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">Most possible.</l>
+                                <l>He hath been long<note resp="#mim" type="annotation">
+                                    <term>been long</term>: been alive for a long time</note>, though he has but little gettings,</l>
+                                <l>Drawing together, sir.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">Accounted<note resp="#mim" type="gloss">
+                                    <term>Accounted</term>: Estimated</note> a poor sexton,</l>
+                                <l>Honest, poor <persName>Diego</persName>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">I assure ye: a close<note resp="#mim" type="annotation">
+                                    <term>close</term>: private</note> fellow.</l>
+                                <l>Both close and scraping and that fills the bags<note resp="#mim" type="annotation">
+                                    <term>Both close...the bags</term>: A person that is both private and frugal saves money.</note>, sir.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>A notable good fellow, too?<note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note></l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">Sometimes, sir.</l>
+                                <l>When he hoped to drink a man into a surfeit<note resp="#mim" type="gloss">
+                                    <term>a surfeit</term>: an over-indulgence</note>,</l>
+                                <l>That he might gain by his grave.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>So many thousands?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="center">Heaven knows what.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">'Tis strange,</l>
+                                <l>'Tis very strange. But we see by endeavour,</l>
+                                <l>And honest labour—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right"><persName>Milo</persName>, by continuance,</l>
+                                <l>Grew from a silly calf, (with your worships reverence),</l>
+                                <l>To carry a bull from a penny to a pound, sir,</l>
+                                <l>And from a pound to many: 'tis the progress<note resp="#mim" type="annotation">
+                                    <term>Milo...progress</term>: Lopez is using the example of Milo, a wrestler from the Greek city of Croton. Dated to 6th century B.C.E, Milo was said to have carried a bull on his shoulders. Lopez states that Milo would first carried a calf before he could carry a bull, focusing on the progress of Milo's strenght to make an analogy of Diego's supposed wealth.</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>Ye say true, but he loved to feed well also,</l>
+                                <l>And that, me-thinks—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">From another man's trencher, sir,</l>
+                                <l>And there he found it seasoned with small charge.</l>
+                                <l>There he would play the tyrant, and would devour ye</l>
+                                <l>More than the <placeName>graves</placeName> he made at home. He lived</l>
+                                <l>Like a chameleon, sucked th'air of misery,</l>
+                                <l>And grew fat by th'brewis of an eggshell<note resp="#mim" type="gloss">
+                                    <term>th'brewis of an eggshell</term>: eggshell broth</note>.</l>
+                                <pb n="TSC-018"
+                                    facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4398/rec/4"/>
+                                <note type="mansNote" resp="#formerOwner" subtype="beReady">[...]asenio &amp; parishioners</note><l>Would smell a cook's shop, and go home and surfeit,</l>
+                                <l>And be a month in fasting out that fever<note resp="#mim" type="gloss">
+                                    <term>Would smell...that fever</term>: In smelling food, would overindulge so much that he would have to fast for a month. Lopez is continuing the facade that Diego was a very frugal man, to the point of humor.</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>These are very good symptoms. Does he lie so sick, say ye?</l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>Oh, very sick.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">And chosen me executor<note resp="#mim" type="gloss">
+                                    <term>executor</term>: manager of will</note>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>Only one, worship.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">No hope of his amendment?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>None that we find.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">He hath no kinsmen neither?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>'Truth, very few.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">His mind will be the quieter.</l>
+                                <l>What doctors has he?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">There's none, sir, he believes in.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>They are but needless things, in such extremities.</l>
+                                <l>Who draws<note resp="#mim" type="annotation">
+                                    <term>draws</term>: writes</note> the good man's will?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">Marry that do I, sir.</l>
+                                <l>And to my grief.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">Grief will do little now, sir,</l>
+                                <l>Draw it to your comfort, friend, and as I counsel ye,</l>
+                                <l>An honest man, but such men live not always.</l>
+                                <l>Who are about him?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">Many now he is passing,</l>
+                                <l>That would pretend to his love, yes, and some gentlemen</l>
+                                <l>That would fain counsel him and be of his kindred.</l>
+                                <l>Rich men can want no heirs, sir.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">They do ill,</l>
+                                <l>Indeed they do, to trouble him; very ill, sir,</l>
+                                <l>But we shall take a care.<note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note></l>
+                            </lg>
+                        </sp>
+                        <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <stage type="entrance" place="center">Enter <persName>Diego</persName> (in a bed), <persName>Milanes</persName>, <persName>Arsenio</persName>, and <persName>Parishioners</persName>.</stage>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">Will ye come near, sir?</l>
+                                <l>'Pray ye bring him out. Now ye may see in what state.</l>
+                                <l>Give him fresh air.</l>
+                            </lg>
+                        </sp>
+                        <stage type="business" place="right">Bed thrust out.</stage>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">I am sorry, neighbour <persName>Diego</persName>,</l>
+                                <l>To find ye in so weak a state.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">Ye are welcome,</l>
+                                <l>But I am fleeting<note resp="#mim" type="gloss">
+                                    <term>fleeting</term>: dying</note>, sir.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">Me-thinks he looks well:</l>
+                                <l>His colour fresh and strong, his eyes are cheerful.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>A glimmering before death; 'tis nothing else, sir.</l>
+                                <l>Do you see how he fumbles with the sheet? Do ye note that?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>My learned sir, 'pray ye sit: I am bold to send for ye,</l>
+                                <l>To take care of what I leave.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">Do you heare that?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <stage resp="#mim" type="delivery">[aside to <persName>Diego</persName>]</stage>
+                            <lg>
+                                <l>Play the knave finely.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <stage resp="#mim" type="delivery">[aside to <persName>Arsenio</persName>]</stage>
+                            <lg>
+                                <l rend="right">So I will, I warrant ye,</l>
+                                <l>And carefully.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">'Pray ye do not trouble him.</l>
+                                <l>You see he's weake and has a wandering fancy<note resp="#mim" type="gloss">
+                                    <term>wandering fancy</term>: wild imagination</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>My honest neighbours, weep not, I must leave ye;</l>
+                                <l>I cannot always bear ye company,</l>
+                                <l>We must drop; still there is no remedy.</l>
+                                <l>'Pray ye, Master Curate, will ye write my testament,</l>
+                                <l>And write it largely: it may be remembered</l>
+                                <l>And be witness to my legacies, good gentlemen.</l>
+                                <l>Your worship, I do make my full executor.</l>
+                                <l>You are a man of wit and understanding.</l>
+                                <l>Give me a cup of wine to raise my spirits,</l>
+                                <l>For I speak low: <stage resp="#mim" type="business">[Takes drink].</stage> I would before these neighbours</l>
+                                <l>Have ye to swear, (sir), that you will see it executed,</l>
+                                <l>And what I give, let equally be rendered</l>
+                                <l>For my soul's health.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">I vow it truly, neighbours.</l> 
+                                <l>Let not that trouble ye before all these</l>
+                                <l>Once more I give my oath.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">Then set me higher,</l>
+                                <l>And pray ye come near me all.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">We are ready for ye.</l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <stage resp="#mim" type="delivery">[aside to <persName>Diego</persName>]</stage>
+                            <lg>
+                                <l>Now spur the ass, and get our friend time<note resp="#mim" type="annotation">
+                                    <term>Now spur...friend time</term>: Milanes impores Diego to begin the prank they have planned in order to give Leandro time with Amaranta.</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <stage resp="#mim" type="business">[dictates as <persName>Lopez</persName> writes]</stage>
+                            <lg>
+                                <l>First then:</l>
+                                <l>After I have given my body to the worms;</l>
+                                <l>(For they must be served first, they are seldom cozened<note resp="#mim" type="gloss">
+                                    <term>served first...seldom cozened</term>: The worms must eat first as they are really cheated out of their meals due to their quick work. Diego anticipated that his body will be buried before the rest of his requests are met.</note>).</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>Remember your <placeName>parish</placeName>, neighbour.</l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">You speak truly.</l>
+                                <l>I do remember it: a lewd, vile <placeName>parish</placeName>,</l>
+                                <l>And pray it may be mended. To the poor of it,</l>
+                                <l>(Which is to all the <placeName>parish</placeName>), I give nothing,</l>
+                                <l>For nothing, unto nothing, is most natural<note resp="#mim" type="gloss">
+                                    <term>For nothing...most natural</term>: Possible play on 1 Timothy 6:7, "For we brought nothing into this world, and it is certain we can carry nothing out" (King James Bible). Diego may be using this verse to say that it would be most natural for the poor to remain poor, and thus he'll leave them nothing.</note>.</l> 
+                                <l>Yet leave as much space as will build a <placeName>hospital</placeName>;</l>
+                                <l>Their children may pray for me.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">What do you give to it?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>Set down two thousand ducats.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">'Tis a good gift,</l> 
+                                <l>And will be long remembered.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">To your worship,</l>
+                                <l>(Because you must take pains to see all finished),</l>
+                                <l>I give two thousand more. It may be three, sir;</l>
+                                <l>A poor gratuity for your painstaking.</l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>These are large sums.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">Nothing to him that has 'em.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>To my old master vicar I give five hundred,</l>
+                                <l>(Five hundred, and five hundred, are too few sir),</l>
+                                <l>But there be more to serve.</l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <stage resp="#mim" type="delivery">[aside]</stage>
+                            <lg>
+                                <l rend="right">This fellow coins<note resp="#mim" type="gloss">
+                                    <term>coins</term>: has money</note> sure.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>Give me some more drink. <stage resp="#mim" type="business">[Takes a drink].</stage> Pray ye buy books, buy books.</l> 
+                                <l>You have a learned head: stuff it with <placeName>libraries</placeName>,</l>
+                                <l>And understand 'em, when you have done, 'tis justice.</l>
+                                <l>Run not the <placeName>parish</placeName> mad with controversies<note resp="#mim" type="gloss">
+                                    <term>controversies</term>: advice that will cause difference of opinions</note>,</l> 
+                                <l>Nor preach not abstinence to longing women,</l>
+                                <l>'Twill budge the bottoms of their consciences.</l>
+                                <l>I would give the <placeName>church</placeName> new organs, but I prophecy</l>
+                                <l>The church-wardens would quickly pipe'em out<note resp="#mim" type="annotation">
+                                    <term>I would give...pipe'em out</term>: Diego would leave the church a new organ, but he believes that the clergymen would steal them.</note> o'the'<placeName>parish</placeName>.</l> 
+                                <l>Two hundred ducats more to mend the chancel<note resp="#mim" type="annotation">
+                                    <term>chancel</term>: part of the church near the altar, typically used by clergymen during the service. In older churches, the chancel is typically divided from the rest of the church with a screen or steps.</note>,</l>
+                                <l>And to paint true orthography<note resp="#mim" type="annotation">
+                                    <term>orthography</term>: system of correct/accepted spelling</note> as many,</l>
+                                <l>They write <hi rend="italic">Sunt</hi> with a <hi rend="italic">C</hi> which is abominable<note resp="#mim" type="gloss">
+                                    <term>paint true...is abominable</term>: Diego refers to wanting to give money to teach people to spell, as they write sunt (Latin for they are) as cunt, a slang word referring to female genitals.</note>.</l>
+                                <l>'Pray you set that down, to poor maidens' marriages.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>I that's well thought of, what's your will in that point?</l>
+                                <l>A meritorious<note resp="#mim" type="gloss">
+                                    <term>meritorious</term>: deserving of gratitude</note> thing.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <stage resp="#mim" type="delivery">[aside]</stage>
+                            <lg>
+                                <l rend="right">No end of this will?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>I give <hi rend="italic">per annum</hi><note resp="#mim" type="gloss">
+                                    <term>per annum</term>: Latin for yearly</note> two hundred ells of lockram<note resp="#mim" type="gloss">
+                                        <term>ells of lockram</term>: 45 inches of linen fabric</note></l>
+                                <l>That there be no straight dealings in their linens,</l>
+                                <l>But the sales cut according to their burdens<note resp="#mim" type="gloss">
+                                    <term>straight dealings...their burdens</term>: each will be given what they need</note>.</l>
+                                <l>To all bell-ringers, I bequeath new ropes,</l>
+                                <l>And let them use 'em at their own discretions.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l>You may remember us.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">I do, good gentlemen,</l>
+                                <l>And I bequeath ye both good, careful surgeons</l>
+                                <l>A legacy<note resp="#mim" type="gloss">
+                                    <term>legacy</term>: specified article in will</note> you have need of more then money.</l>
+                                <l>I know you want good diets and good lotions,</l>
+                                <l>And in your pleasures good take heed.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">He raves now.</l>
+                                <l>But 'twill be quickly off.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">I do bequeath ye</l>
+                                <l>Commodities of pins<note resp="#mim" type="gloss">
+                                    <term>pins</term>: thorns</note>: brown papers, pack-threads<note resp="#mim" type="annotation">
+                                        <term>brown papers, pack-threads</term>: paper and thread often used to wrap merchandise</note>,</l>
+                                <l>Roast pork, and puddings; gingerbread, and Jew's-trumps<note resp="#mim" type="gloss">
+                                    <term>Jew's trumps</term>: small, lyre-shaped instrument</note>;</l>
+                                <l>Of penny pipes, and mouldy pepper<note resp="#mim" type="annotation">
+                                    <term>penny pipes...mouldy pepper</term>: penny whistle and antiquated spices</note>. Take 'em,</l>
+                                <l>Take 'em even where you please and be cozened with 'em.</l>
+                                <l>I should bequeath ye executions also,</l>
+                                <l>But those I'll leave to th'law<note resp="#mim" type="annotation">
+                                    <term>Take 'em...th'law</term>: Diego is calling doctors and sugeons deceitful, noting that their practices and solutions are so antiquated that they would be found guilty of fraud if tried, and sentenced to death.</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">Now he grows temperate.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>You will give no more?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">I am loath to give more from ye,</l>
+                                <pb n="TSC-019"
+                                    facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4399/rec/4"/>
+                                <l>Because I know you will have a care to execute</l> 
+                                <l>Only to pious uses, sir, a little.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <stage resp="#mim" type="delivery">[aside]</stage>
+                            <lg>
+                                <l>If he be worth all these, I am made forever.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>I give to fatal dames<note resp="#mim" type="annotation">
+                                    <term>fatal dames</term>: the fates, agents that control men's destinies</note> that spin men's threads out,</l>
+                                <l>And poor distressed damsels that are militant<note resp="#mim" type="gloss">
+                                    <term>militant</term>: combative</note></l>
+                                <l>As members of our own afflictions<note resp="#mim" type="annotation">
+                                    <term>our own affliction</term>: those with bad fates according to astrology</note></l> 
+                                <l>A hundred crowns to buy warm tubs to work in.</l>
+                                <l>I give five hundred pounds to buy a <placeName>church-yard</placeName>,</l>
+                                <l>A spacious <placeName>church-yard</placeName> to lay thieves and knaves in;</l>
+                                <l>Rich men and honest men take all the room up<note resp="#mim" type="gloss">
+                                    <term>church-yard...room up</term>: Churchyards were typically reserved for the wealthy and "religiously-sound", meaning that poor people and criminals were often buried elsewhere.</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>Are ye not weary?</l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">Never of well-doing.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>These are mad legacies<note resp="#mim" type="annotation">
+                                    <term>mad legacies</term>: foolish things to will out</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">They were got as madly.</l>
+                                <l>My sheep and oxen, and my moveables;</l>
+                                <l>My plate and jewels, and five hundred acres;</l> 
+                                <l>I have no heir<note resp="#mim" type="gloss">
+                                    <term>My sheep...no heir.</term>: Diego claims to have a foolish amount of livestock, furniture, land, and other valuables and no-one to leave them to.</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <stage resp="#mim" type="delivery">[aside]</stage>
+                            <lg>
+                                <l rend="right">This cannot be: 'tis monstrous.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>Three ships at <placeName>sea</placeName>, too.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">You have made me full executor.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>Full, full, and total. Would I had more to give ye</l> 
+                                <l>But these may serve an honest mind<note resp="#mim" type="gloss">
+                                    <term>honest mind</term>: truthful person</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">Ye say true,</l> 
+                                <l>A very honest mind, and make it rich too;</l>
+                                <l>Rich, wondrous rich. But where shall I raise these monies?</l>
+                                <l>About <placeName>your house</placeName>? I see no such great promises.</l> 
+                                <l>Where shall I find these sums?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">Even where you please, sir,</l>
+                                <l>You are wise and provident, and know business</l>
+                                <l>Ev'n raise 'em where you shall think good, I am reasonable<note resp="#mim" type="annotation">
+                                    <term>Even where...am reasonable</term>: The prank is coming to an end, with Diego telling Bartolus to raise the funds from where ever he wishes, as Diego trusts him to do so. Bartolus begins to understand he has been fooled.</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>Think good? Will that raise thousands?</l> 
+                                <l>What do you make me?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>You have sworn to see it done, that's all my comfort.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>Where I please? This is packed<note resp="#mim" type="gloss">
+                                    <term>packed</term>: put together (the prank)</note> sure to disgrace me.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>You are just and honest and I know you will do it,</l>
+                                <l>Ev'n where you please, for you know where the wealth is.</l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>I am abused, betrayed; I am laughed at, scorned,</l>
+                                <l>Baffled and bored<note resp="#mim" type="gloss">
+                                    <term>Baffled and bored</term>: confused and become a source of entertainment</note>, it seems.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l rend="right">No, no, ye are fooled.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>Most finely fooled, and handsomely, and neatly.</l>
+                                <l>Such cunning masters must be fooled sometimes, sir,</l> 
+                                <l>And have their worship's noses wiped<note resp="#mim" type="annotation">
+                                    <term>noses wiped</term>: deceived</note>; 'tis healthful.</l>
+                                <l>We are but quit: you fool us of our monies</l>
+                                <l>In every cause, in every quiddit wipe us.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>Ha, ha, ha, ha, some more drink for my heart, gentlemen.</l> 
+                                <l>This merry lawyer—ha,ha,ha,ha, this scholar—</l> 
+                                <l>I think this fit will cure me: this executor—</l>
+                                <l>I shall laugh out my lungs.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>This is derision above sufferance<note resp="#mim" type="annotation">
+                                    <term>derision above sufferance</term>: ridicule beyond what is reasonable</note>; villany</l>
+                                <l>Plotted and set against me.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">Faith, 'tis knavery,</l> 
+                                <l>In truth I must confess, thou art fooled indeed, lawyer.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l>Did you think, had this man been rich—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">'Tis well, sir.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l>He would have chosen such a wolf, a canker,</l>
+                                <l>A maggot-pate<note resp="#mim" type="gloss">
+                                    <term>canker, a maggot-pate</term>: corrupter and silly/whimsical person</note> to be his whole executor.</l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>A lawyer, that entangles all men's honesties,</l>
+                                <l>And lives like a spider in a cobweb lurking</l>
+                                <l>And catching at all flies that pass his pit-falls<note resp="#mim" type="gloss">
+                                    <term>pit-falls</term>: traps</note>;</l>
+                                <l>Puts powder to all states, to make 'em caper<note resp="#mim" type="gloss">
+                                    <term>caper</term>: dance</note>?</l>
+                                <l>Would he trust you? Do you deserve?<note resp="#mim" type="editorial">I follow the second folio's reassignment of the line, "Do you deserve?" 
+                                    from Diego's speech below to Lopez's speech here.</note></l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right"> I find, gentlemen,</l>
+                                <l>This cataplasm<note resp="#mim" type="gloss">
+                                    <term>cataplasm</term>: poultice</note> of a well cozened lawyer</l>
+                                <l>Laid to my stomach lenifies my fever<note resp="#mim" type="gloss">
+                                    <term>lenifies</term>: lessens</note>.</l>
+                                <l>Me-thinks I could eat now and walk a little.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>I am ashamed to feel how flat I am cheated,</l> 
+                                <l>How grossly and maliciously made a May-game<note resp="#mim" type="gloss">
+                                    <term>May-game</term>: form of entertainment</note>;</l>
+                                <l>A damned trick. My wife, my wife, some rascal:</l>
+                                <l>My credit, and my wife, some lustful villain,</l>
+                                <l>Some bawd, some rogue<note resp="#mim" type="gloss">
+                                    <term>My wife...some rogue</term>: Bartolus begins to wonder whether the prank has implications for his wife.</note>.<note type="mansNote" resp="#formerOwner" subtype="beReady">Amararan &amp; Leandro be ready</note></l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l rend="right">Some crafty fool has found ye:</l> 
+                                <l>This 'tis, sir, to teach ye to be too busy,</l>
+                                <l>To covet all the gains and all the rumours.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>We did this but to vex your fine officiousness<note resp="#mim" type="gloss">
+                                    <term>officiousness</term>: readiness to work</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>God yield ye and God thank ye: I am fooled, gentlemen.</l>
+                                <l>The lawyer is an ass, I do confess it;</l> 
+                                <l>A weak, dull, shallow ass: good even to your worships.</l>
+                                <l>Vicar, remember Vicar; rascal, remember;</l>
+                                <l>Thou notable, rich rascal.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">I do remember, sir.</l>
+                                <l>'Pray ye stay a little, I have ev'n two legacies</l> 
+                                <l>To make your mouth up, sir.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">Remember varlets<note resp="#mim" type="gloss">
+                                    <term>varlets</term>: attendants</note>,</l>
+                                <l>Quake and remember, rouges: I have brine for your buttocks<note resp="#mim" type="gloss">
+                                    <term>I have...your buttocks</term>: I will get back at you all.</note>. 
+                                    <stage type="exit" place="right">Ex[it <persName>Bartolus</persName>].</stage></l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>Oh, how he frets and fumes now like a dunghill.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>His gall<note resp="#mim" type="annotation">
+                                    <term>gall</term>: gall bladder. Referring to the imbalance of bile (anger).</note> contains fine stuff now to make poisons,</l> 
+                                <l>Rare, damned stuff.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l rend="right">Let's after him and still vex him,</l>
+                                <l>And take my friend off. By this time he has prospered;</l>
+                                <l>He cannot lose this dear time: 'tis impossible.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l>Well <persName>Diego</persName>, thou hast done.</l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">Hast done it daintily.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l>And shalt be as well paid, boy—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l rend="right">Go, let's crucify<note resp="#mim" type="gloss">
+                                    <term>crucify</term>: finish</note> him.</l>
+                            </lg>
+                        </sp>
+                        <stage type="exit" place="right">Exeunt.</stage>
+                    </div>
+                    <div xml:id="act4s6" type="scene" n="6">
+                        <head>
+                            <hi rend="italic">Scene Six.</hi>
+                        </head>
+                        <stage type="entrance" place="center">Enter <persName>Amaranta</persName> and <persName>Leandro</persName>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <sp who="#Lea">
+                            <speaker>Leandro.</speaker>
+                            <lg>
+                                <l>I have told ye all my story, and how desperately.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l>I do believe: let's walk on; time is precious,</l>
+                                <l>Not to be spent in words. Here no more wooing:</l>
+                                <l>The open air's an enemy to lovers.</l>
+                                <l>Do as I tell ye.</l>
+                            </lg>
+                        </sp>
+                        <stage type="business" place="right">Pewter<note resp="#mim" type="gloss">
+                            <term>Pewter</term>: Alloy of tin, likely referring to a drum.</note> ready for noise [offstage].</stage>
+                        <sp who="#Lea">
+                            <speaker>Leandro.</speaker>
+                            <lg>
+                                <l rend="right">I'll do anything.<note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note></l>
+                                <l>I am so over-joyed: I'll fly to serve ye.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l>Take your joy moderately, as it is ministered,</l>
+                                <l>And as the cause invites. That man's a fool<note type="mansNote" resp="#formerOwner" subtype="beReady">bartolus be ready</note></l>
+                                <l>That at the sight o'th'bond dances and leaps.</l>
+                                <l>Then is the true joy: when the money comes.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lea">
+                            <speaker>Leandro.</speaker>
+                            <lg>
+                                <l>You cannot now deny me.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l rend="right">Nay, you know not;</l>
+                                <l>Women have crotchets and strange fits<note resp="#mim" type="gloss">
+                                    <term>crotchets and strange fits</term>: whimsical thoughts and struggles</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lea">
+                            <speaker>Leandro.</speaker>
+                            <lg>
+                                <l rend="right">You shall not.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l>Hold ye to that and swear it confidently,</l>
+                                <l>Then I shall make a scruple<note resp="#mim" type="gloss">
+                                    <term>scruple</term>: hesitation</note> to deny ye.</l>
+                                <l>'Pray ye, let's step in and see a friend of mine.</l>
+                                <l>The weather's sharp: we'll stay but half an hour;</l>
+                                <l>We may be missed else. A <placeName>private fine house</placeName> 'tis, sir,</l>
+                                <l>And we may find many good welcomes.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lea">
+                            <speaker>Leandro.</speaker>
+                            <lg>
+                                <l rend="right">Do, Lady;</l>
+                                <l>Do, happy Lady.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l rend="right">All your mind's of doing;</l>
+                                <l>You must be modester.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lea">
+                            <speaker>Leandro.</speaker>
+                            <lg>
+                                <l rend="right">I will be anything.—</l>
+                            </lg>
+                        </sp><stage type="exit" place="right">Exeunt.</stage>
+                    </div>
+                    <div xml:id="act4s7" type="scene" n="7">
+                        <head>
+                            <hi rend="italic">Scene Seven.</hi>
+                        </head>
+                        <stage type="entrance" place="center">Enter <persName>Bartolus</persName>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>Open the doors and give me room to chafe in; <stage resp="#mim" type="business">[knocks]</stage></l>
+                                <l>Mine owne <placeName>room</placeName> and my liberty: why maid there,</l>
+                                <pb n="TSC-020"
+                                    facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4400/rec/4"/>
+                                <note type="mansNote" resp="#formerOwner" subtype="beReady">lo: Ar: Mill: Diego be ready</note><l>Open, I say, and do not anger me:</l>
+                                <l>I am subject to much fury. When, ye dish-clout<note resp="#mim" type="gloss">
+                                    <term>dish-clout</term>: dishcloth</note>?</l>
+                                <l>When do ye come? Asleepe, ye lazy hell-hound?</l>
+                                <l>Nothing intended but your ease and eating?</l>
+                                <l>Nobody here? Why wife, why wife? Why jewel?</l>
+                                <l>No tongue to answer me? 'Prithee, (good pupil),</l>
+                                <l>Dispense a little with thy careful study,</l>
+                                <l>And step to th'door, and let me in. Nor he neither?</l>
+                                <l>Ha! Not at's study? Nor asleep? Nor nobody? <stage resp="#mim" type="delivery">[knocks]</stage></l>
+                                <l>I'll make ye hear: the house of ignorance,</l>
+                                <l>No sound inhabitants here: I have a key yet</l>
+                                <l>That commands all. I fear I am metamorphosed.<note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note></l>
+                            </lg>
+                        </sp>
+                        <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <stage resp="#mim" type="exit" place="right">[<persName>Bartolus</persName> exits into house as <persName>Lopez</persName>, <persName>Arsenio</persName>, <persName>Milanes</persName>, and <persName>Diego</persName> enter]</stage>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>He keeps his fury still and may do mischief.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l>He shall be hanged first; we'll be sticklers<note resp="#mim" type="gloss">
+                                    <term>sticklers</term>: moderators</note> there, boys.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>The hundred thousand dreams now that possess him:</l>
+                                <l>Of jealousy, and of revenge, and frailty.</l>
+                                <l>Of drawing bills against us and petitions.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>And casting what his credit shall recover.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l>Let him cast till his maw<note resp="#mim" type="annotation">
+                                    <term>maw</term>: previously eaten food. Milanes things Bartolus may throw up.</note> came up: we care not.</l>
+                                <l>You shall be still secured.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">We'll pay him home then. <stage type="business" place="right">A great noise within.</stage></l>
+                                <l>Hark what a noise he keeps within?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">Certain</l>
+                                <note type="mansNote" resp="#formerOwner" subtype="beReady">bar: be ready</note><l>Has set his chimneys o'fire, or the <persName>devil</persName> roars there.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>The codexes o'th'law<note resp="#mim" type="gloss">
+                                    <term>codexes o'th'law</term>: systems of law</note> are broke loose,  gentlemen.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l>He's fighting sure.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">I'll tell ye that immediately—</l>
+                            </lg>
+                        </sp>
+                        <stage type="exit" place="center">Exit [<persName>Diego</persName> into house].</stage>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l>Or doing some strange out-rage on himself.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l>Hang him; he dares not be so valiant.</l>
+                            </lg>
+                        </sp>
+                        <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <stage type="entrance" place="center">Enter <persName>Diego</persName>.</stage>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>There's nobody at home and he chases like a lion</l>
+                                <note type="mansNote" resp="#formerOwner" subtype="beReady">Ama Leandro be ready</note><l>And stinks<note resp="#mim" type="gloss">
+                                    <term>stinks</term>: acts offensively</note> withall.</l>
+                            </lg>
+                        </sp>
+                        <stage type="business" place="right">Noise still.</stage>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="center">Nobody?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">Not a creature.</l>
+                                <l>Nothing within but he and his Law-tempest<note resp="#mim" type="gloss">
+                                    <term>law-tempest</term>: anger</note>;</l>
+                                <l>The ladles, dishes, kettles, how they fly all?</l>
+                                <l>And how the glasses through the <placeName>rooms</placeName>?</l>
+                            </lg>
+                        </sp>
+                        <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <stage type="entrance" place="right">Enter <persName>Bartolus</persName> [but does not see the group on stage].</stage>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l rend="right">My friends sure</l>
+                                <l>Has got her out and now he has made an end on't.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>See where the <placeName>sea</placeName> comes? How it foams and brussels?</l>
+                                <l>The great leviathan<note resp="#mim" type="gloss">
+                                    <term>leviathan</term>: sea monster</note> o'th'law, how it tumbles?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>Made every way an ass? Abused on all sides</l>
+                                <l>And from all quarters? People come to laugh at me?</l>
+                                <l>Rise like a comet to be wondered at?</l>
+                                <l>A horrid comet, for boy's tongues and ballads<note resp="#mim" type="gloss">
+                                    <term>boy's tongues and ballads</term>: songs and performances</note>?</l>
+                                <l>I will run from my wits.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l rend="right">Do, do,(good lawyer),</l>
+                                <l>And from thy money too, then thou wilt be quiet.</l>
+                            </lg>
+                        </sp>
+                        <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <stage type="entrance" place="center">Enter <persName>Amaranta</persName> and <persName>Leandro</persName> [disguised].</stage>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l>Here she comes home: now mark the salutations.</l>
+                                <l>How like an ass my friend goes?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l rend="right">She has pulled his ears down<note resp="#mim" type="gloss">
+                                    <term>pulled his ears down</term>: dragged him</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <stage resp="#mim" type="delivery">[to <persName>Amaranta</persName> and <persName>Leandro</persName>]</stage>
+                            <lg>
+                                <l>Now, what sweet voyage to what <placeName>garden</placeName>, Lady?</l>
+                                <l>Or to what <placeName>cousin's house</placeName>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l rend="right">Is this my welcome?</l>
+                                <l>I cannot go to <placeName>church</placeName>, but thus I am scandalled.</l>
+                                <l>Use no devotion for my soul, but gentlemen—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>To <placeName>church</placeName>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l>Yes, and ye keep sweet youths to wait upon me,</l>
+                                <l>Sweet, bred-up youths, to be a credit to me.</l>
+                                <l>There's your delight again, pray take him to ye;</l>
+                                <l>He never comes near me more to debase me.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>How's this? How's this? Good wife, how has he wronged ye?</l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l>I am faine to drive him like a sheep before me</l>
+                                <l>I blush to think how people fleer<note resp="#mim" type="gloss">
+                                    <term>fleer</term>: shun</note>, and scorned me.</l>
+                                <l>Others have handsome men, that know behaviour,</l>
+                                <l>Place, and observance: this silly thing knows nothing,</l>
+                                <l>Cannot tell ten. Let every rascal justle me,</l>
+                                <l>And still I pushed him on as he had been coming.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>Ha! Did ye push him on? Is he so stupid?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l>When others were attentive to the priest,</l>
+                                <l>Good devout gentleman, then fell he fast,</l>
+                                <l>Fast, sound asleep. Then first began the bag-pipes</l>
+                                <l>The several stops on's nose, made a rare music,</l>
+                                <l>A rare and loud, and those played many an anthem</l>
+                                <l>Put out of that, he fell straight into dreaming<note resp="#mim" type="gloss">
+                                    <term>Then first...into dreaming</term>: Amaranta recalls the emberassment of having Leandro fall asleep and snore loudly during a church service.</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <stage resp="#mim" type="delivery">[aside]</stage>
+                            <lg>
+                                <l>As cunning as she is sweet; I like this carriage<note resp="#mim" type="gloss">
+                                    <term>carriage</term>: conduct</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>What did he then?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l rend="right">Why then he talked in his sleep, too.</l>
+                                <l>Nay, I'll divulge your moral virtues, (sheep's-face),</l>
+                                <l>And talked aloud, that every ear was fixed to him.</l>
+                                <l>Did not I suffer, (do you think), in this time?</l>
+                                <l>Talk of your bawling law<note resp="#mim" type="gloss">
+                                    <term>bawling law</term>: shouting law</note>, of appellations<note resp="#mim" type="gloss"><term>appellations</term>: appeals</note>,</l>
+                                <l>Of declarations, and excommunications;</l>
+                                <l>Warrants, the executions: and such <persName>devils</persName></l>
+                                <l>That drove all the gentlemen out o'th'<placeName>Church</placeName>, by hurries</l> 
+                                <l>With execrable oaths<note resp="#mim" type="gloss">
+                                    <term>execrable oaths</term>: awful promises</note> they would never come there again.</l>
+                                <l>Thus am I served and manned<note resp="#mim" type="gloss">
+                                    <term>manned</term>: accompanied</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lea">
+                            <speaker>Leandro.</speaker>
+                            <lg>
+                                <l rend="right">I pray ye forgive me.</l>
+                                <l>I must confess I am not fit to wait upon ye:</l> 
+                                <l>Alas, I was brought up—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l rend="right">To be an ass,</l>
+                                <l>A lawyer's ass: to carry books and buckrams.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>But what did you at <placeName>church</placeName>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">At <placeName>church</placeName>, did ye ask her?</l> 
+                                <l>Do you hear,  gentlemen, do you mark the question?</l>
+                                <l>Because you are half an heretic yourself, sir;</l>
+                                <l>Would ye breed her too? This shall to the Inquisition,</l>
+                                <l>A pious gentlewoman, reproved for praying?</l>
+                                <l>I'll see this filed, and you shall hear further, sir.</l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l>Ye have an ill heart.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">It shall be found out, gentlemen.</l>
+                                <l>There be those youths will search it.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">You are warm, signiour.</l>
+                                <l>But a faggot<note resp="#mim" type="annotation">
+                                    <term>faggot</term>: bundle of sticks tied together for use as fuel. Diego is punning on Bartolus' actions being heretical to the point of being burnt for this actions.</note> will warme ye better: we are witnesses.</l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>Enough to hang him, do not doubt.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l rend="right">Nay, certain,</l>
+                                <l>I do believe has rather no religion.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>That must be known too, because she goes to <placeName>Church</placeName>,  sir?</l> 
+                                <l rend="italic">O monstrum informe ingens!<note resp="#mim" type="gloss">
+                                    <term rend="italic">O...ingens</term>: Oh, huge, fearless monster</note></l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l rend="right">Let him go on, sir,</l>
+                                <l>His wealth will build a <placeName>nunnery</placeName>; a fair one.</l>
+                                <l>And this good Lady, when he is hanged and rotten,</l>
+                                <l>May there be abbess<note resp="#mim" type="gloss">
+                                    <term>abbess</term>: Mother Superior of a nunnery.</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">You are cozend, honest gentlemen.</l> 
+                                <l>I do not forbid the use but the form: mark me.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>Form? What do ye make of form?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">They will undo me.</l> 
+                                <l>Swear, as I oft have done, and so betray me.</l>
+                                <l>I must make fair way and hereafter. Wife,</l> 
+                                <l>You are welcome home, and henceforth take your pleasure.</l>
+                                <l>Go, when ye shall think fit; I will not hinder ye.</l>
+                                <l>My eyes are open now, and I see my error.</l>
+                                <l>My shame, as great as that, but I must hide it.</l> 
+                                <l>The whole conveyance now I smell, but <hi rend="italic">basta</hi>,</l> 
+                                <l>Another time must serve. You see us friends, now</l>
+                                <l>Heartily friends, and no more chiding, (gentlemen).</l>
+                                <l>I have been too foolish, I confess. No more words,</l>
+                                <l>No more, (sweet wife).</l>
+                            </lg>
+                        </sp>
+                        <pb n="TSC-021"
+                            facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4401/rec/4"/>
+                        <sp who="#Ama">
+                            <speaker>Amaranta.</speaker>
+                            <lg>
+                                <l rend="right">You know my easy nature.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>Go, get ye in. <stage resp="#mim" type="exit">[<persName>Amaranta</persName> exits into house]</stage> you see she has been angry:</l>
+                                <l>Forebeare her fight a while and time will pacify,</l>
+                                <l>And learne to be more bold.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lea">
+                            <speaker>Leandro.</speaker>
+                            <lg>
+                                <l rend="right">I would I could,</l>
+                                <l>I will do all I am able.</l>
+                            </lg>
+                        </sp>
+                        <stage type="exit" place="right">Exit [<persName>Leandro</persName>].</stage>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">Do<persName>Leandro</persName>.<note type="mansNote" resp="#formerOwner" subtype="other">Act</note></l>
+                                <l>We will not part, but friends of all hands.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">Well said.</l>
+                                <l>Now ye are reasonable, we can look on ye.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l>Ye have jerked<note resp="#mim" type="gloss">
+                                    <term>jerked</term>: mocked</note> me: but for all that I forgive ye</l>
+                                <l>Forgive ye heartily, and do invite ye</l>
+                                <l>Tomorrow to a breakfast I make but seldom.</l>
+                                <l>But now we will be merry.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l rend="right">Now ye are friendly,</l>
+                                <l>Your doggedness and nigardize<note resp="#mim" type="gloss">
+                                    <term>doggedness and nigardize</term>: cruelty and stinginess</note> flung from ye,</l>
+                                <l>And now we will come to ye.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">Give me your hands, all;</l>
+                                <l>You shall be welcome heartily.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l rend="right">We will be,</l>
+                                <l>For we'll eat hard<note resp="#mim" type="gloss">
+                                    <term>hard</term>: a lot</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Bar">
+                            <speaker>Bartolus.</speaker>
+                            <lg>
+                                <l rend="right">The harder, the more welcome,</l>
+                                <l>And till the morning farewell; I have busines.</l>
+                            </lg>
+                        </sp><stage type="exit" place="right">Exit [<persName>Bartolus</persName> into house].</stage>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l>Farewell, good bountiful <persName>Bartolus</persName>, 'tis a brave wench</l>
+                                <l>A sudden witty theif, and worth all service.</l>
+                                <l>Go we'll all go, and crucify the lawyer.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Die">
+                            <speaker>Diego.</speaker>
+                            <lg>
+                                <l>I'll clap four tire of teeth<note resp="#mim" type="gloss">
+                                    <term>clap four tire of teeth</term>: add more teeth</note> into my mouth more</l>
+                                <l>But I will grind his substance.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Ars">
+                            <speaker>Arsenio.</speaker>
+                            <lg>
+                                <l rend="right">Well, <persName>Leandro</persName>,</l>
+                                <l>Thou hast had a strange voyage, but I hope</l>
+                                <l>Thou rid'st now in safe <placeName>harbour</placeName>.</l> 
+                            </lg>
+                        </sp>
+                        <sp who="#Ang">
+                            <speaker>Milanes.</speaker>
+                            <lg>
+                                <l rend="right">Let's go drink, friends,</l>
+                                <l>And laugh aloud at all our merry May-games.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#Lop">
+                            <speaker>Lopez.</speaker>
+                            <lg>
+                                <l>A match, a match 'twill wet our stomachs better.</l>
+                            </lg>
+                        </sp>
+                        <stage type="exit" place="right">Exeunt.</stage>
+                    </div>
+            </div>
+      </body>
+   </text>
+</TEI>
