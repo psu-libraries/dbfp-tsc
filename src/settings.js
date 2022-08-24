@@ -5,9 +5,9 @@ module.exports = () => {
     // will most likley want to change designated
     // github organization / username
     // github.com/WHATEVER
-    var gitOrg = "psu-libraries";
+    var gitOrg = "elmsln";
     // github.com/elmsln/WHATEVER - hax11ty here implies building against the repo itself to produce it's own docs :)
-    var gitProject = "dbfp-tsv";
+    var gitProject = "hax11ty";
     // if doing github builds, automatically set these to whatever the repo issuing the call is
     // the above is just for SOME default so things below publish correctly locally
     if (process.env.GITHUB_REPOSITORY) {
@@ -16,7 +16,7 @@ module.exports = () => {
         gitProject = parts[1];
     }
     // author name will be set by the github publishing agent based on who kicks it off
-    var authorName = "btopro";
+    var authorName = "The Digital Beaumont and Fletcher Project";
     var siteAuthorImage = "files/headshot511743.1799999904.jpg";
     // person kicking off the job gets author name by default
     if (process.env.GITHUB_ACTOR) {
@@ -44,8 +44,15 @@ module.exports = () => {
     var basePath = "/";
     // useful with github exclusively
     var segmentCount = 1;
+    // when building for vercel, use that path
+    if (process.env.VERCEL) {
+        // change these if you have a custom domain
+        url = `https://${process.env.VERCEL_URL}`;
+        // set this to 0 if you have a vanity URL
+        segmentCount = 0;
+    }
     // if the repo has a CNAME, use this for the url
-    if (process.env.CNAME && process.env.CNAME != "") {
+    else if (process.env.CNAME && process.env.CNAME != "") {
         url = process.env.CNAME;
         // set this to 0 if you have a vanity URL
         segmentCount = 0;
@@ -74,7 +81,6 @@ module.exports = () => {
         // short description of the site for SEO
         siteDescription: "A student-generated, open-access edition of Penn State Libraries’ COMEDIES & TRAGEDIES (1647), a.k.a. the B&F folio.",
         // logo to represent the site
-        // siteLogo: "assets/images/photo-1497493292307-31c376b6e479.jpeg",
         siteLogo: "files/dbfp_400x400.jpeg",
         // theme to use HAXcms valid theme as it appears in the wc-factory listing
         themeElement: "clean-two", // clean-two, clean-one, bootstrap-theme, learn-two-theme, or any other valid HAXcms theme
@@ -93,12 +99,12 @@ module.exports = () => {
         // folder / machine name to represent your site
         siteMachineName: gitProject,
         // Your name as referenced as the author in files
-        siteAuthorName: "The Digital Beaumont and Fletcher Project",
+        siteAuthorName: authorName,
         // an image of you, could be in the local files directory
         // this is used in some themes
         siteAuthorImage: siteAuthorImage,
         // visual name of your site, defaults to project repo name
-        siteName: "The Sea Voyage",
+        siteName: "The Spanish Curate",
         // language to set on content
         lang: "en",
         // git configuration settings. This stuff is relatively specific to HAXcms
