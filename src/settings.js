@@ -5,9 +5,9 @@ module.exports = () => {
     // will most likley want to change designated
     // github organization / username
     // github.com/WHATEVER
-    var gitOrg = "elmsln";
+    var gitOrg = "psu-libraries";
     // github.com/elmsln/WHATEVER - hax11ty here implies building against the repo itself to produce it's own docs :)
-    var gitProject = "hax11ty";
+    var gitProject = "dbfp-tsc";
     // if doing github builds, automatically set these to whatever the repo issuing the call is
     // the above is just for SOME default so things below publish correctly locally
     if (process.env.GITHUB_REPOSITORY) {
@@ -17,7 +17,7 @@ module.exports = () => {
     }
     // author name will be set by the github publishing agent based on who kicks it off
     var authorName = "The Digital Beaumont and Fletcher Project";
-    var siteAuthorImage = "files/headshot511743.1799999904.jpg";
+    var siteAuthorImage = "files/dbfp_400x400.jpeg";
     // person kicking off the job gets author name by default
     if (process.env.GITHUB_ACTOR) {
         authorName = process.env.GITHUB_ACTOR;
