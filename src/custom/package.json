@@ -9,7 +9,7 @@
   "scripts": {
     "pop-tei-render-styles": "pwd ; mkdir -p ../../dist/assets/css ../../dist/files && cp ../files/*.css ../../dist/assets/css",
     "pop-file-assets": "pwd ; cp -r ../files/* ../../dist/files",
-    "build": "pwd ; rollup -c rollup.config.js && yarn pop-tei-render-styles && yarn pop-file-assets",
+    "build": "rollup -c rollup.config.js && yarn pop-tei-render-styles && yarn pop-file-assets",
     "start": "yarn run watch",
     "watch": "rollup --watch -c rollup.config.js"
   },
