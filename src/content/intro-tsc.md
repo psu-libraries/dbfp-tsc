@@ -62,7 +62,7 @@ order: 10
 <p>The second edition of The Spanish Curate appeared in the expanded second folio of Beaumont and Fletcher’s plays, Fifty Comedies and Tragedies. Written by Francis Beaumont and John Fletcher, Gentlemen (Wing B1582, 1679). While there are corrections to the spelling, grammar, and stage directions in throughout second edition of The Spanish Curate, the most noticeable changes are the addition of two songs within the playtext:<p>
 
 <p>Added between 2.4.49-2.4.50 in 1679 folio </p> 
-
+<center>
 <p>1 <br/>
 
 Dearest do not you delay me, <br/>
@@ -145,7 +145,8 @@ And Tithes shall come thicker and thicker: <br/>
 We’ll fall to the Plow, and get Children enough, <br/>
 
 And thou shalt be learned old Vicar.   </p>
-
+</center>
+<br/>
 
 <p>The songs do not appear in the present edition. </p>
 
