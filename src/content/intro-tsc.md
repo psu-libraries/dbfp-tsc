@@ -144,7 +144,7 @@ And Tithes shall come thicker and thicker: <br/>
 
 We’ll fall to the Plow, and get Children enough, <br/>
 
-And thou shalt be learned old Vicar.   </p><br/>
+And thou shalt be learned old Vicar.</p>
 
 <p>The songs do not appear in the present edition. </p>
 
