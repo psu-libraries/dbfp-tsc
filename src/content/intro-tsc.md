@@ -61,7 +61,7 @@ order: 10
 
 <p>The second edition of <i>The Spanish Curate</i> appeared in the expanded second folio of Beaumont and Fletcher’s plays, <i>Fifty Comedies and Tragedies. Written by Francis Beaumont and John Fletcher, Gentlemen</i> (Wing B1582, 1679). While there are corrections to the spelling, grammar, and stage directions in throughout second edition of <i>The Spanish Curate</i>, the most noticeable changes are the addition of two songs within the playtext:<p>
 
-<p>Added between 2.4.49-2.4.50 in 1679 folio </p> 
+<p><b>Added between 2.4.49-2.4.50 in 1679 folio</b></p> 
 
 <p>1 <br/>
 
@@ -76,7 +76,7 @@ But ’tis wind that must be blown <br/>
 From that breath, whose native smell <br/>
 
 Indian Odours far excel.  
-</p>
+</p><br/>
 
 <p>2 <br/>
 
@@ -91,10 +91,10 @@ Else dull silence sure will starve me: <br/>
 ’Tis a word that’s quickly spoken, <br/>
 
 Which being restrain’d a heart is broken.
-</p>
+</p><br/><br/>
  
 
-<p>Added between 3.2.108-3.2.109 in 1679 folio </p>
+<p><b>Added between 3.2.108-3.2.109 in 1679 folio</b></p>
 
 <p>1 <br/>
 
@@ -104,7 +104,7 @@ The young Lasses skip and play; <br/>
 
 Let the Cups go round, till round goes the ground, <br/>
 
-Our Learned old Vicar will stay. </p>
+Our Learned old Vicar will stay. </p><br/>
 
 <p>2 <br/>
 
@@ -114,7 +114,7 @@ And let the fat Goose swim: <br/>
 
 For verily, verily, verily ah, <br/>
 
-Our Vicar this day shall be trim. </p>
+Our Vicar this day shall be trim. </p><br/>
 
 <p>3 <br/>
 
@@ -124,7 +124,7 @@ A loud Cock-a-loodle shall he Crow; <br/>
 
 The Duck and the Drake, shall swim in a lake <br/>
 
-Of Onions and Claret below.  </p>
+Of Onions and Claret below.  </p><br/>
 
 <p>4 <br/>
 
@@ -134,7 +134,7 @@ To thee our most noble adviser, <br/>
 
 Our pains shall be great, and Bottles shall sweat, <br/>
 
-And we our selves will be wiser. </p>
+And we our selves will be wiser. </p><br/>
 
 <p>5 <br/>
 
@@ -144,7 +144,7 @@ And Tithes shall come thicker and thicker: <br/>
 
 We’ll fall to the Plow, and get Children enough, <br/>
 
-And thou shalt be learned old Vicar.   </p>
+And thou shalt be learned old Vicar.   </p><br/>
 
 <br/>
 
