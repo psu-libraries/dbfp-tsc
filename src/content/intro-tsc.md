@@ -170,9 +170,3 @@ And thou shalt be learned old Vicar.   </p><br/>
 <li>Amaranta and Violante are foils in this play. Everywhere that Violante is aggressive and petty, Amaranta is patient and mild. However, both women are in relationships where their partners seek to control them. The conclusion of the play states that there are wrong and right women to marry. More specifically, makes the case that heterosexual relationships should be run by men, as if women make the decisions, things can fall apart. In short, women tend to cause issues in the relationship, not the men.  </li>
 </ul>
 </p>
-
-<h2>FURTHER READING </h2>
-
-<p>There is very little scholarship on The Spanish Curate. Articles that take The Spanish Curate as a central focus mostly focus on questions of authorship, broadly speaking. For example, Edward M. Wilson’s “Did John Fletcher Read Spanish?”3 uses the play as a way to study Fletcher’s linguistic abilities, which Wilson believes were not developed to the point of being a Spanish reader. Jeffrey Kahan’s “The Double Falshood and The Spanish Curate: A Further Fletcher Connection” considers the possibility that The Spanish Curate could tell us something new about a lost Shakespeare play.4 While Kahan analyzes names and some of the plot in the short article, the general treatment of The Spanish Curate is in service to Kahan’s argument on Double Falshood. In short, The Spanish Curate has not garnered the same attention as other plays published in the 1647 folio. </p> 
-
-<p>An old-spelling edition of The Spanish Curate, edited by Robert Kean Turner, appears in The Dramatic Works in the Beaumont and Fletcher Canon, vol. 10 (Cambridge University Press, 1994), 295-424. </p>
