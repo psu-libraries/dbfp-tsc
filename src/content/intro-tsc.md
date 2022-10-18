@@ -47,7 +47,7 @@ order: 10
 <p>The cross-hatched lines, seen above, mark a character’s entrance (3.4.13). 
 </p>
 
-<p><img src="./tsc-img2"/></p>
+<p><img src="./tsc-img2.png"/></p>
 <p>The manuscript note above reads “Henrique be ready” (1.1.100). These notes call attention to a character’s upcoming entrance onto the stage.   
 </p>
 
