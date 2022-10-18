@@ -61,90 +61,59 @@ order: 10
 
 <p>The second edition of <i>The Spanish Curate</i> appeared in the expanded second folio of Beaumont and Fletcher’s plays, <i>Fifty Comedies and Tragedies. Written by Francis Beaumont and John Fletcher, Gentlemen</i> (Wing B1582, 1679). While there are corrections to the spelling, grammar, and stage directions in throughout second edition of <i>The Spanish Curate</i>, the most noticeable changes are the addition of two songs within the playtext:<p>
 
-<p style="margin-left:50px"><b>Added between 2.4.49-2.4.50 in 1679 folio</b></p> 
+<p><b>Added between 2.4.49-2.4.50 in 1679 folio</b></p> 
 
-<p style="margin-left:50px">1 <br/>
-
+<p>1<br/>
 Dearest do not you delay me, <br/>
-
 Since thou knowest I must be gone; <br/>
-
-Wind and Tide ’tis thought doth stay me, <br/>
-
-But ’tis wind that must be blown <br/>
-
+Wind and Tide 'tis thought doth stay me, <br/>
+But 'tis wind that must be blown <br/>
 From that breath, whose native smell <br/>
+Indian Odours far excel.
+</p>
 
-Indian Odours far excel.  
-</p><br/>
-
-<p style="margin-left:50px">2 <br/>
-
+<p>2 <br/>
 Oh then speak thou fairest fair, <br/>
-
 Kill not him that vows to serve thee, <br/>
-
 But perfume this neighboring Air; <br/>
-
 Else dull silence sure will starve me: <br/>
-
-’Tis a word that’s quickly spoken, <br/>
-
+'Tis a word that's quickly spoken, <br/>
 Which being restrain’d a heart is broken.
 </p><br/><br/>
  
 
-<p style="margin-left:50px"><b>Added between 3.2.108-3.2.109 in 1679 folio</b></p>
+<p><b>Added between 3.2.108-3.2.109 in 1679 folio</b></p>
 
-<p style="margin-left:50px">1 <br/>
-
+<p>1 <br/>
 Let the Bells ring, and let the Boys Sing, <br/>
-
 The young Lasses skip and play; <br/>
-
 Let the Cups go round, till round goes the ground, <br/>
-
 Our Learned old Vicar will stay. </p><br/>
 
-<p style="margin-left:50px">2 <br/>
-
+<p>2 <br/>
 Let the Pig turn merrily, merrily ah, <br/>
-
 And let the fat Goose swim: <br/>
-
 For verily, verily, verily ah, <br/>
-
 Our Vicar this day shall be trim. </p><br/>
 
-<p style="margin-left:50px">3 <br/>
-
-The stew’d Cock shall crow, Cock-a-loodle-loo, <br/>
-
+<p>3 <br/>
+The stew'd Cock shall crow, Cock-a-loodle-loo, <br/>
 A loud Cock-a-loodle shall he Crow; <br/>
-
 The Duck and the Drake, shall swim in a lake <br/>
-
 Of Onions and Claret below.  </p><br/>
 
-<p style="margin-left:50px">4 <br/>
-
+<p>4 <br/>
 Our Wives shall be neat, to bring in our meat; <br/>
-
 To thee our most noble adviser, <br/>
-
 Our pains shall be great, and Bottles shall sweat, <br/>
-
 And we our selves will be wiser. </p><br/>
 
-<p style="margin-left:50px">5 <br/>
-
-We’ll labour and swinck, we’ll kiss and we’ll drink, <br/>
-
+<p>5 <br/>
+We'll labour and swinck, we'll kiss and we'll drink, <br/>
 And Tithes shall come thicker and thicker: <br/>
-
-We’ll fall to the Plow, and get Children enough, <br/>
-
-And thou shalt be learned old Vicar.</p><br/>
+We'll fall to the Plow, and get Children enough, <br/>
+And thou shalt be learned old Vicar.
+</p><br/>
 
 <p>The songs do not appear in the present edition. </p>
 
