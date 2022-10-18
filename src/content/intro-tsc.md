@@ -21,7 +21,7 @@ order: 10
 <h2>AUTHORSHIP
 </h2>
 
-<p><i>The Spanish Curate</i> was first published in the 1647 folio, which attributed all the plays within to Francis Beaumont and John Fletcher. However, scholars including Cyrus Hoy made the case that this play was a collaboration between Fletcher and a different contemporary playwright: Philip Massinger.1 Hoy makes the case that Fletcher wrote the scenes focusing on Bartolus, Amaranta, and Leandro and that Massinger wrote the scenes depicting the familial intrigue between Jamie and Henrique. Scholars tend to agree that <i>The Spanish Curate</i>, among other plays in the Beaumont and Fletcher Folio, was co-authored by Massinger.  
+<p><i>The Spanish Curate</i> was first published in the 1647 folio, which attributed all the plays within to Francis Beaumont and John Fletcher. However, scholars including Cyrus Hoy made the case that this play was a collaboration between Fletcher and a different contemporary playwright: Philip Massinger (Hoy, 1957). Hoy makes the case that Fletcher wrote the scenes focusing on Bartolus, Amaranta, and Leandro and that Massinger wrote the scenes depicting the familial intrigue between Jamie and Henrique. Scholars tend to agree that <i>The Spanish Curate</i>, among other plays in the Beaumont and Fletcher Folio, was co-authored by Massinger.  
 </p>
 
 <h2>SOURCES
@@ -30,7 +30,7 @@ order: 10
 <p>The plot of <i>The Spanish Curate</i> was not invented for the play. Instead, the plot was borrowed from <i>Poema trágico del español Gerardo, y desengaño del amor lascivo</i>, written by the Spanish author Gonzalo de Céspedes y Meneses and <a href="https://www.ustc.ac.uk/editions/5023295">first published in Madrid in 1615</a>. <i>Poema tràgico del español Gerardo</i> was translated into English by Leonard Digges and published in 1622 as <i><a href"http://estc.bl.uk/S107646">Gerardo, the Unfortunate Spaniard; or, a Pattern for Lascivious Lovers</a></i>.  
 </p>
 
-<p>The play is very likely based on the translation, rather than on the Spanish text. As Robert Kean Turner noted, the contents of the letter written by Alonzo Tiveria to Lopez as printed in the folio edition is “identical” to the version that appears in the translation, except for a few minor variants.2 
+<p>The play is very likely based on the translation, rather than on the Spanish text. As Robert Kean Turner noted, the contents of the letter written by Alonzo Tiveria to Lopez as printed in the folio edition is “identical” to the version that appears in the translation, except for a few minor variants (Turner, 1996). 
 </p>
 
 <h2>EARLY PERFORMANCE </h2>
