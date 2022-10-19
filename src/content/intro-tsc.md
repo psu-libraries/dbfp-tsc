@@ -40,7 +40,7 @@ order: 10
 
 <h2>EARLY PUBLICATION  </h2>
 
-<p><i>The Spanish Curate</i> was first published in <i>Comedies and Tragedies Written by Francis Beavmont And Iohn Fletcher Gentlemen</i> (1647, Wing B1581), the first folio edition of plays in the Beaumont and Fletcher canon. The copy of the 1647 folio that serves as the base text for this edition contains annotations in a seventeenth-century hand. These notes appear in three plays, including <i>The Spanish Curate</i>. The manuscript notes seem related to performance, as they note upcoming entrances, the timing of those entrances, the ends of acts, and required props. For more about the annotations, please refer to <a href="">About the Book</a>. For a description of how these notes are handled in the encoding of the edition, please see <a href="./editorial-principles-tsc.md">Editorial Principles: The Spanish Curate</a>. 
+<p><i>The Spanish Curate</i> was first published in <i>Comedies and Tragedies Written by Francis Beavmont And Iohn Fletcher Gentlemen</i> (1647, Wing B1581), the first folio edition of plays in the Beaumont and Fletcher canon. The copy of the 1647 folio that serves as the base text for this edition contains annotations in a seventeenth-century hand. These notes appear in three plays, including <i>The Spanish Curate</i>. The manuscript notes seem related to performance, as they note upcoming entrances, the timing of those entrances, the ends of acts, and required props. For more about the annotations, please refer to <a href="https://openpublishing.psu.edu/digital-beaumont-fletcher-about-book">About the Book</a>. For a description of how these notes are handled in the encoding of the edition, please see <a href="./editorial-principles-tsc.md">Editorial Principles: The Spanish Curate</a>. 
 </p>
 
 <p><img src="./tsc-img1.png"/></p>
@@ -137,3 +137,16 @@ And thou shalt be learned old Vicar.
 <li>Amaranta and Violante are foils in this play. Everywhere that Violante is aggressive and petty, Amaranta is patient and mild. However, both women are in relationships where their partners seek to control them. The conclusion of the play states that there are wrong and right women to marry. More specifically, makes the case that heterosexual relationships should be run by men, as if women make the decisions, things can fall apart. In short, women tend to cause issues in the relationship, not the men.  </li>
 </ul>
 </p>
+
+<h2>FURTHER READING</h2>
+<p>There is very little scholarship on <i>The Spanish Curate</i>. Articles that take <i>The Spanish Curate</i> as a central focus mostly focus on questions of authorship, broadly speaking. For example, Edward M. Wilson’s “Did John Fletcher Read Spanish?” uses the play as a way to study Fletcher’s linguistic abilities, which Wilson believes were not developed to the point of being a Spanish reader (Wilson 1948, 187). Jeffrey Kahan’s “<i>The Double Falshood</i> and <i>The Spanish Curate</i>: A Further Fletcher Connection” considers the possibility that <i>The Spanish Curate</i> could tell us something new about a lost Shakespeare play (Kahan 2007, 34-35).  While Kahan analyzes names and some of the plot in the short article, the general treatment of <i>The Spanish Curate</i> is in service to Kahan’s argument on Double Falshood. In short, <i>The Spanish Curate</i> has not garnered the same attention as other plays published in the 1647 folio. 
+ </p>
+ <p>An old-spelling edition of <i>The Spanish Curate</i>, edited by Robert Kean Turner, appears in <i>The Dramatic Works in the Beaumont and Fletcher Canon</i>, vol. 10 (Cambridge University Press, 1994), 295-424.
+ </p>
+ 
+ <h2><span>REFERENCES</span><br/></h2>
+<p><span>Hay, Cyrus. “The Shares of Fletcher and His Collaborators in the Beaumont and Fletcher Canon (II).” <i>Studies in Biography</i>, Vol. 9, University of Virginia, 1957.</span><br/></p>
+<p><span>Kahan, Jeffry. “The Double Falshood and The Spanish Curate: A Further Fletcher Connection.” <i>ANQ</i>. Vol 20, 2007, 34-36. </span><br/></p>
+<p><span>Turner, Robert Kean. “Textual Introduction.” in <i>The Dramatic Works in the Beaumont and Fletcher Canon</i>. ed. Fredson Bowers, Cambridge, 1996, 295.  </span><br/></p>
+<p><span>Wilson, Edward M. “Did John Fletcher Read Spanish?”. <i>Philological Quarterly</i>, Iowa City, Vol. 27, 1948, 187-190. </span><br/></p>
+ 
