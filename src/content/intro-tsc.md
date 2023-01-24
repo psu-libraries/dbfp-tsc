@@ -15,7 +15,7 @@ order: 10
 <p>The secondary plot follows Bartolus’ overbearing marriage to Amaranta. Jamie tells the desirous Leandro that Amaranta is said to be incredibly beautiful, but that Bartolus keeps her at home. Leandro disguises himself as a law student, and by tricking Lopez and Diego, the local curate and sexton, finds himself pretending to study law and living in Bartolus’ house. Other characters help trick Bartolus and he eventually realizes his overbearing nature. Despite Leandro’s lusty overtures, Amaranta remains faithful to Bartolus. 
 </p>
 
-<p>For a more detailed description of the plot, see the <a href="./plot-summary-tsc.md">scene-by-scene plot summary</a>.
+<p>For a more detailed description of the plot, see the <a href="./content/plot-summary-tsc/">scene-by-scene plot summary</a>.
 </p>
 
 <h2>AUTHORSHIP
@@ -27,7 +27,7 @@ order: 10
 <h2>SOURCES
 </h2>
 
-<p>The plot of <i>The Spanish Curate</i> was not invented for the play. Instead, the plot was borrowed from <i>Poema trágico del español Gerardo, y desengaño del amor lascivo</i>, written by the Spanish author Gonzalo de Céspedes y Meneses and <a href="https://www.ustc.ac.uk/editions/5023295">first published in Madrid in 1615</a>. <i>Poema tràgico del español Gerardo</i> was translated into English by Leonard Digges and published in 1622 as <i><a href"http://estc.bl.uk/S107646">Gerardo, the Unfortunate Spaniard; or, a Pattern for Lascivious Lovers</a></i>.  
+<p>The plot of <i>The Spanish Curate</i> was not invented for the play. Instead, the plot was borrowed from <i>Poema trágico del español Gerardo, y desengaño del amor lascivo</i>, written by the Spanish author Gonzalo de Céspedes y Meneses and <a href="https://www.ustc.ac.uk/editions/5023295">first published in Madrid in 1615</a>. <i>Poema tràgico del español Gerardo</i> was translated into English by Leonard Digges and published in 1622 as <i><a href="http://estc.bl.uk/S107646">Gerardo, the Unfortunate Spaniard; or, a Pattern for Lascivious Lovers</a></i>.  
 </p>
 
 <p>The play is very likely based on the translation, rather than on the Spanish text. As Robert Kean Turner noted, the contents of the letter written by Alonzo Tiveria to Lopez as printed in the folio edition is “identical” to the version that appears in the translation, except for a few minor variants (Turner, 1996). 
