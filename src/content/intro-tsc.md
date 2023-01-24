@@ -35,27 +35,27 @@ order: 10
 
 <h2>EARLY PERFORMANCE </h2>
 
-<p><i>The Spanish Curate</i> was first performed by The King’s Men in December 1622, the same year the play was written. The play was popular before 1640, and after the re-opening of the theaters in 1660, it was regularly performed. <a href="https://www.eighteenthcenturydrama.amdigital.co.uk/LondonStage/Database">There are sixteen known performances from 1661-1783</a>.  
+<p><i>The Spanish Curate</i> was first performed by The King’s Men in December 1622, the same year the play was written. The play was popular before 1640, and after the re-opening of the theaters in 1660, it was regularly performed. According to the <a href="https://www.eighteenthcenturydrama.amdigital.co.uk/LondonStage/Database">London Stage Database</a>, the play is known to have been performed thirteen times between 1661 and 1783.  
 </p>
 
 <h2>EARLY PUBLICATION  </h2>
 
-<p><i>The Spanish Curate</i> was first published in <i>Comedies and Tragedies Written by Francis Beavmont And Iohn Fletcher Gentlemen</i> (1647, Wing B1581), the first folio edition of plays in the Beaumont and Fletcher canon. The copy of the 1647 folio that serves as the base text for this edition contains annotations in a seventeenth-century hand. These notes appear in three plays, including <i>The Spanish Curate</i>. The manuscript notes seem related to performance, as they note upcoming entrances, the timing of those entrances, the ends of acts, and required props. For more about the annotations, please refer to <a href="https://openpublishing.psu.edu/digital-beaumont-fletcher-about-book">About the Book</a>. For a description of how these notes are handled in the encoding of the edition, please see <a href="./editorial-principles-tsc.md">Editorial Principles: The Spanish Curate</a>. 
+<p><i>The Spanish Curate</i> was first published in <i>Comedies and Tragedies Written by Francis Beavmont And Iohn Fletcher Gentlemen</i> (1647, Wing B1581), the first folio edition of plays in the Beaumont and Fletcher canon. The copy of the 1647 folio that serves as the base text for this edition contains annotations in a seventeenth-century hand. These notes appear in three plays, including <i>The Spanish Curate</i>. The manuscript notes seem related to performance, as they note upcoming entrances, the timing of those entrances, the ends of acts, and required props. For more about the annotations, please refer to <a href="https://openpublishing.psu.edu/digital-beaumont-fletcher-about-book">About the Book</a>. For a description of how these notes are handled in the encoding of the edition, please see <a href="./content/editorial-principles-tsc/">Editorial Principles: The Spanish Curate</a>. 
 </p>
 
-<p><img src="./tsc-img1.png"/></p>
+<p><img src="./content/tsc-img1.png"/></p>
 <p>The cross-hatched lines, seen above, mark a character’s entrance (3.4.13). 
 </p>
 
-<p><img src="./tsc-img2.png"/></p>
+<p><img src="./content/tsc-img2.png"/></p>
 <p>The manuscript note above reads “Henrique be ready” (1.1.100). These notes call attention to a character’s upcoming entrance onto the stage.   
 </p>
 
-<p><img src="./tsc-img3.png"/></p>
+<p><img src="./content/tsc-img3.png"/></p>
 <p>The manuscript note above, which reads “Dance” denotes a dance which could occur at this point in the scene (3.2.108). The 1679 folio inserts a song at this moment in the scene, which means the annotator knew of the possible inclusion of a song that was omitted from the 1647 folio’s copy of <i>The Spanish Curate</i>.   
 </p>
 
-<p><img src="./tsc-img4.png"/></p>
+<p><img src="./content/tsc-img4.png"/></p>
 <p>The manuscript mark above notes the end of Act 4 (4.7.104).  
 </p>
 
