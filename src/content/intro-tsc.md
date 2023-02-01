@@ -15,7 +15,7 @@ order: 10
 <p>The secondary plot follows Bartolus’ overbearing marriage to Amaranta. Jamie tells the desirous Leandro that Amaranta is said to be incredibly beautiful, but that Bartolus keeps her at home. Leandro disguises himself as a law student, and by tricking Lopez and Diego, the local curate and sexton, finds himself pretending to study law and living in Bartolus’ house. Other characters help trick Bartolus and he eventually realizes his overbearing nature. Despite Leandro’s lusty overtures, Amaranta remains faithful to Bartolus. 
 </p>
 
-<p>For a more detailed description of the plot, see the <a href="./plot-summary-tsc/">scene-by-scene plot summary</a>.
+<p>For a more detailed description of the plot, see the <a href="/plot-summary-tsc/">scene-by-scene plot summary</a>.
 </p>
 
 <h2>AUTHORSHIP
@@ -40,22 +40,22 @@ order: 10
 
 <h2>EARLY PUBLICATION  </h2>
 
-<p><i>The Spanish Curate</i> was first published in <i>Comedies and Tragedies Written by Francis Beavmont And Iohn Fletcher Gentlemen</i> (1647, Wing B1581), the first folio edition of plays in the Beaumont and Fletcher canon. The copy of the 1647 folio that serves as the base text for this edition contains annotations in a seventeenth-century hand. These notes appear in three plays, including <i>The Spanish Curate</i>. The manuscript notes seem related to performance, as they note upcoming entrances, the timing of those entrances, the ends of acts, and required props. For more about the annotations, please refer to <a href="https://openpublishing.psu.edu/digital-beaumont-fletcher-about-book">About the Book</a>. For a description of how these notes are handled in the encoding of the edition, please see <a href="./editorial-principles-tsc/">Editorial Principles: The Spanish Curate</a>. 
+<p><i>The Spanish Curate</i> was first published in <i>Comedies and Tragedies Written by Francis Beavmont And Iohn Fletcher Gentlemen</i> (1647, Wing B1581), the first folio edition of plays in the Beaumont and Fletcher canon. The copy of the 1647 folio that serves as the base text for this edition contains annotations in a seventeenth-century hand. These notes appear in three plays, including <i>The Spanish Curate</i>. The manuscript notes seem related to performance, as they note upcoming entrances, the timing of those entrances, the ends of acts, and required props. For more about the annotations, please refer to <a href="https://openpublishing.psu.edu/digital-beaumont-fletcher-about-book">About the Book</a>. For a description of how these notes are handled in the encoding of the edition, please see <a href="/editorial-principles-tsc/">Editorial Principles: The Spanish Curate</a>. 
 </p>
 
-<p><img src="./tsc-img1.png"/></p>
+<p><img src="/tsc-img1.png"/></p>
 <p>The cross-hatched lines, seen above, mark a character’s entrance (3.4.13). 
 </p>
 
-<p><img src="./tsc-img2.png"/></p>
+<p><img src="/tsc-img2.png"/></p>
 <p>The manuscript note above reads “Henrique be ready” (1.1.100). These notes call attention to a character’s upcoming entrance onto the stage.   
 </p>
 
-<p><img src="./tsc-img3.png"/></p>
+<p><img src="/tsc-img3.png"/></p>
 <p>The manuscript note above, which reads “Dance” denotes a dance which could occur at this point in the scene (3.2.108). The 1679 folio inserts a song at this moment in the scene, which means the annotator knew of the possible inclusion of a song that was omitted from the 1647 folio’s copy of <i>The Spanish Curate</i>.   
 </p>
 
-<p><img src="./tsc-img4.png"/></p>
+<p><img src="/tsc-img4.png"/></p>
 <p>The manuscript mark above notes the end of Act 4 (4.7.104).  
 </p>
 
@@ -133,7 +133,7 @@ And thou shalt be learned old Vicar.
 <p>Gender & Family:
 <ul>
 <li>Amaranta and Bartolus’ relationship is presented as unhealthy. Bartolus insists on keeping Amaranta at home, claiming that she is more beautiful that way because she is so rarely seen that her presence becomes more valuable when she is out of the house (2.2.1-9) He fears that men will attempt to seduce Amaranta, but quickly forgets about his fears when Leandro offers to pay Bartolus to study with him. Bartolus, here, like in other moments of the play, is convinced by money.  Despite Bartolus’ fears, Amaranta is able to hold her own against Leandro’s plot to seduce her, and at the end of the play, shows herself to be a faithful wife. </li>
-<li>Another driving force in the plot is the revelation of Ascanio’s true parentage. Violante is sure that because Henrique had a child before he married her, he came to their marriage bed less able to produce a child (4.1.8-11).  Before the truth is revealed, Violante cannot understand why she and Henrique have not had children. Violante’s inability to conceive is reasoned, in the play, to have to do with God and heaven, rather than any biological reason (1.3.1-7). At the end of the play, when Violante’s scheme to murder her husband (5.1.87-94) is revealed the Assistant warns the men on stage to not be weak in comparison to women, as they will surely suffer if they do (5.3.154-155).  </li>
+<li>Another driving force in the plot is the revelation of Ascanio’s true parentage. Violante is sure that because Henrique had a child before he married her, he came to their marriage bed less able to produce a child (4.1.8-11).  Before the truth is revealed, Violante cannot understand why she and Henrique have not had children. Violante’s inability to conceive is reasoned, in the play, to have to do with God and heaven, rather than any biological reason (1.3.1-7). At the end of the play, when Violante’s scheme to murder her husband (5.1.87-94) is revealed the Assistant warns the men on stage to not be weak in comparison to women, as they will surely suffer if they do (5.3.154-155).</li>
 <li>Amaranta and Violante are foils in this play. Everywhere that Violante is aggressive and petty, Amaranta is patient and mild. However, both women are in relationships where their partners seek to control them. The conclusion of the play states that there are wrong and right women to marry. More specifically, makes the case that heterosexual relationships should be run by men, as if women make the decisions, things can fall apart. In short, women tend to cause issues in the relationship, not the men.  </li>
 </ul>
 </p>
