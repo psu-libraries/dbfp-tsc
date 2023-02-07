@@ -680,11 +680,12 @@ tei-hi[rend="ornInit"] {
   color: #903;
   float: left;
   font-family: Georgia;
-  font-size: 75px;
-  line-height: 60px;
+  font-weight: bold;
+  /* font-size: 75px;
+  line-height: 60px; */
   /* padding-top: 4px;
   padding-right: 8px;*/
-  padding-left: 0.25em; 
+  /* padding-left: 0.25em; */
 }
 tei-hi {
   /* GLS: do we want to bold this or change the background color? */
@@ -1672,7 +1673,6 @@ tei-stage {
   font-style: italic;
 }
 tei-stage:not([place]){
-  color:purple;
   display: inline-block;
   margin-right:0px;
 }
@@ -1757,6 +1757,12 @@ tei-superEntry {
 }
 tei-supplied {
   /* not sure on this one, seems like we should indicate somehow. Is there a standard way to do this? */
+}
+tei-supplied:before {
+  content: "[ ";
+}
+tei-supplied:after {
+  content: " ]";
 }
 tei-support {
   /* Empty Set Rule */
