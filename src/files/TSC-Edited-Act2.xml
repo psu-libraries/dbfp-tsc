@@ -231,10 +231,10 @@
         </castList>
      </front>
       <body>
-         <div xml:id="act2">
+         <div xml:id="act2" type="act" n="2">
                     <div xml:id="act2s1" type="scene" n="1">
                     <head>Act Two. Scene One.</head>
-                    <stage type="entrance" place="center">Enter <persName>Leandro</persName> [disguised] (with a letter written out), <persName>Milanes</persName>, and <persName>Arsenio</persName></stage>
+                    <stage type="entrance" place="center">Enter <persName>Leandro</persName> <supplied resp="#mim">disguised</supplied> (with a letter written out), <persName>Milanes</persName>, and <persName>Arsenio</persName></stage>
                         <sp who="#Ang">
                             <speaker>Milanes.</speaker>
                             <lg>
@@ -244,7 +244,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">Wonder on;</l>
+                                <l rend="center">Wonder on;</l>
                                 <l>I am as ye see and what will follow, gentlemen.</l>
                             </lg>
                         </sp>
@@ -258,8 +258,7 @@
                         <sp who="#Ang">
                             <speaker>Milanes.</speaker>
                             <lg>
-                                <l rend="right">Like a young Clerk<note resp="#mim" type="annotation">
-                                    <term>Clerk</term></note>,</l>
+                                <l rend="center">Like a young clerk,</l>
                                 <l>A half-pinned-puppy<note resp="#mim" type="gloss">
                                     <term>half-pinned-puppy</term>: half-confined puppy</note> that would write for a royal.</l>
                                 <l>Is this a commanding shape to win a beauty?</l>
@@ -269,7 +268,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">Peace, ye are fools;</l>
+                                <l rend="center">Peace, ye are fools;</l>
                                 <l>More silly than my outside. Seems ye are ignorant;</l>
                                 <l>They that pretend to wonders must weave cunningly.</l>
                             </lg>
@@ -284,7 +283,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">Will ye but leave me?</l>
+                                <l rend="center">Will ye but leave me?</l>
                             </lg>
                         </sp>
                         <sp who="#Ang">
@@ -302,7 +301,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">Ye are cozened, (gentlemen);<note type="mansNote" resp="#formerOwner" subtype="beReady">Lop: Diegoe be ready.</note></l>
+                                <l rend="center">Ye are cozened, (gentlemen);<note type="mansNote" resp="#formerOwner" subtype="beReady"><supplied>Manuscript note:</supplied> Lop: Diegoe be ready.</note></l>
                                 <l>Neither do I believe this, nor will follow it,</l>
                                 <l>Thus I am. I will begin my voyage.</l>
                                 <l>When you love, launch it out in silks and velvets.</l>
@@ -324,7 +323,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">Leave that to me, your patience;</l>
+                                <l rend="center">Leave that to me, your patience;</l>
                                 <l>I have some toys here that I dare well trust to:</l>
                                 <l>I have smelt a vicar<note resp="#mim" type="annotation">
                                     <term>vicar</term>: earthly representative of God</note> out; they call him <persName>Lopez</persName>.</l>
@@ -333,7 +332,7 @@
                         <sp who="#Ang">
                             <speaker>Milanes.</speaker>
                             <lg>
-                                <l rend="right">We do confess it.</l>
+                                <l rend="center">We do confess it.</l>
                             </lg>
                         </sp>
                         <sp who="#Lea">
@@ -346,7 +345,7 @@
                         <sp who="#Ars">
                             <speaker>Arsenio.</speaker>
                             <lg>
-                                <l rend="right">What can this do?</l>
+                                <l rend="center">What can this do?</l>
                             </lg>
                         </sp>
                         <sp who="#Ang">
@@ -358,7 +357,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">So?</l>
+                                <l rend="center">So?</l>
                             </lg>
                         </sp>
                         <sp who="#Ars">
@@ -368,7 +367,7 @@
                                 <l>Can reading of an — — prefer thee?</l>
                                 <l>Thou art dead-sick in love<note resp="#mim" type="annotation">
                                     <term>dead-sick in love</term>: completely in love; as in love as one can be</note>, and he'll pray for thee.
-                                <note resp="#mim" type="editorial">: In the first folio, the line "Thou art dead-sick in love, and hee'l pray for thee" is assigned to Leandro. However, since Leandro is the one in love, and has been made fun of by Arsenio in the lines prior, this line should actually be assigned to Arsenio. The line is assigned to Arsenio in the second folio and in Bowers' scholarly edition, an editorial choice that I agree with and thus have implimented in this modernization.</note></l>
+                                    <note resp="#mim" type="editorial"><term>Thou art dead-sick in love, and he'll pray for thee.</term>: In the first folio, this line is assigned to Leandro. However, since Leandro is the one in love, and has been made fun of by Arsenio in the lines prior, this line should actually be assigned to Arsenio. The line is assigned to Arsenio in the second folio and in Bowers' scholarly edition, an editorial choice that I agree with and thus have implimented in this modernization.</note></l>
                             </lg>
                         </sp>
                         <sp who="#Lea">
@@ -389,11 +388,12 @@
                                 <l>Or — —</l>
                             </lg> 
                         </sp>
-                        <stage type="enter" place="center">Enter <persName>Lopez</persName> and <persName>Diego</persName>.</stage><note type="mansNote" resp="formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>                       
+                        <stage type="enter" place="center">Enter <persName>Lopez</persName> and <persName>Diego</persName>.<note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">
+                            <supplied>Manuscript note:</supplied> Cross-hatched lines.</note></stage>                       
                         <sp who="#Ang">
                             <speaker>Milanes.</speaker>
                             <lg>
-                                <l rend="right">Peace, the vicar: send ye a full sail, sir.</l>
+                                <l rend="center">Peace, the vicar: send ye a full sail, sir.</l>
                             </lg>
                         </sp>
                         <sp who="#Ars">
@@ -413,10 +413,10 @@
                         <sp who="#Ang">
                             <speaker>Milanes.</speaker>
                             <lg>
-                                <l rend="right">We will be ready.</l>
+                                <l rend="center">We will be ready.</l>
                             </lg>
                         </sp>
-                        <stage type="exit" place="right">Exit [<persName>Milanes</persName> and <persName>Arsenio</persName>].</stage>
+                        <stage type="exit" place="right">Exit <supplied resp="#mim"><persName>Milanes</persName> and <persName>Arsenio</persName></supplied>.</stage>
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
@@ -425,9 +425,9 @@
                         </sp>
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
-                            <stage resp="#mim" type="business">[stepping back]</stage>
+                            <stage resp="#mim" type="business">stepping back</stage>
                             <lg>
-                                <l rend="right">I'll let him breathe and mark him;</l>
+                                <l rend="center">I'll let him breathe and mark him;</l>
                                 <l>No man would think a stranger as I am</l>
                                 <l>Should reap any great commodity from his pigbelly.</l>
                             </lg>
@@ -441,8 +441,8 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">And poor sextons<note resp="#mim" type="annotation">
-                                    <term>sextons</term>: manager of church</note>.</l>
+                                <l rend="center">And poor sextons<note resp="#mim" type="annotation">
+                                    <term>sextons</term>: church managers</note>.</l>
                             </lg>
                         </sp>
                         <sp who="#Lop">
@@ -475,7 +475,7 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">Not this ten weeks:</l>
+                                <l rend="center">Not this ten weeks:</l>
                                 <l>Alas, they have forgot to get children, (master).</l>
                                 <l>The wars, the <placeName>seas</placeName>, and usury undo us,</l>
                                 <l>Takes off our minds, our edges, blunts our plough-shares,</l>
@@ -490,7 +490,7 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">Your gallants, they get honour,</l>
+                                <l rend="center">Your gallants, they get honour,</l>
                                 <l>A strange fantastical birth, to defraud the vicar,</l>
                                 <l>And the camp christens their issues, or the courtesans<note resp="#mim" type="gloss">
                                     <term>courtesans</term>: sex workers, prostitutes</note>,</l>
@@ -500,7 +500,7 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">They are so hard-hearted here, too;</l>
+                                <l rend="center">They are so hard-hearted here, too;</l>
                                 <l>They will not die; there's nothing got by burials.</l> 
                             </lg>
                         </sp>
@@ -515,7 +515,7 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">Good sensible master,</l>
+                                <l rend="center">Good sensible master,</l>
                                 <l>You are allowed to pray against all weathers,</l> 
                                 <l>(Both foul and fair as you shall find occasion).</l>
                                 <l>Why not against all airs<note resp="#mim" type="annotation">
@@ -525,7 +525,7 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">That's not i'th'canons<note resp="#mim" type="annotation">
+                                <l rend="center">That's not i'th'canons<note resp="#mim" type="annotation">
                                     <term>canons</term>: rules of the Catholic Church</note>,</l>
                                 <l>I would it had: 'tis out of our way forty pence<note resp="#mim" type="annotation">
                                     <term>pence</term>: monetary unity and coin of England</note>.</l>
@@ -547,7 +547,7 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">Peace, <persName>Diego</persName>.</l>
+                                <l rend="center">Peace, <persName>Diego</persName>.</l>
                                 <l>The doctors are our friends, let's please them well;</l>
                                 <l>For though they kill but slow, they are certain, (<persName>Diego</persName>),</l>
                                 <l>We must remove into a muddy air<note resp="#mim" type="gloss">
@@ -558,7 +558,7 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">We must certain,</l>
+                                <l rend="center">We must certain,</l>
                                 <l>An air that is the nursery of agues.</l>
                                 <l>Such agues, (master), that will shake men's souls out,</l>
                                 <l>Ne're stay for possets<note resp="#mim" type="annotation">
@@ -576,7 +576,7 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">The dead does well at all times,</l>
+                                <l rend="center">The dead does well at all times,</l>
                                 <l>Yet gouts will hang an arise a long time, (master).</l>
                                 <l>The pox, or English surfets, if we had 'em;</l>
                                 <l>Those are rich marl<note resp="#mim" type="gloss">
@@ -595,21 +595,21 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">Would I could see' em.</l>
+                                <l rend="center">Would I could see' em.</l>
                             </lg>
                         </sp>
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
                                 <l>And though I weep i'th' pulpit<note resp="#mim" type="annotation">
-                                    <term>pulpit</term>: "A raised, enclosed platform in a church or chapel (or sometimes on the outside of the building), sometimes with a canopy and usually with a desk, seat, etc., from which the preacher delivers a sermon, or from which (in some denominations) the officiating minister conducts the service."</note> for my brother,</l>
+                                    <term>pulpit</term>: "A raised, enclosed platform in a church or chapel (or sometimes on the outside of the building), sometimes with a canopy and usually with a desk, seat, etc., from which the preacher delivers a sermon, or from which (in some denominations) the officiating minister conducts the service." (OED)</note> for my brother,</l>
                                 <l>Yet, (<persName>Diego</persName>), here I laugh.</l> 
                             </lg>
                         </sp>
                         <sp who="Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">The cause requires it.</l>
+                                <l rend="center">The cause requires it.</l>
                             </lg>
                         </sp>
                         <sp who="#Lop">
@@ -621,19 +621,19 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">'Tis a strange thing; I have forgot to dig, too.</l>
+                                <l rend="center">'Tis a strange thing; I have forgot to dig, too.</l>
                             </lg>
                         </sp>
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
-                            <stage resp="#mim" type="delivery">[aside as he steps forward]</stage>
+                            <stage resp="#mim" type="delivery">aside as he steps forward</stage>
                             <lg>
                                 <l>A pretious pair of youths; I must make toward 'em.</l>
                             </lg>
                         </sp>
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
-                            <stage resp="#mim" type="delivery">[aside to <persName>Diego</persName>]</stage>
+                            <stage resp="#mim" type="delivery">aside to <persName>Diego</persName></stage>
                             <lg>
                                 <l>Who's that? Look out, it seems he would speak to us.</l>
                                 <l>I hope a marriage or some will to make, (<persName>Diego</persName>).</l>
@@ -648,14 +648,14 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">'Tis to that grave,  gentleman;</l>
+                                <l rend="center">'Tis to that grave,  gentleman;</l>
                                 <l>Bless your good learning, (sir).</l>
                             </lg>
                         </sp>
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">And bless you also;</l>
+                                <l rend="center">And bless you also;</l>
                                 <l>He bears a promising face, there's some hope toward.</l> 
                             </lg>
                         </sp>
@@ -668,7 +668,7 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">Well sir,</l>
+                                <l rend="center">Well sir,</l>
                                 <l>From whence, I pray you?</l>
                             </lg>
                         </sp>
@@ -685,12 +685,12 @@
                             <speaker>Lopez.</speaker>
                             <lg>
                                 <l>'Tis well, (sir),</l>
-                                <l>'Tis very well. <stage resp="#mim">[aside to <persName>Diego</persName>].</stage> The <persName>devil</persName> a-one I know there.</l>
+                                <l>'Tis very well. <stage resp="#mim">aside to <persName>Diego</persName>.</stage> The <persName>devil</persName> a-one I know there.</l>
                             </lg>
                         </sp>
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
-                            <stage resp="#mim" type="delivery">[aside to <persName>Lopez</persName>]</stage>
+                            <stage resp="#mim" type="delivery">aside to <persName>Lopez</persName></stage>
                             <lg>
                                 <l>Take heed of a snap,<note resp="#mim" type="gloss">
                                     <term>snap</term>: swindler</note> (sir), has a cozening countenance<note resp="#mim" type="gloss">
@@ -700,27 +700,27 @@
                         </sp>
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
-                            <stage resp="#mim" type="delivery">[aside to <persName>Diego</persName>]</stage>
+                            <stage resp="#mim" type="delivery">aside to <persName>Diego</persName></stage>
                             <lg>
-                                <l rend="right">Let him go forward.</l>
+                                <l rend="center">Let him go forward.</l>
                                 <l><hi rend="italic">Cantabit Vacuus</hi><note resp="#mim" type="annotation">
                                     <term>Cantabit Vacuus</term>: Cantabit Vacuus is a refrence to the longer Latin phrase, "Cantabit vacuus coram latrone viator" which translates to "the empty-handed traveler sings in front of the robber." Lopez is telling Diego to take the chance in trusting Leandro as they have little to lose.</note>, they that have nothing fear nothing;</l>
                                 <l>All I have to lose, (<persName>Diego</persName>), is my learning,</l>
                                 <l>And when he has gotten that, he may put it in a nutshell<note resp="#mim" type="annotation">
                                     <term>nutshell</term>: something of little value</note>.</l>
                             </lg>
-                            <stage type="delivery" place="center">Letter Read [by <persName>Lopez</persName>].</stage>
+                            <stage type="delivery" place="center">Letter Read <supplied resp="#mim">by <persName>Lopez</persName></supplied>.</stage>
                             <floatingText>
                                 <body>
                                     <div type="letter" rend="italics">
                                         <salute>Signor <persName rend="roman">Lopez</persName>,</salute> 
                                         <p>Since my arrival from<placeName>Cordoba</placeName>to these<lb/>
                                             parts, I have written diverse letters unto you but as<lb/>
-                                            yet received no answer of any. <stage resp="#mim">[<persName>Lopez</persName>:]</stage> 
+                                            yet received no answer of any. <stage resp="#mim"><persName>Lopez</persName>:</stage> 
                                             <hi rend="roman">(Good and very good).</hi> And<lb/>
                                             although so great a forgetfulness might cause a want in my<lb/>
                                             due correspondence, yet the desire I have still to serve you<lb/>
-                                            must more prevail with me <stage resp="#mim">[<persName>Lopez</persName>:]</stage> 
+                                            must more prevail with me <stage resp="#mim"><persName>Lopez</persName>:</stage> 
                                             <hi rend="roman">(Better and better: the <persName>Devil</persName><lb/>
                                             a man know I yet)</hi> and therefore with the present occasion<lb/>
                                             offered I am willing to crave a continuance of the favours,<lb/>
@@ -737,7 +737,7 @@
                                 </body>
                             </floatingText>
                             <l><persName>Alonzo Tiveria</persName>, very well.</l> 
-                            <l rend="right">A very ancient friend of mine I take it,</l>
+                            <l rend="center">A very ancient friend of mine I take it,</l>
                             <l>For till this hour I never heard his name, yet.</l>
                         </sp>
                         <sp who="#Lea">
@@ -757,7 +757,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">The same, (sir).</l>
+                                <l rend="center">The same, (sir).</l>
                             </lg>
                         </sp>
                         <sp who="#Lop">
@@ -776,14 +776,14 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">He may be anywhere,</l> 
+                                <l rend="center">He may be anywhere,</l> 
                                 <l>For ought I consider.</l>
                             </lg>
                         </sp>
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">Think again, (sir).</l>
+                                <l rend="center">Think again, (sir).</l>
                                 <l>You were students both at one time in <placeName>Salamanca<note resp="#mim" type="gloss">
                                     <term>Salamanca</term>: city in Northwestern Spain</note>,</placeName></l>
                                 <l>And, as I take it, chamber fellows<note resp="#mim" type="gloss">
@@ -793,7 +793,7 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">Ha?</l> 
+                                <l rend="center">Ha?</l> 
                             </lg>
                         </sp>
                         <sp who="#Lea">
@@ -805,7 +805,7 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">Would I could.</l>
+                                <l rend="center">Would I could.</l>
                             </lg>
                         </sp>
                         <sp who="#Lea">
@@ -817,7 +817,7 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">Very likely,</l>
+                                <l rend="center">Very likely,</l>
                                 <l>You did not hear him say, to whom? For we students</l> 
                                 <l>May often-times over-reach our memories.</l>
                                 <l>Do'st thou remember, (<persName>Diego</persName>), this same Signiour?</l>
@@ -827,7 +827,7 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">Remember?</l>
+                                <l rend="center">Remember?</l>
                                 <l>Why, this fellow would make ye mad: <placeName>Nova Hispania</placeName>?</l> 
                                 <l>And Signiour <persName>Tiveria</persName>? what are these?</l>
                                 <l>He may as well name ye friends out of <placeName>Cathay</placeName><note resp="#mim" type="gloss">
@@ -839,7 +839,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">Not any letter,</l> 
+                                <l rend="center">Not any letter,</l> 
                                 <l>But I was charged to do my father's love</l>
                                 <l>To the old honest sexton, <persName>Diego</persName>. Are you he, (sir?)</l>
                             </lg>
@@ -858,7 +858,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">It seems I am deceived, (sir).</l>
+                                <l rend="center">It seems I am deceived, (sir).</l>
                                 <pb n="TSP-007"
                                     facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4387/rec/4"/>
                                 <l>Yet, that you are <persName><roleName>Don</roleName> Lopez</persName>, all men tell me,</l> 
@@ -878,7 +878,7 @@
                         <sp who="#Lop">
                            <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">Good sir, let me think;</l> 
+                                <l rend="center">Good sir, let me think;</l> 
                                 <l>I pray ye be patient. Pray ye stay a little.</l>
                                 <l>Nay, let me remember, I beseech ye stay, sir.<note resp="#mim" type="editorial">In the first folio, the lines "Good sir, let me think; / I oray ye be patient." are assigned to Leandro's speech above. 
                                     However, the second folio assigns the the lines to Lopez, combining the lines previously assigned to Leandro to Lopez's 
@@ -889,7 +889,7 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">An honest noble friend, that sends so lovingly;</l>
+                                <l rend="center">An honest noble friend, that sends so lovingly;</l>
                                 <l>An old friend too; I shall remember sure, sir.</l> 
                             </lg>
                         </sp>
@@ -902,7 +902,7 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">'Pray ye consider quickly,</l>
+                                <l rend="center">'Pray ye consider quickly,</l>
                                 <l>Do, do, by any means, me thinks already</l>
                                 <l>A grave, staid gentleman<note resp="#mim" type="annotation">
                                     <term>grave, staid Gentleman</term>: serious man settled in his character</note> comes to my memory.</l>
@@ -917,7 +917,7 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">With a goodly white beard,</l>
+                                <l rend="center">With a goodly white beard,</l>
                                 <l>(For now he must be so: I know he must be)</l>
                                 <l>Signior <persName>Alonzo</persName>, (master).</l>
                             </lg>
@@ -925,7 +925,7 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">I begin to have him.</l>
+                                <l rend="center">I begin to have him.</l>
                             </lg>
                         </sp>
                         <sp who="#Die">
@@ -943,7 +943,7 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">You say most true, (sir).</l>
+                                <l rend="center">You say most true, (sir).</l>
                                 <l>Just to an hour: 'tis now just five and twenty;</l>
                                 <l>A fine striaght timbered man, and a brave soldier,</l>
                                 <l>He married: let me see—</l> 
@@ -952,7 +952,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right"><persName>De Castro</persName>'s daughter.</l>
+                                <l rend="center"><persName>De Castro</persName>'s daughter.</l>
                             </lg>
                         </sp>
                         <sp who="#Die">
@@ -963,9 +963,9 @@
                         </sp>
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
-                            <stage resp="#mim" type="delivery">[aside]</stage>
+                            <stage resp="#mim" type="delivery">aside</stage>
                             <lg>
-                                <l rend="right">Thou art a very rascal,</l>
+                                <l rend="center">Thou art a very rascal,</l>
                                 <l><persName>De Castro</persName> is the Turk to thee, or anything.</l>
                                 <l>The money rubs 'em into strange remembrances,</l> 
                                 <l>For as many ducats more they would remember <persName>Adam</persName>.</l>
@@ -987,14 +987,14 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right"><placeName>Farm,</placeName> sir.</l>
+                                <l rend="center"><placeName>Farm,</placeName> sir.</l>
                                 <l>You say most true.</l> 
                             </lg>
                         </sp>
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right"><persName>Alonzo Tiveria</persName>;</l>
+                                <l rend="center"><persName>Alonzo Tiveria</persName>;</l>
                                 <l>Lord, Lord, that time should play the treacherous knave thus?</l>
                                 <l>Why, he was the only friend I had in <placeName>Spain</placeName>, (sir).</l>
                                 <l>I knew your mother too, a handsome gentlewoman,</l>
@@ -1008,7 +1008,7 @@
                         </sp>
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
-                            <stage resp="#mim" type="delivery">[aside]</stage>
+                            <stage resp="#mim" type="delivery">aside</stage>
                             <lg>
                                 <l><persName>Lord</persName>, how I blush for these two impundents<note resp="#mim" type="gloss">
                                     <term>impudents</term>: shameless individuals</note>?</l> 
@@ -1045,17 +1045,17 @@
                         </sp>
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
-                            <stage resp="#mim" type="delivery">[aside]</stage>
+                            <stage resp="#mim" type="delivery">aside</stage>
                             <lg>
-                                <l rend="right">Sweet lying knaves,</l>
+                                <l rend="center">Sweet lying knaves,</l>
                                 <l>What would these do for thousands?</l>
                             </lg>
                         </sp>
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">A wondrous sweet boy then it was. See now</l> 
-                                <note type="mansNote" resp="#formerOwner" subtype="beReady">Bar: &amp; Ama: be ready</note><l>Time that consumes us, shoots him up still sweeter.</l>
+                                <l rend="center">A wondrous sweet boy then it was. See now</l> 
+                                <note type="mansNote" resp="#formerOwner" subtype="beReady"><supplied>Manuscript note:</supplied> Bar: &amp; Ama: be ready</note><l>Time that consumes us, shoots him up still sweeter.</l>
                                 <l>How does the noble gentleman? How fares he?</l>
                                 <l>When shall we see him? when will he bless his <placeName>country</placeName>?</l>
                             </lg>
@@ -1070,7 +1070,7 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">And welcome,</l>
+                                <l rend="center">And welcome,</l>
                                 <l>Nay, you shall know you are welcome to your friend, sir.</l>
                             </lg>
                         </sp>
@@ -1101,15 +1101,15 @@
                         </sp>
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
-                            <stage resp="#mim" type="delivery">[aside to <persName>Lopez</persName>]</stage>
+                            <stage resp="#mim" type="delivery">aside to <persName>Lopez</persName></stage>
                             <lg>
-                                <l rend="right">He's an ass,</l>
+                                <l rend="center">He's an ass,</l>
                                 <l>And so we'll use him; he shall be a lawyer.</l>
                             </lg>
                         </sp>
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
-                            <stage resp="#mim" type="delivery">[aside to <persName>Diego</persName>]</stage>
+                            <stage resp="#mim" type="delivery">aside to <persName>Diego</persName></stage>
                             <lg>
                                 <l>But if ever he recover this money again— before, <persName>Diego</persName>.</l>
                                 <l>And get some pretty pittance<note resp="#mim" type="gloss">
@@ -1123,17 +1123,17 @@
                                     <term>unlade</term>: remove a burden from</note> me.</l>
                             </lg>
                         </sp>
-                        <stage resp="#mim" type="business" place="right">[<persName>Leandro</persName> gives <persName>Lopez</persName> money].</stage>
+                        <stage resp="#mim" type="business" place="right"><persName>Leandro</persName> gives <persName>Lopez</persName> money.</stage>
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">I'll refresh ye, sir;</l>
+                                <l rend="center">I'll refresh ye, sir;</l>
                                 <l>When ye want, you know your exchequer.</l>
                             </lg>
                         </sp>
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
-                            <stage resp="#mim" type="delivery">[aside]</stage>
+                            <stage resp="#mim" type="delivery">aside</stage>
                             <lg>
                                 <l>If all this get me but access, I am happy.</l>
                             </lg>
@@ -1148,15 +1148,15 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">I'll go with ye.</l>
-                                <l><stage resp="#mim" type="delivery">[aside]</stage> To have this fort betrayed these fools must slice me.</l>
+                                <l rend="center">I'll go with ye.</l>
+                                <l><stage resp="#mim" type="delivery">aside</stage> To have this fort betrayed these fools must slice me.</l>
                             </lg>
                         </sp>
                         <stage type="exit">Exeunt.</stage>
                     </div>
                     <div xml:id="act2s2" type="scene" n="2">
                         <head>Scene Two.</head>
-                        <stage type="entrance">Enter <persName>Bartolus</persName> and <persName>Amaranta</persName>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <stage type="entrance">Enter <persName>Bartolus</persName> and <persName>Amaranta</persName>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines"><supplied>Manuscript note:</supplied> Cross-hatched lines.</note>
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
@@ -1170,7 +1170,7 @@
                                 <l>And still and the more eyes cheapen it 'tis more slobbered<note resp="#mim" type="gloss">
                                     <term>slobbered</term>: drooled over</note>,</l>
                                 <l>And what needs windows open to inviting</l>
-                                <l>Or evening terraces, to take opinions?<note type="mansNote" resp="#formerOwner" subtype="beReady">More be rea</note></l>
+                                <l>Or evening terraces, to take opinions?<note type="mansNote" resp="#formerOwner" subtype="beReady"><supplied>Manuscript note:</supplied> More be rea</note></l>
                                 <l>When the most wholesome air, (my wife), blows inward,</l>
                                 <l>When good thoughts are the noblest companions,</l>
                                 <l>And old chaste stories, (wife), the best discourses.</l>
@@ -1204,7 +1204,7 @@
                         <sp who="#Ama">
                             <speaker>Amaranta.</speaker>
                             <lg>
-                                <l rend="right">You are too covetous<note resp="#mim" type="gloss">
+                                <l rend="center">You are too covetous<note resp="#mim" type="gloss">
                                     <term>covetous</term>: greedy</note>;</l>
                                 <l>If that be ranked a virtue, you have a rich one.</l>
                                 <pb n="8"
@@ -1218,7 +1218,7 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">Peace, <persName>Amaranta</persName>.</l>
+                                <l rend="center">Peace, <persName>Amaranta</persName>.</l>
                             </lg>
                         </sp>
                         <sp who="#Ama">
@@ -1233,7 +1233,7 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">Thou shalt, too.</l>
+                                <l rend="center">Thou shalt, too.</l>
                             </lg>
                         </sp>
                         <sp who="#Ama">
@@ -1255,7 +1255,7 @@
                         <sp who="#Ama">
                             <speaker>Amaranta.</speaker>
                             <lg>
-                                <l rend="right">Here's a thing now:</l>
+                                <l rend="center">Here's a thing now:</l>
                                 <l>Ye place as pleasure to me: all my retinue<note resp="#mim" type="annotation">
                                     <term>retinue</term>: group of people in the service of another</note>:</l>
                                 <l>My chambermaid<note resp="#mim" type="annotation">
@@ -1265,10 +1265,10 @@
                                 <l>You will place the <persName>devil</persName> next for a companion.</l>
                             </lg>
                         </sp>
-                        <note type="mansNote" resp="#formerOwner" subtype="beReady">lop. lean: &amp; Diego be ready</note>
-                        <stage type="entrance" place="center">Enter [<persName>Egla</persName>].<note resp="#mim" type="editorial">
+                        <note type="mansNote" resp="#formerOwner" subtype="beReady"><supplied>Manuscript note:</supplied> lop. lean: &amp; Diego be ready</note>
+                        <stage type="entrance" place="center">Enter <supplied resp="#mim"><persName>Egla</persName></supplied>.<note resp="#mim" type="editorial">
                         Because, in a later scene, a servant is called by his given name, I decided to do the same elsewhere in the play. This stage direction originally marked an 
-                        entrance by a "Woman-Moore", but I have changed this stage direction and subsequent stage directions and speakers accordingly.</note>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        entrance by a "Woman-Moore", but I have changed this stage direction and subsequent stage directions and speakers accordingly.</note>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines"><supplied>Manuscript note:</supplied> Cross-hatched lines.</note>
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
@@ -1287,7 +1287,7 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">A stranger?</l>
+                                <l rend="center">A stranger?</l>
                             </lg>
                         </sp>
                         <sp who="#Ama">
@@ -1305,7 +1305,7 @@
                         <sp who="#Ama">
                             <speaker>Amaranta.</speaker>
                             <lg>
-                                <l rend="right">'Pray ye go out to 'em,</l>
+                                <l rend="center">'Pray ye go out to 'em,</l>
                                 <l>That will be safest for ye. I am well here,</l>
                                 <l>I only love your peace, and serve like a slave for it.</l>
                             </lg>
@@ -1319,23 +1319,23 @@
                                 <l>And return instantly.</l>
                             </lg>
                         </sp>
-                        <stage type="exit" place="center" resp="#mim">[Exit <persName>Egla</persName>].</stage>
+                        <stage type="exit" place="center" resp="#mim">Exit <persName>Egla</persName>.</stage>
                         <sp who="#Ama">
                             <speaker>Amaranta.</speaker>
                             <lg>
-                                <l rend="right">I am commanded,</l>
-                                <l>One day you will know my sufferance.—— <stage type="exit">Exit [<persName>Amaranta</persName>].</stage></l>
+                                <l rend="center">I am commanded,</l>
+                                <l>One day you will know my sufferance.—— <stage type="exit">Exit <supplied resp="#mim"><persName>Amaranta</persName></supplied>.</stage></l>
                             </lg>
                         </sp>
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">And reward it.</l>
+                                <l rend="center">And reward it.</l>
                                 <l>So, so, fast bind, fast find<note resp="#mim" type="annotation"><term>fast bind, fast find</term>: (proverb) by locking something up, you can find it quickly.</note>; Come in my neighbours,</l>
                                 <l>My loving neighbours. Pray ye come in, ye are welcome.</l>
                             </lg>
                         </sp>
-                        <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines"><supplied>Manuscript note:</supplied> Cross-hatched lines.</note>
                         <stage type="entrance" place="center">Enter <persName>Lopez</persName>, <persName>Leandro</persName>, and <persName>Diego</persName>.</stage>
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
@@ -1346,7 +1346,7 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">Good day, good master curate,</l>
+                                <l rend="center">Good day, good master curate,</l>
                                 <l>And neighbour, <persName>Diego</persName>, welcome. What's your business?</l>
                                 <l>And 'pray ye be short, (good friends), the time is precious.</l>
                                 <l>Welcome, good sir.</l>
@@ -1355,7 +1355,7 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">To be short, then, with your mastership,</l>
+                                <l rend="center">To be short, then, with your mastership,</l>
                                 <l>(For I know your several hours, are full of business);</l>
                                 <l>We have brought ye this young man, of honest parents,</l>
                                 <l>And of an honest face.</l>
@@ -1364,28 +1364,28 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">It seems so, (neighbours).</l>
+                                <l rend="center">It seems so, (neighbours).</l>
                                 <l>But to what end?</l>
                             </lg>
                         </sp>
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">To be your pupil, (sir);</l>
+                                <l rend="center">To be your pupil, (sir);</l>
                                 <l>Your servant, if you please.</l>
                             </lg>
                         </sp>
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">I have travelled far, sir.</l>
+                                <l rend="center">I have travelled far, sir.</l>
                                 <l>To seek a worthy man—</l>
                             </lg>
                         </sp>
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">Alas, good gentleman,</l>
+                                <l rend="center">Alas, good gentleman,</l>
                                 <l>I am a poor man, and a private too,</l>
                                 <l>Unfit to keep a servant of your reckoning.</l>
                                 <l>My <placeName>house</placeName> a little cottage, and scarce able</l>
@@ -1399,7 +1399,7 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">'Pray let me answer that, (sir).</l>
+                                <l rend="center">'Pray let me answer that, (sir).</l>
                                 <l>Here is five hundred ducats to secure him,</l>
                                 <l>He cannot want, (sir), to make good his credit,</l>
                                 <l>Good gold, and coin.</l>
@@ -1408,7 +1408,7 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">And that's an honest pledge;</l> 
+                                <l rend="center">And that's an honest pledge;</l> 
                                 <l>Yet sure, that needs not, for his face, and carriage<note resp="#mim" type="gloss"><term>carriage</term>: manner</note></l>
                                 <l>Seem to declare an inbred honesty.</l>
                             </lg>
@@ -1441,7 +1441,7 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">I do strangely, yes. <stage resp="#mim" type="delivery">[aside]</stage> And I like it too, thanks to his money.</l>
+                                <l rend="center">I do strangely, yes. <stage resp="#mim" type="delivery">aside</stage> And I like it too, thanks to his money.</l>
                             </lg>
                         </sp>
                         <sp who="#Die">
@@ -1459,7 +1459,7 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">So it seems,</l>
+                                <l rend="center">So it seems,</l>
                                 <l>His dear love to his study must be nourished;</l>
                                 <l>Neighbour, he's like to prove<note resp="#mim" type="gloss"><term>prove</term>: try, endeavour</note>.</l>
                             </lg>
@@ -1467,7 +1467,7 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">With your good counsel</l>
+                                <l rend="center">With your good counsel</l>
                                 <l>And with your diligence, as you will ply him;</l> 
                                 <l>His parents, when they know your care—</l>
                             </lg>
@@ -1475,7 +1475,7 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">Come hither.</l>
+                                <l rend="center">Come hither.</l>
                             </lg>
                         </sp>
                         <sp who="#Die">
@@ -1488,7 +1488,7 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">Oh, I like him better.</l> 
+                                <l rend="center">Oh, I like him better.</l> 
                                 <l>Say I should undertake ye, which indeed, (sir),</l>
                                 <l>Will be no little straightness to my living,</l>
                                 <l>Considering my affairs, and my small <placeName>house</placeName>,(sir),</l>
@@ -1505,7 +1505,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">Anything, (sir),</l>
+                                <l rend="center">Anything, (sir),</l>
                                 <l>That's dry, and wholesome; I am no bred-wanton<note resp="#mim" type="annotation"><term>bred-wanton</term>: raised to be unmanageable</note>.</l>
                             </lg>
                         </sp>
@@ -1518,9 +1518,9 @@
                         </sp>
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
-                            <stage>[gives <persName>Bartolus</persName> money]</stage>
+                            <stage resp="#mim">gives <persName>Bartolus</persName> money</stage>
                             <lg>
-                                <l rend="right">Ever<note resp="#mim" type="gloss"><term>Ever</term>: Always</note> , sir.</l>
+                                <l rend="center">Ever<note resp="#mim" type="gloss"><term>Ever</term>: Always</note> , sir.</l>
                                 <l>There's the gold, and ever be your servant,</l>
                                 <l>Take it and give me books. May I but prove, (sir),</l>
                                 <l>According to my wish, and these shall multiply.</l>
@@ -1530,7 +1530,8 @@
                             <speaker>Lopez.</speaker>
                             <lg>
                                 <l>Do study hard. Pray ye take him in, and settle him,</l>
-                                <l>He's only fit for you. Show him his cell,<note resp="#mim" type="gloss"><term>cell</term>: room</note> (sir).</l>
+                                <l>He's only fit for you. Show him his cell<note resp="#mim" type="gloss">
+                                    <term>cell</term>: room</note>, (sir).</l>
                             </lg>
                         </sp>
                         <sp who="#Die">
@@ -1557,7 +1558,7 @@
                             <lg>
                                 <l>Welcome—</l>         
                             </lg>
-                        </sp><stage type="exit" place="right">Exit [<persName>Bartolus</persName> and <persName>Leandro</persName>].</stage>
+                        </sp><stage type="exit" place="right">Exit <supplied resp="#mim"><persName>Bartolus</persName> and <persName>Leandro</persName></supplied>.</stage>
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
@@ -1569,12 +1570,12 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">Many more fools</l>
+                                <l rend="center">Many more fools</l>
                                 <l>I heartily pray may follow his example,</l>
                                 <l>Lawyers, or lubbers<note resp="#mim" type="gloss"><term>lubbers</term>: clumsy, stupid people</note>, or of what condition<note resp="#mim" type="gloss"><term>condition</term>: circumstance</note>,</l>
                                 <pb n="TSC-009"
                                     facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4389/rec/4"/>
-                                <note type="mansNote" resp="#formerOwner" subtype="beReady">Jamy Mill: arse be ready.</note><l>And many such sweet friends in <placeName>Nova Hispania</placeName>.</l>
+                                <note type="mansNote" resp="#formerOwner" subtype="beReady"><supplied>Manuscript note:</supplied> Jamy Mill: arse be ready.</note><l>And many such sweet friends in <placeName>Nova Hispania</placeName>.</l>
                             </lg>
                         </sp>
                         <sp who="#Lop">
@@ -1591,7 +1592,8 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">I'll turn trade<note resp="#mim" type="gloss"><term>turn trade</term>: change occupation</note>, (master),</l>
+                                <l rend="center">I'll turn trade<note resp="#mim" type="gloss">
+                                    <term>turn trade</term>: change occupation</note>, (master),</l>
                                 <l>And now live by the living, let the dead stink:</l>
                                 <l>'Tis a poor stinking trade.</l> 
                             </lg>
@@ -1599,8 +1601,8 @@
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l rend="right">If the young fool now</l>
-                                <l>Should chance to chop upon his fair wife ,(<persName>Diego</persName>).</l>
+                                <l rend="center">If the young fool now</l>
+                                <l>Should chance to chop upon his fair wife,(<persName>Diego</persName>).</l>
                             </lg>
                         </sp>
                         <sp who="#Die">
@@ -1629,19 +1631,20 @@
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">He is too demure, (sir).</l>
+                                <l rend="center">He is too demure, (sir).</l>
                             </lg>
                         </sp>
                         <sp who="#Lop">
                             <speaker>Lopez.</speaker>
                             <lg>
-                                <l>If he do sting her home<note resp="#mim" type="gloss"><term>sting her home</term>: make her angry</note>.</l>
+                                <l>If he do sting her home<note resp="#mim" type="gloss">
+                                    <term>sting her home</term>: make her angry</note>.</l>
                             </lg>
                         </sp>
                         <sp who="#Die">
                             <speaker>Diego.</speaker>
                             <lg>
-                                <l rend="right">There's no such matter,</l>
+                                <l rend="center">There's no such matter,</l>
                                 <l>The woman was not born to so much blessedness.</l> 
                                 <l>He has no heat: study consumes his oil, (master).</l>
                             </lg>
@@ -1661,7 +1664,7 @@
                         <head>
                             <hi rend="italic">Scene Three.</hi>
                         </head>
-                        <stage type="entrance" place="center">Enter <persName>Jamie</persName>, <persName>Milanes</persName>, and <persName>Arsenio</persName>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <stage type="entrance" place="center">Enter <persName>Jamie</persName>, <persName>Milanes</persName>, and <persName>Arsenio</persName>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines"><supplied>Manuscript note:</supplied> Cross-hatched lines.</note>
                         <sp who="#Jam">
                             <speaker>Jamie.</speaker>
                             <lg>
@@ -1677,13 +1680,14 @@
                         <sp who="#Jam">
                             <speaker>Jamie.</speaker>
                             <lg>
-                                <l rend="center">And you, <persName>Arsenio</persName>?<note type="mansNote" resp="#formerOwner" subtype="beReady">Servant be ready.</note></l>
+                                <l rend="center">And you, <persName>Arsenio</persName>?<note type="mansNote" resp="#formerOwner" subtype="beReady">
+                                    <supplied>Manuscript note:</supplied> Servant be ready.</note></l>
                             </lg>
                         </sp>
                         <sp who="#Ars">
                             <speaker>Arsenio.</speaker>
                             <lg>
-                                <l rend="right">Yes he's gone, (sir);</l>
+                                <l rend="center">Yes he's gone, (sir);</l>
                                 <l>Strangely disguised, he's set upon his voyage.</l>
                                 <l>Love guide his thoughts: he's a brave, honest fellow,</l>
                                 <l>Sit close, Don lawyer. Oh, that arrant knave now,</l>
@@ -1694,7 +1698,7 @@
                         <sp who="#Ang">
                             <speaker>Milanes.</speaker>
                             <lg>
-                                <l rend="right">He may be more beast.</l>
+                                <l rend="center">He may be more beast.</l>
                             </lg>
                         </sp>
                         <sp who="#Jam">
@@ -1702,16 +1706,18 @@
                             <lg>
                                 <l>Let him bear six, and six, that all may blaze him.</l>
                                 <l>The villany he has sowed<note resp="#mim" type="gloss">
-                                    <term>sowed</term>: planted</note> into my brother,<note type="mansNote" resp="#formerOwner" subtype="beReady">bar: &amp; Ama be</note></l>
+                                    <term>sowed</term>: planted</note> into my brother,<note type="mansNote" resp="#formerOwner" subtype="beReady">
+                                        <supplied>Manuscript note:</supplied> bar: &amp; Ama be</note></l>
                                 <l>And from his state, the revenue he has reached at<note resp="#mim" type="gloss">
-                                    <term></term>: attempted to get</note>:</l>
+                                    <term>reached at</term>: attempted to get</note>:</l>
                                 <l>Pay him, my good <persName>Leandro</persName>, take my prayers.</l>
                             </lg>
                         </sp>
                         <sp who="#Ars">
                             <speaker>Arsenio.</speaker>
                             <lg>
-                                <l>And all our wishes plough with his fine white heifer<note resp="#mim" type="annotation"><term>our wishes...white heifer</term>: Crude joke about Leandro having sex with Amaranta, who, in this line, is equated to a white cow.</note>.</l>
+                                <l>And all our wishes plough with his fine white heifer<note resp="#mim" type="annotation">
+                                    <term>our wishes...white heifer</term>: Crude joke about Leandro having sex with Amaranta, who, in this line, is equated to a white cow.</note>.</l>
                             </lg>
                         </sp>
                         <sp who="#Jam">
@@ -1720,27 +1726,29 @@
                                 <l>Mark him, (my dear friend), for a famous cuckold,</l>
                                 <l>Let it out-live his books, his pains, and hear me,</l>
                                 <l>The more he seeks to smother it with justice, <stage type="entrance" place="right">Enter <persName>Andrea</persName>.</stage>
-                                    <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note></l>
+                                    <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">
+                                        <supplied>Manuscript note:</supplied> Cross-hatched lines.</note></l>
                                 <l>Let it blaze out the more. What news, <persName>Andrea</persName>?</l>
                             </lg>
                         </sp>
                         <sp who="#And">
                             <speaker>Andrea.</speaker>
                             <lg>
-                                <l>News I am both to tell ye but I am charged,<note resp="#mim" type="annotation"><term>charged</term>: burdened</note> (sir).</l>
-                                <l><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>Your brother layes a strict command upon ye</l>
-                                <l>No more to know his house, upon your danger.<note type="mansNote" resp="#formerOwner" subtype="beReady">(ready</note></l>
+                                <l>News I am both to tell ye but I am charged<note resp="#mim" type="annotation">
+                                    <term>charged</term>: burdened</note>, (sir).</l>
+                                <l><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines"><supplied>Manuscript note:</supplied> Cross-hatched lines.</note>Your brother layes a strict command upon ye</l>
+                                <l>No more to know his house, upon your danger.<note type="mansNote" resp="#formerOwner" subtype="beReady"><supplied>Manuscript note:</supplied> (ready</note></l>
                                 <l>I am sorry, (sir).</l>
                             </lg>
                         </sp>
                         <sp who="#Jam">
                             <speaker>Jamie.</speaker>
                             <lg>
-                                <l rend="right">'Faith never be: I am glad on't.</l>
+                                <l rend="center">'Faith never be: I am glad on't.</l>
                                 <l>He keeps the <placeName>house of pride</placeName>, and foolery:</l>
                                 <l>I mean to shun it So return my answer,</l>
                                 <l>Twill shortly spew<note resp="#mim" type="gloss">
-                                    <term>spew</term>: cast out</note> him out.<stage resp="#mim" type="exit">[Exit <persName>Andrea</persName>].</stage> Come, let's be merry,</l>
+                                    <term>spew</term>: cast out</note> him out.<stage resp="#mim" type="exit">Exit <persName>Andrea</persName>.</stage> Come, let's be merry,</l>
                                 <l>And lay our heads together, carefully</l>
                                 <l>How we may help our friend; and let's lodge near him,</l>
                                 <l>Be still at hand<note resp="#mim" type="annotation">
@@ -1754,7 +1762,7 @@
                         <head>
                             <hi rend="italic">Scene Four.</hi>
                         </head>
-                        <stage type="entrance" place="center">Enter <persName>Bartolus</persName> and <persName>Amaranta</persName>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <stage type="entrance" place="center">Enter <persName>Bartolus</persName> and <persName>Amaranta</persName>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines"><supplied>Manuscript note:</supplied> Cross-hatched lines.</note>
                         <sp who="#Ama">
                             <speaker>Amaranta.</speaker>
                             <lg>
@@ -1766,7 +1774,7 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">He shall not trouble thee, (sweet).</l>
+                                <l rend="center">He shall not trouble thee, (sweet).</l>
                                 <l>A modest poor slight thing; did I not tell thee</l>
                                 <l>He was only given to the book, and for that</l>
                                 <l>How royally he pays? Finds his own meat, too.</l>
@@ -1782,7 +1790,7 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">Y'faith, I will not, wife.</l>
+                                <l rend="center">Y'faith, I will not, wife.</l>
                             </lg>
                         </sp>
                         <sp who="#Ama">
@@ -1796,20 +1804,20 @@
                             <lg>
                                 <l>He comes not near thee: shall not dare to tread</l>
                                 <l>Within thy lodgings: in an old <placeName>out-room</placeName><note resp="#mim" type="gloss"><term>out-room</term>: outhouse</note></l>
-                                <l>Where logs and coals were laid.<note type="mansNote" resp="#formerOwner" subtype="beReady">ser: be ready</note></l>
+                                <l>Where logs and coals were laid.<note type="mansNote" resp="#formerOwner" subtype="beReady"><supplied>Manuscript note:</supplied> ser: be ready</note></l>
                             </lg>
                         </sp>
                         <sp who="#Ama">
                             <speaker>Amaranta.</speaker>
                             <lg>
-                                <l rend="right">Now ye lay fire;</l> 
+                                <l rend="center">Now ye lay fire;</l> 
                                 <l>Fire to consume your quiet.</l>
                             </lg>
                         </sp>
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">Didst thou know him,</l>
+                                <l rend="center">Didst thou know him,</l>
                                 <l>Thou wouldst think as I do: he disquiet<note resp="#mim" type="gloss"><term>disquiet</term>: disturb</note> thee?</l>
                                 <l>Thou mayst wear him next thy heart, and yet not warm him.</l>
                                 <l>His mind, (poor man), 's o'th' law, how to live after,</l>
@@ -1827,7 +1835,7 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">Do'st thou not see, (fool),</l>
+                                <l rend="center">Do'st thou not see, (fool),</l>
                                 <l>What presents he sends hourly in his gratefulness?</l>
                                 <l>What delicate meats?</l>
                             </lg>
@@ -1835,40 +1843,41 @@
                         <sp who="#Ama">
                             <speaker>Amaranta.</speaker>
                             <lg>
-                                <l rend="right">You had best trust him at your table,</l>
-                                <l>Do and repent it, do.<note type="mansNote" resp="#formerOwner" subtype="beReady">Amaranta be ready</note></l>
+                                <l rend="center">You had best trust him at your table,</l>
+                                <l>Do and repent it, do.<note type="mansNote" resp="#formerOwner" subtype="beReady"><supplied>Manuscript note:</supplied> Amaranta be ready</note></l>
                             </lg>
                         </sp>
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">If thou be'st willing,</l>
+                                <l rend="center">If thou be'st willing,</l>
                                 <l>By my troth<note resp="#mim" type="gloss"><term>troth</term>: truth, reality</note>, I thinke ye might come. He's so modest;</l>
                                 <l>He never speaks. Here's part of that he gave me.</l>
                                 <l>He'll eat but half a dozen bits, and rise immediately,</l>
                                 <l>Even as he eats, he studies: he'll not disquiet thee,</l>
-                                <l>Do as thou pleasest, (wife).<note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note></l>
+                                <l>Do as thou pleasest, (wife).<note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines"><supplied>Manuscript note:</supplied> Cross-hatched lines.</note></l>
                             </lg>
                         </sp>
                         <stage type="business" place="right">Knock within.</stage>
                         <sp who="#Ama">
                             <speaker>Amaranta.</speaker>
                             <lg>
-                                <l rend="right">What means this woodcock?</l>
+                                <l rend="center">What means this woodcock?</l>
                             </lg>
                         </sp>
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
                                 <l>Retire, (sweet). There's one knocks.</l>
-                                   <stage resp="#mim" type="entrance" place="center">[<persName>Amaranta</persName> steps aside as a <persName>Servant</persName> enters].</stage>
-                                <l rend="right">Come in, your business?</l>
+                                   <stage resp="#mim" type="entrance" place="center">
+                                       <persName>Amaranta</persName> steps aside as a <persName>Servant</persName> enters.</stage>
+                                <l rend="center">Come in, your business?</l>
                             </lg>
                         </sp>
                         <sp who="#Ser">
                             <speaker>Servant.</speaker>
                             <lg>
-                                <l>My Lord, <persName><roleName>Don</roleName> Henrique</persName>, would entreat ye, sir,<note type="mansNote" resp="#formerOwner" subtype="beReady">Lean be re[ady]</note></l>
+                                <l>My Lord, <persName><roleName>Don</roleName> Henrique</persName>, would entreat ye, sir,<note type="mansNote" resp="#formerOwner" subtype="beReady"><supplied>Manuscript note:</supplied> Lean be re[ady]</note></l>
                                 <l>To come immediately, and speak with him;</l>
                                 <l>He has businesse of some moment.</l>
                             </lg>
@@ -1876,23 +1885,23 @@
                         <sp who="#Bar">
                             <speaker>Bartolus.</speaker>
                             <lg>
-                                <l rend="right">I'll attend him. <stage resp="#mim" type="exit" place="right">[Exit <persName>Servant</persName>].</stage></l>
+                                <l rend="center">I'll attend him. <stage resp="#mim" type="exit" place="right">Exit <persName>Servant</persName>.</stage></l>
                                 <l>I must be gone: I prithee think the best, (wife)</l>
                                 <l>At my return, I'll tell thee more, good morrow.</l>
-                                <l><stage resp="#mim" type="delivery">[to <persName>Leandro</persName>, within]</stage> Sir, keep ye close, and study hard: an hour hence</l>
+                                <l><stage resp="#mim" type="delivery">to <persName>Leandro</persName>, within</stage> Sir, keep ye close, and study hard: an hour hence</l>
                                 <l>I'll read a new case to ye—</l>
                             </lg>
                         </sp>
                         <sp who="#Lea">
-                            <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                            <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines"><supplied>Manuscript note:</supplied> Cross-hatched lines.</note>
                             <speaker>Leandro.</speaker>
-                            <stage>[within]</stage>
+                            <stage resp="#mim">within</stage>
                             <lg>
                                 <l>I'll be ready.</l>
                             </lg>
                         </sp>
-                        <stage type="exit" place="right">Exit [<persName>Bartolus</persName>].</stage>
-                        <stage place="right" type="entrance"><persName>Amaranta</persName> [steps forward].</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <stage type="exit" place="right">Exit <supplied resp="#mim"><persName>Bartolus</persName></supplied>.</stage>
+                        <stage place="right" type="entrance"><persName>Amaranta</persName> <supplied resp="#mim">steps forward</supplied>.</stage><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines"><supplied>Manuscript note:</supplied> Cross-hatched lines.</note>
                         <sp who="#Ama">
                             <speaker>Amaranta.</speaker>
                             <lg>
@@ -1901,15 +1910,15 @@
                                 <l>But very poorly. I would see this fellow;</l>
                                 <l>Very fain see him, how he looks: I will find</l>
                                 <l>To what end, and what study: there's a <placeName>place</placeName>.</l>
-                                <l>I'll go o'th'other side, and take my fortune;<note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note></l>
+                                <l>I'll go o'th'other side, and take my fortune;<note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines"><supplied>Manuscript note:</supplied> Cross-hatched lines.</note></l>
                                 <l>I think there is a window.</l>
                             </lg>
                         </sp>
-                        <stage type="exit" place="left">Exit [<persName>Amaranta</persName>].</stage><stage type="entrance" place="right">Enter [<persName>Leandro</persName>].</stage><note type="mansNote" resp="#formerOwner" subtype="beReady">Amarat be ready.</note>
+                        <stage type="exit" place="left">Exit <supplied resp="#mim"><persName>Amaranta</persName></supplied>.</stage><stage type="entrance" place="right">Enter <supplied resp="#mim"><persName>Leandro</persName></supplied>.</stage><note type="mansNote" resp="#formerOwner" subtype="beReady"><supplied>Manuscript note:</supplied> Amarat be ready.</note>
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">He's gone out</l>
+                                <l rend="center">He's gone out</l>
                                 <l>Now, if I could but see her: she is not this way.</l>
                                 <l>How nastily he keeps his house? My <placeName>chamber</placeName>,</l>
                                 <l>If I continue long, will choke me up,</l>
@@ -1918,11 +1927,11 @@
                                 <l>I'll in, and strike my lute, that sound may call her.</l>
                             </lg>
                         </sp>
-                        <stage type="exit" rend="right">Exit [<persName>Leandro</persName>].</stage>
-                        <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <stage type="exit" rend="right">Exit <supplied resp="#mim"><persName>Leandro</persName></supplied>.</stage>
+                        <note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines"><supplied>Manuscript note:</supplied> Cross-hatched lines.</note>
                         <stage type="entrance" place="left">Enter <persName>Amaranta</persName>.</stage>
-                        <stage type="business" place="right">Lute and Song [by <persName>Leandro</persName> within].</stage><note resp="#mim" type="annotation">
-                            <term>Lute and Song.</term>: See introduction to <title>The Spanish Curate</title></note><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines">Cross-hatched lines.</note>
+                        <stage type="business" place="right">Lute and Song <supplied resp="#mim">by <persName>Leandro</persName> within</supplied>.</stage><note resp="#mim" type="annotation">
+                            <term>Lute and Song.</term>: See introduction to <title>The Spanish Curate</title></note><note type="mansNote" resp="#formerOwner" subtype="crosshatchedlines"><supplied>Manuscript note:</supplied> Cross-hatched lines.</note>
                         <sp who="#Ama">
                             <speaker>Amaranta.</speaker>
                             <lg>
@@ -1936,7 +1945,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">'Tis she, certain.</l>
+                                <l rend="center">'Tis she, certain.</l>
                             </lg>
                         </sp>
                         <sp who="#Ama">
@@ -1948,7 +1957,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">Oh, admirable face!</l>
+                                <l rend="center">Oh, admirable face!</l>
                             </lg>
                         </sp>
                         <sp who="#Ama">
@@ -1959,9 +1968,9 @@
                         </sp>
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
-                            <stage>[stepping forward]</stage>
+                            <stage resp="#mim">stepping forward</stage>
                             <lg>
-                                <l rend="right">I will go out a little.</l>
+                                <l rend="center">I will go out a little.</l>
                             </lg>
                         </sp>
                         <pb n="TSC-010"
@@ -1976,7 +1985,7 @@
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
-                                <l rend="right">I am strucken dumb, with wonder,</l>
+                                <l rend="center">I am strucken dumb, with wonder,</l>
                                 <l>Sure, all the excellence of <placeName>Earth</placeName> dwells here.</l>
                             </lg>
                         </sp>
@@ -1990,7 +1999,7 @@
                                 <l>I'll take my time: Husband, ye have brought home tinder.</l>
                             </lg>
                         </sp>
-                        <stage type="exit" place="right">Exit [<persName>Amaranta</persName>, dropping her glove].</stage>
+                        <stage type="exit" place="right">Exit <supplied resp="#mim"><persName>Amaranta</persName>, dropping her glove</supplied>.</stage>
                         <sp who="#Lea">
                             <speaker>Leandro.</speaker>
                             <lg>
@@ -2001,7 +2010,7 @@
                                 <l>But I was able boldly to encounter it,</l>
                                 <l>And speak my mind, my lips were lock upon me.</l>
                                 <l>This is divine, and only served with reverence;</l>
-                                <l>Oh, most fair cover, of a hand far fairer, <stage resp="#mim" type="business" place="right">[<persName>Leandro</persName> picks up glove].</stage></l>
+                                <l>Oh, most fair cover, of a hand far fairer, <stage resp="#mim" type="business" place="right"><persName>Leandro</persName> picks up glove.</stage></l>
                                 <l>Thou blessed innocence, that guards that whiteness<note resp="#mim" type="annotation">
                                     <term>whiteness</term>: innocence, purity</note>,</l>
                                 <l>Live next my heart. I am glad I have got a relic,</l>
