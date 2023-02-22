@@ -801,6 +801,10 @@ tei-l:hover simple-icon-button-lite {
   /* Empty Rule Set */
   visibility: visible;
 } 
+tei-l [rend="center"] {
+  display: inline-block;
+  text-align: center;
+}
 tei-lg > tei-l:first-of-type {
   display: block;
   padding-left: 0em;
