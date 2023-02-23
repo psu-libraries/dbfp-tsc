@@ -15,7 +15,7 @@ order: 10
 <p>The secondary plot follows Bartolus’ overbearing marriage to Amaranta. Jamie tells the desirous Leandro that Amaranta is said to be incredibly beautiful, but that Bartolus keeps her at home. Leandro disguises himself as a law student, and by tricking Lopez and Diego, the local curate and sexton, finds himself pretending to study law and living in Bartolus’ house. Other characters help trick Bartolus and he eventually realizes his overbearing nature. Despite Leandro’s lusty overtures, Amaranta remains faithful to Bartolus. 
 </p>
 
-<p>For a more detailed description of the plot, see the <a href="./plot-summary-tsc.md">scene-by-scene plot summary</a>.
+<p>For a more detailed description of the plot, see the <a href="/plot-summary-tsc/">scene-by-scene plot summary</a>.
 </p>
 
 <h2>AUTHORSHIP
@@ -27,7 +27,7 @@ order: 10
 <h2>SOURCES
 </h2>
 
-<p>The plot of <i>The Spanish Curate</i> was not invented for the play. Instead, the plot was borrowed from <i>Poema trágico del español Gerardo, y desengaño del amor lascivo</i>, written by the Spanish author Gonzalo de Céspedes y Meneses and <a href="https://www.ustc.ac.uk/editions/5023295">first published in Madrid in 1615</a>. <i>Poema tràgico del español Gerardo</i> was translated into English by Leonard Digges and published in 1622 as <i><a href"http://estc.bl.uk/S107646">Gerardo, the Unfortunate Spaniard; or, a Pattern for Lascivious Lovers</a></i>.  
+<p>The plot of <i>The Spanish Curate</i> was not invented for the play. Instead, the plot was borrowed from <i>Poema trágico del español Gerardo, y desengaño del amor lascivo</i>, written by the Spanish author Gonzalo de Céspedes y Meneses and <a href="https://www.ustc.ac.uk/editions/5023295">first published in Madrid in 1615</a>. <i>Poema tràgico del español Gerardo</i> was translated into English by Leonard Digges and published in 1622 as <i><a href="http://estc.bl.uk/S107646">Gerardo, the Unfortunate Spaniard; or, a Pattern for Lascivious Lovers</a></i>.  
 </p>
 
 <p>The play is very likely based on the translation, rather than on the Spanish text. As Robert Kean Turner noted, the contents of the letter written by Alonzo Tiveria to Lopez as printed in the folio edition is “identical” to the version that appears in the translation, except for a few minor variants (Turner, 1996). 
@@ -35,12 +35,12 @@ order: 10
 
 <h2>EARLY PERFORMANCE </h2>
 
-<p><i>The Spanish Curate</i> was first performed by The King’s Men in December 1622, the same year the play was written. The play was popular before 1640, and after the re-opening of the theaters in 1660, it was regularly performed. <a href="https://www.eighteenthcenturydrama.amdigital.co.uk/LondonStage/Database">There are sixteen known performances from 1661-1783</a>.  
+<p><i>The Spanish Curate</i> was first performed by The King’s Men in December 1622, the same year the play was written. The play was popular before 1640, and after the re-opening of the theaters in 1660, it was regularly performed. According to the <a href="https://www.eighteenthcenturydrama.amdigital.co.uk/LondonStage/Database">London Stage Database</a>, the play is known to have been performed thirteen times between 1661 and 1783.  
 </p>
 
 <h2>EARLY PUBLICATION  </h2>
 
-<p><i>The Spanish Curate</i> was first published in <i>Comedies and Tragedies Written by Francis Beavmont And Iohn Fletcher Gentlemen</i> (1647, Wing B1581), the first folio edition of plays in the Beaumont and Fletcher canon. The copy of the 1647 folio that serves as the base text for this edition contains annotations in a seventeenth-century hand. These notes appear in three plays, including <i>The Spanish Curate</i>. The manuscript notes seem related to performance, as they note upcoming entrances, the timing of those entrances, the ends of acts, and required props. For more about the annotations, please refer to <a href="https://openpublishing.psu.edu/digital-beaumont-fletcher-about-book">About the Book</a>. For a description of how these notes are handled in the encoding of the edition, please see <a href="./editorial-principles-tsc.md">Editorial Principles: The Spanish Curate</a>. 
+<p><i>The Spanish Curate</i> was first published in <i>Comedies and Tragedies Written by Francis Beavmont And Iohn Fletcher Gentlemen</i> (1647, Wing B1581), the first folio edition of plays in the Beaumont and Fletcher canon. The copy of the 1647 folio that serves as the base text for this edition contains annotations in a seventeenth-century hand. These notes appear in three plays, including <i>The Spanish Curate</i>. The manuscript notes seem related to performance, as they note upcoming entrances, the timing of those entrances, the ends of acts, and required props. For more about the annotations, please refer to <a href="https://openpublishing.psu.edu/digital-beaumont-fletcher-about-book">About the Book</a>. For a description of how these notes are handled in the encoding of the edition, please see <a href="/editorial-principles-tsc/">Editorial Principles: The Spanish Curate</a>. 
 </p>
 
 <p><img src="./tsc-img1.png"/></p>
@@ -133,7 +133,7 @@ And thou shalt be learned old Vicar.
 <p>Gender & Family:
 <ul>
 <li>Amaranta and Bartolus’ relationship is presented as unhealthy. Bartolus insists on keeping Amaranta at home, claiming that she is more beautiful that way because she is so rarely seen that her presence becomes more valuable when she is out of the house (2.2.1-9) He fears that men will attempt to seduce Amaranta, but quickly forgets about his fears when Leandro offers to pay Bartolus to study with him. Bartolus, here, like in other moments of the play, is convinced by money.  Despite Bartolus’ fears, Amaranta is able to hold her own against Leandro’s plot to seduce her, and at the end of the play, shows herself to be a faithful wife. </li>
-<li>Another driving force in the plot is the revelation of Ascanio’s true parentage. Violante is sure that because Henrique had a child before he married her, he came to their marriage bed less able to produce a child (4.1.8-11).  Before the truth is revealed, Violante cannot understand why she and Henrique have not had children. Violante’s inability to conceive is reasoned, in the play, to have to do with God and heaven, rather than any biological reason (1.3.1-7). At the end of the play, when Violante’s scheme to murder her husband (5.1.87-94) is revealed the Assistant warns the men on stage to not be weak in comparison to women, as they will surely suffer if they do (5.3.154-155).  </li>
+<li>Another driving force in the plot is the revelation of Ascanio’s true parentage. Violante is sure that because Henrique had a child before he married her, he came to their marriage bed less able to produce a child (4.1.8-11).  Before the truth is revealed, Violante cannot understand why she and Henrique have not had children. Violante’s inability to conceive is reasoned, in the play, to have to do with God and heaven, rather than any biological reason (1.3.1-7). At the end of the play, when Violante’s scheme to murder her husband (5.1.87-94) is revealed the Assistant warns the men on stage to not be weak in comparison to women, as they will surely suffer if they do (5.3.154-155).</li>
 <li>Amaranta and Violante are foils in this play. Everywhere that Violante is aggressive and petty, Amaranta is patient and mild. However, both women are in relationships where their partners seek to control them. The conclusion of the play states that there are wrong and right women to marry. More specifically, makes the case that heterosexual relationships should be run by men, as if women make the decisions, things can fall apart. In short, women tend to cause issues in the relationship, not the men.  </li>
 </ul>
 </p>
