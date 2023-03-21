@@ -1,5 +1,6 @@
 # dbfp-tsc
 
+Beaumont and Fletcher - The Spanish Curate
 ## Local Setup
 
 1. Run `docker compose up --build` (append -d if you don't want to see the terminal messages)
