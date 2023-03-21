@@ -9,8 +9,7 @@ jobs:
       - image: harbor.k8s.libraries.psu.edu/library/ci-utils:$CI_UTILS_IMG_TAG
     environment:
       REGISTRY_HOST: harbor.k8s.libraries.psu.edu
-      # DOCKER_USERNAME: 'robot$circleci'
-      # GITHUB_USER: 'psu-stewardship-bot'
+      GITHUB_USER: 'psu-stewardship-bot'
       CONFIG_REPO: git@github.com:psu-libraries/dbfp-config.git
     steps:
       - add_ssh_keys
