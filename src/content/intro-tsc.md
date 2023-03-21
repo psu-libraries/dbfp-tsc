@@ -15,7 +15,7 @@ order: 10
 <p>The secondary plot follows Bartolus’ overbearing marriage to Amaranta. Jamie tells the desirous Leandro that Amaranta is said to be incredibly beautiful, but that Bartolus keeps her at home. Leandro disguises himself as a law student, and by tricking Lopez and Diego, the local curate and sexton, finds himself pretending to study law and living in Bartolus’ house. Other characters help trick Bartolus and he eventually realizes his overbearing nature. Despite Leandro’s lusty overtures, Amaranta remains faithful to Bartolus. 
 </p>
 
-<p>For a more detailed description of the plot, see the <a href="/plot-summary-tsc/">scene-by-scene plot summary</a>.
+<p>For a more detailed description of the plot, see the <a href="./plot-summary-tsc/">scene-by-scene plot summary</a>.
 </p>
 
 <h2>AUTHORSHIP
