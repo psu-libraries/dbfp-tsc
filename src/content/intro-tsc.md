@@ -15,7 +15,7 @@ order: 10
 <p>The secondary plot follows Bartolus’ overbearing marriage to Amaranta. Jamie tells the desirous Leandro that Amaranta is said to be incredibly beautiful, but that Bartolus keeps her at home. Leandro disguises himself as a law student, and by tricking Lopez and Diego, the local curate and sexton, finds himself pretending to study law and living in Bartolus’ house. Other characters help trick Bartolus and he eventually realizes his overbearing nature. Despite Leandro’s lusty overtures, Amaranta remains faithful to Bartolus. 
 </p>
 
-<p>For a more detailed description of the plot, see the <a href="/src/content/plot-summary-tsc/">scene-by-scene plot summary</a>.
+<p>For a more detailed description of the plot, see the <a href="/content/plot-summary-tsc/">scene-by-scene plot summary</a>.
 </p>
 
 <h2>AUTHORSHIP
@@ -40,22 +40,22 @@ order: 10
 
 <h2>EARLY PUBLICATION  </h2>
 
-<p><i>The Spanish Curate</i> was first published in <i>Comedies and Tragedies Written by Francis Beavmont And Iohn Fletcher Gentlemen</i> (1647, Wing B1581), the first folio edition of plays in the Beaumont and Fletcher canon. The copy of the 1647 folio that serves as the base text for this edition contains annotations in a seventeenth-century hand. These notes appear in three plays, including <i>The Spanish Curate</i>. The manuscript notes seem related to performance, as they note upcoming entrances, the timing of those entrances, the ends of acts, and required props. For more about the annotations, please refer to <a href="https://openpublishing.psu.edu/digital-beaumont-fletcher-about-book">About the Book</a>. For a description of how these notes are handled in the encoding of the edition, please see <a href="/editorial-principles-tsc/">Editorial Principles: The Spanish Curate</a>. 
+<p><i>The Spanish Curate</i> was first published in <i>Comedies and Tragedies Written by Francis Beavmont And Iohn Fletcher Gentlemen</i> (1647, Wing B1581), the first folio edition of plays in the Beaumont and Fletcher canon. The copy of the 1647 folio that serves as the base text for this edition contains annotations in a seventeenth-century hand. These notes appear in three plays, including <i>The Spanish Curate</i>. The manuscript notes seem related to performance, as they note upcoming entrances, the timing of those entrances, the ends of acts, and required props. For more about the annotations, please refer to <a href="https://openpublishing.psu.edu/digital-beaumont-fletcher-about-book">About the Book</a>. For a description of how these notes are handled in the encoding of the edition, please see <a href="/content/editorial-principles-tsc/">Editorial Principles: The Spanish Curate</a>. 
 </p>
 
-<p><img src="./tsc-img1.png"/></p>
+<p><img src="/content/tsc-img1.png"/></p>
 <p>The cross-hatched lines, seen above, mark a character’s entrance (3.4.13). 
 </p>
 
-<p><img src="./tsc-img2.png"/></p>
+<p><img src="/content/tsc-img2.png"/></p>
 <p>The manuscript note above reads “Henrique be ready” (1.1.100). These notes call attention to a character’s upcoming entrance onto the stage.   
 </p>
 
-<p><img src="./tsc-img3.png"/></p>
+<p><img src="/content/tsc-img3.png"/></p>
 <p>The manuscript note above, which reads “Dance” denotes a dance which could occur at this point in the scene (3.2.108). The 1679 folio inserts a song at this moment in the scene, which means the annotator knew of the possible inclusion of a song that was omitted from the 1647 folio’s copy of <i>The Spanish Curate</i>.   
 </p>
 
-<p><img src="./tsc-img4.png"/></p>
+<p><img src="/content/tsc-img4.png"/></p>
 <p>The manuscript mark above notes the end of Act 4 (4.7.104).  
 </p>
 
