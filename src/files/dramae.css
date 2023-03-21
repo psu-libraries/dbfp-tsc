@@ -773,7 +773,7 @@ tei-kinesic {
 tei-l {
   display: block;
   width: 90%;
-  padding-left: 6em;
+  padding-left: 9em;
   scroll-margin-top: 40px;
   text-indent: -40px;
 }
@@ -806,7 +806,7 @@ tei-l [rend="center"] {
 }
 tei-lg > tei-l:first-of-type {
   display: block;
-  padding-left: 0em;
+  padding-left: 3em;
   margin-left: 5.95em;
   margin-top: -1.45em;
 }
