@@ -24,7 +24,6 @@ order: 6
 <h3 id="header-95475ded-aacc-d54e-900c-13c72761937e">METER</h3>
 <p>The verse meter in the 1647 text is highly irregular in places, but some attempts have been made to regularize it.</p>
 <p>Most often, this means certain contracted forms of words are maintained (e.g., “to’th’” of the folio text is used instead of the modernized form “to the,” which contains an additional syllable) in cases where not modernizing maintains iambic pentameter. </p>
-<p>In some cases, the lineation of the folio is altered in an attempt to capture the iambic pentameter of the dialogue. On occasion, this means splitting extra-metrical lines, but more often, it means displaying shared lines. When two lines of dialogue shared the same metrical line, the second line is right-justified. When three lines of dialogue shared meter, the second line is centered, and the third right-justified.</p>
 <h3 id="header-d0b8d897-9825-f61a-d85e-0bbb52e59574">TEXTUAL DIVISIONS</h3>
 <p>The act divisions of the folio are maintained, even though the act headings themselves are modernized and regularized throughout. The folio text is further divided into scenes. Despite all characters leaving the stage in the middle of scenes, such as 2.4, scene divisions are not inserted as the action was continuous.</p>
 <h3 id="header-40581360-6da8-9f29-6ec6-5e2ccddd8498">STAGE DIRECTIONS</h3>
