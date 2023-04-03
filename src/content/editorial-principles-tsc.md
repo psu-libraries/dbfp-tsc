@@ -32,10 +32,7 @@ order: 6
 <p>Stage directions that appear in the folio text are included and modernized except in the few cases where the folio direction directly conflicts with dialogic or other cues. (For example, during 2.4, the entrances and exits for Bartolus, Amaranta, Servant, and Leandro have been moved and modified to more accurately reflect who is where on stage.) Stage directions that present logistical staging problems based on where they are situated vis-à-vis the dialogue have either been repositioned or eliminated to avoid confusion. Readers can consult the transcribed base text or page image to compare. Stage directions that appear in the folio text, even if they have been moved or modified, are not presented in square brackets to differentiate them from editorial directions.</p>
 <p>Missing entrances and exits are provided using the following rules:</p>
 <ol>
- <li>Everyone who speaks must have entered.</li>
- <ol>
-  <li>There are instances when a character is speaking from within and cannot be seen on stage. These instances are the only exception to this rule.</li>
- </ol>
+ <li>Everyone who speaks must have entered. N.B. There are instances when a character is speaking from within and cannot be seen on stage; these instances are the only exception to this rule.
 <li>
 Everyone who enters must at some point (i.e., by the end of the scene) exit.</li>
 </ol>
