@@ -678,7 +678,7 @@ tei-hi[rend="italic"] {
 tei-hi[rend="ornInit"] {
   /* GLS: do we want to bold this or change the background color? */
   color: #903;
-  float: left;
+  /* float: left; */
   font-family: Georgia;
   font-weight: bold;
   /* font-size: 75px;
